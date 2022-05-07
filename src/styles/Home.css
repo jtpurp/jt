@@ -13,11 +13,17 @@
     background-size: 200% 200%;
     animation: movingGradient 7.5s linear infinite;
 
-    height: 250px;
-    padding-top: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 75vw;
+    height: 25vh;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
     text-align: center;
+    padding-top: 5px;
 }
 
 #hello {

@@ -103,14 +103,38 @@ class Music extends React.Component {
                                 </tr>
                             </thead>
                             <tbody>
+                                <tr className="music-row">
+                                    <td>Lane 8</td>
+                                    <td>Road</td>
+                                    <td>Brightest Lights</td>
+                                    <td>https://open.spotify.com/track/6kckNpuM5oXZrObLExRg6d?si=413ba4a967544c38</td>
+                                </tr>
+                                <tr className="music-row">
+                                    <td>Liquid Stranger</td>
+                                    <td>Busy</td>
+                                    <td>Balance</td>
+                                    <td>https://open.spotify.com/track/6Z1U91V88D4Hs6zyttW8sr?si=fcf57759f59248f9</td>
+                                </tr>  
+                                <tr className="music-row">
+                                    <td>GRiZ</td>
+                                    <td>Smash the Funk</td>
+                                    <td>Mad Liberation</td>
+                                    <td>https://open.spotify.com/track/1kiEueR1jHSW2dD4LSD6X0?si=41af4a9635274c0b</td>
+                                </tr>   
+                                <tr className="music-row">
+                                    <td>NERO</td>
+                                    <td>Me And You</td>
+                                    <td>Welcome Reality +</td>
+                                    <td>https://open.spotify.com/track/0xIof5gmHjFY0t1eX7angP?si=030f18a1aa234bfb</td>
+                                </tr> 
                                 {
                                     this.state.music.map(
                                         music =>
                                             <tr className="music-row" key={music.musicId} onClick={() => this.editMusicSuggestion(music.musicId)}>
-                                                <td >{music.artist}</td>
-                                                <td >{music.song}</td>
-                                                <td >{music.album}</td>
-                                                <td >{music.link}</td>
+                                                <td>{music.artist}</td>
+                                                <td>{music.song}</td>
+                                                <td>{music.album}</td>
+                                                <td>{music.link}</td>
                                             </tr>
                                     )
                                 }
