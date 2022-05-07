@@ -1,0 +1,39 @@
+.home-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.home-container {
+    border: solid 5px;
+    border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 100%) 1;
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite;
+
+    height: 250px;
+    padding-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#hello {
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 100%);
+    color: transparent;
+    background-size: 800% 800%;
+    animation: movingGradient 7.5s linear infinite;
+
+    text-decoration: none;
+    font-size: 70px !important;
+    -webkit-text-stroke: 0px;
+}
+
+@keyframes movingGradient {
+    from {background-position: 0 0;}
+    to {background-position: 100% 100%;}
+}

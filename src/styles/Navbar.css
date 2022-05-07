@@ -1,0 +1,76 @@
+.navbar {
+    background-image: linear-gradient(to bottom right, rgb(0, 170, 255) 10%, rgb(39, 39, 253) 50%, rgb(111, 0, 255) 75%, rgb(196, 133, 255) 100%);
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate;
+
+    position: absolute;
+    width: 100vw;
+    top: 0;
+}
+
+@keyframes movingGradient {
+    from {background-position: 0 0;}
+    to {background-position: 100% 100%;}
+}
+
+.navbar::before {
+    position: absolute;
+    content: "";
+    padding-top: 30px;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(transparent 25%, black 100%);
+}
+
+.navbar-container {
+    width: 100vw;
+    color: white;
+    font-size: 1.25rem;
+    padding: 10px;
+    padding-bottom: 15px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-left {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    max-width: 45vw;
+}
+
+.flex-right {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    max-width: 45vw;
+}
+
+#link {
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+}
+
+#link:hover {
+    color: rgb(234, 0, 255);
+}
+
+#link:focus {
+    color: rgb(234, 0, 255);
+}
+
+#logo {
+    height: 5rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5rem;
+    border-width: 0.25rem;
+}
+
+#logo:hover {
+    border-color: rgb(234, 0, 255);
+}

@@ -1,0 +1,52 @@
+#table-container {
+    height: 29vh;
+    overflow-y: scroll;
+}
+
+#table-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+#table-container::-webkit-scrollbar-track {
+    background-color: rgb(212, 212, 212);
+}
+
+#table-container::-webkit-scrollbar-thumb {
+    background-color: #00b2ff;
+    border-radius: 5px 5px;
+}
+
+table {
+    text-align: center;
+    width: 98vw;
+}
+
+td {
+    padding: 4px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(111, 0, 255);
+}
+
+.ListRows tr:hover {
+    background-color: #59cdffcc;
+    cursor: pointer;
+}
+
+tbody {
+    text-align: center;
+}
+
+.music-row:hover {
+    background-color: rgb(209, 165, 250);
+    cursor: pointer;
+    color: rgb(111, 0, 255);
+    font-weight: bold;
+}
+
+.suggestion-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}

@@ -1,0 +1,23 @@
+.proj-desc {
+    font-size: 18px;
+}
+
+.technologies {
+    color:rgb(196, 133, 255);
+}
+
+#left-align { 
+    text-align: left;
+}
+
+.logo-port {
+    height: 9rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5rem;
+    border-width: 0.25rem;
+}
+
+.logo-port:hover {
+    border-color: rgb(234, 0, 255);
+}

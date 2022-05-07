@@ -1,0 +1,61 @@
+.footer {
+    background-image: linear-gradient(to bottom right, rgb(0, 170, 255) 10%, rgb(39, 39, 253) 50%, rgb(111, 0, 255) 75%, rgb(196, 133, 255) 100%);
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate;
+
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+}
+
+.footer::after {
+    position: absolute;
+    content: "";
+    padding-bottom: 30px;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background: linear-gradient(black 25%, transparent 100%);
+}
+
+.footer-container {
+    width: 100vw;
+    color: white;
+    font-size: 1.15rem;
+    padding-bottom: 15px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+#email {
+    margin: 0;
+}
+
+#phone {
+    margin: 0;
+    padding-left: 15%;
+}
+
+.fab {
+    color: white;
+}
+
+.social-icons li a:hover .fab {
+    color: rgb(234, 0, 255);
+}
+
+ul.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0;
+}

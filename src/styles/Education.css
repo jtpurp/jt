@@ -1,0 +1,33 @@
+.ud-deets {
+    text-align: right;
+}
+
+.ud-desc { 
+    text-align: left;
+}
+
+.logo-edu {
+    height: 9rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5rem;
+    border-width: 0.25rem;
+}
+
+.logo-edu:hover {
+    border-color: rgb(234, 0, 255);
+}
+
+.logo-edu:hover {
+    border-color: rgb(234, 0, 255);
+}
+
+#edu {
+    line-height: 20px;
+    margin-bottom: 2.5px;
+    font-size: 18px;
+}
+
+#edu-link {
+    color: rgb(196, 133, 255);
+}
