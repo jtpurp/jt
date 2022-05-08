@@ -1,12 +1,13 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
+//import ReactPlayer from 'react-player';
 import '../styles/FlowArts.css';
 
 function FlowArts() {
   return (
     <div className="flow-arts">
       <h1>Flow Arts</h1>
-      <div className='player-wrapper'>
+      <h3>Coming Soon!</h3>
+      {/* <div className='player-wrapper'>
         <ReactPlayer
           className='react-player'
           url='../videos/circles.mp4'
@@ -24,8 +25,7 @@ function FlowArts() {
           height={450}
           controls={true}
         />
-      </div>
-
+      </div> */}
 
     </div>
   )

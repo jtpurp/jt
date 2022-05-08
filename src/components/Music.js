@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
+//import ReactPlayer from 'react-player';
 import MusicSuggestionService from '../services/MusicSuggestionService';
 import '../styles/Music.css';
 
@@ -81,7 +81,7 @@ class Music extends React.Component {
         return (
             <div className="music">
                 <h1>Music Player</h1>
-                <div className='music-player'>
+                {/* <div className='music-player'>
                     <ReactPlayer className='react-player'
                         url='../songs/Road.mp4'
                         playing={false}
@@ -91,7 +91,7 @@ class Music extends React.Component {
                         width={300}
                         height={100}
                     />
-                </div>
+                </div> */}
                 <h1>Music Suggestions</h1>
                 <div className="table-container">
                     <table className="music-table">
