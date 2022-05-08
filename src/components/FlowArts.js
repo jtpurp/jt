@@ -6,6 +6,7 @@ function FlowArts() {
   return (
     <div className="flow-arts">
       <h1>Flow Arts</h1>
+      <h3>Coming Soon!</h3>
       {/* <div className='player-wrapper'>
         <ReactPlayer
           className='react-player'

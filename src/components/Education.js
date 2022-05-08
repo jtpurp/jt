@@ -15,7 +15,7 @@ function Education() {
             <h5>January 2022 - April 2022</h5>
           </div>
           <div className="tech-desc">
-            <p id="edu">Learned to create dynamic web-based software systems involving:</p>
+            <p id="edu">Learned how to create dynamic web-based software systems involving:</p>
             <ul>
               <li>Object-Oriented Programming: Java, MVC Design</li>
               <li>Web Application Development: HTML, CSS, JavaScript, Spring Boot, Vue.js</li>
@@ -40,7 +40,7 @@ function Education() {
               <p id="edu">Master in Civil Engineering - GPA: 3.633/4.000</p>
               <p id="edu">Concentration - Structural Engineering</p>
               <ul>
-                <li>Thesis – <a href="https://udspace.udel.edu/bitstream/handle/19716/28753/Rupp_udel_0060M_14171.pdf?sequence=1&isAllowed=y" target="_blank" rel="noreferrer" id="edu-link">Uncoated Weathering Steel Bridge Data Collection and Performance Assessment: Bridge Maintenance Practices, Deicing Agent Use, and Field Sampling</a></li>
+                <li>Thesis Publication – <a href="https://udspace.udel.edu/bitstream/handle/19716/28753/Rupp_udel_0060M_14171.pdf?sequence=1&isAllowed=y" target="_blank" rel="noreferrer" id="edu-link">Uncoated Weathering Steel Bridge Data Collection and Performance Assessment: Bridge Maintenance Practices, Deicing Agent Use, and Field Sampling</a></li>
               </ul>
 
               <p id="edu">Bachelor in Civil Engineering - GPA: 3.384/4.000</p>

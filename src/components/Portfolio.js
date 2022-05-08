@@ -29,7 +29,7 @@ function Portfolio() {
                 The Education, Experience, and Portfolio pages each contain descriptions of my accomplishments along with relative images that serve as links to corresponding external references.
                 My hobbies and interests are showcased in the Flow Arts, Photos, and Music pages.
                 The Flow Arts page displays some clips of my favorite flow moments, the Photos page contains some of my favorite pictures I’ve taken, and the Music page serves as a place for visitors to share and explore music suggestions as well as listen to some of my music picks!</p>
-              <h5 className="technologies">Technologies – React.js, JSX, JavaScript, HTML, CSS, Java, Spring Boot, PostgreSQL, pgAdmin4</h5>
+              <h5 className="technologies">Technologies – React.js, JSX, JavaScript, HTML, CSS, Spring Boot, Java, PostgreSQL</h5>
             </div>
           </div>
           <a href="http://localhost:3000/"><img className="logo-port" src={Logo} alt='Website Logo' /></a>
@@ -44,7 +44,7 @@ function Portfolio() {
                 <p className="proj-desc" id="left-align">A mob programmed, full-stack, responsively designed web application intended for reporting and tracking potholes across the City of Philadelphia.
                   A list of the reported potholes is displayed along with their corresponding geolocations marked on a map.
                   Individual pothole details can be accessed as well as updated and deleted from the system.</p>
-                <h5 className="technologies" id="left-align">Technologies – Vue.js, JavaScript, HTML, CSS, Mapbox API, Java, IntelliJ, Spring Boot, PostgreSQL, pgAdmin4</h5>
+                <h5 className="technologies" id="left-align">Technologies – Vue.js, JavaScript, HTML, CSS, Mapbox API, Spring Boot, Java, PostgreSQL</h5>
               </div>
             </div>
           </div>
@@ -54,9 +54,9 @@ function Portfolio() {
           <div className="info">
             <div className="desc">
               <h2>Online Payment Transfer Service</h2>
-              <p className="proj-desc">A pair programmed RESTful API server and command-line application intended to allow authenticated users to transfer monetary payments between each other.
+              <p className="proj-desc">A pair programmed RESTful API server and command-line application that allows authenticated users to transfer monetary payments between one another.
                 Users can also view a list of transfers they’ve sent or received as well as details regarding any individual transfer.</p>
-              <h5 className="technologies">Technologies – Java, IntelliJ, Spring Boot, JUnit, PostgreSQL, pgAdmin 4</h5>
+              <h5 className="technologies">Technologies – Java, Spring Boot, JUnit, PostgreSQL</h5>
             </div>
           </div>
           <a href="https://github.com/jtpurp/Online-Payment-Transfer-Service" target="_blank" rel="noreferrer" id="logo-left"><img className="logo-port" src={Payment} alt='Payment Service' /></a>
@@ -70,8 +70,8 @@ function Portfolio() {
                 <h2>Vending Machine Application</h2>
                 <p className="proj-desc" id="left-align">A pair programmed Java application intended to operate as a command-line for a vending machine.
                   The user can navigate through a menu designed to interact with the machine in terms of displaying available items, purchasing items, and receiving change.
-                  The application has the ability to read an inventory file, process user input, handle transactions, and write to an audit log.</p>
-                <h5 className="technologies" id="left-align">Technologies – Java, IntelliJ, JUnit</h5>
+                  The application has the ability to read an inventory file, process user input, handle vending transactions, and write to an audit log.</p>
+                <h5 className="technologies" id="left-align">Technologies – Java, JUnit</h5>
               </div>
             </div>
           </div>
@@ -82,8 +82,8 @@ function Portfolio() {
             <div className="desc">
               <h2>Wellness Application</h2>
               <p className="proj-desc">A Java application intended to help improve users' mental health through journaling as well as keeping track of goals to manifest and positive self-affirmations.
-                Each journal is uploaded to a user’s journal directory for them to save and view past journal entries.</p>
-              <h5 className="technologies">Technologies – Java, IntelliJ</h5>
+                Each journal is uploaded to a user’s journal directory for them to save and view past entries.</p>
+              <h5 className="technologies">Technologies – Java</h5>
             </div>
           </div>
           <a href="https://github.com/jtpurp/Wellness-Application" target="_blank" rel="noreferrer" id="logo-left"><img className="logo-port" src={Wellness} alt='Mental Health' /></a>
@@ -110,7 +110,7 @@ function Portfolio() {
           <div className="info">
             <div className="desc">
               <h2>Composite Concrete Beam Design Program</h2>
-              <p className="proj-desc">A Mathcad program that calculates loading limitations and facilitates design of composite concrete beams based on input design parameters and adhering to ACI Building Code requirements.</p>
+              <p className="proj-desc">A Mathcad program that calculates loading limitations and facilitates design of composite concrete beams based on input design parameters while adhering to ACI Building Code requirements.</p>
             </div>
           </div>
           <a href="https://github.com/jtpurp/Composite-Concrete-Beam-Design" target="_blank" rel="noreferrer" id="logo-left"><img className="logo-port" src={Composite} alt='Composite Concrete Bridge' /></a>
@@ -161,7 +161,7 @@ function Portfolio() {
               <h2>Research Report</h2>
               <h5>Utilizing Carbon Nanotube-Based Sensing Skin to Mitigate Issues of Fatigue in Steel Members</h5>
               <ul className="proj-desc">
-                <li>Contributed to the improvement of methods for acquiring strain data by researching carbon nanotube-based sensing skin</li>
+                <li>Contributed to the improvement of methods for acquiring strain data from steel members by researching carbon nanotube-based sensing skin</li>
                 <li>Instrumented strain gauges to steel beams to collect data in the lab and in the field</li>
                 <li>Developed a research report to organize and summarize findings</li>
               </ul>
