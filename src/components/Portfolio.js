@@ -32,7 +32,7 @@ function Portfolio() {
               <h5 className="technologies">Technologies – React.js, JSX, JavaScript, HTML, CSS, Spring Boot, Java, PostgreSQL</h5>
             </div>
           </div>
-          <a href="http://localhost:3000/"><img className="logo-port" src={Logo} alt='Website Logo' /></a>
+          <a href="http://localhost:3000/" id="logo-left"><img className="logo-port" src={Logo} alt='Website Logo' /></a>
         </div>
 
         <div className="main-flex">

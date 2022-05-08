@@ -15,7 +15,9 @@ class Music extends React.Component {
             artist: '',
             song: '',
             album: '',
-            link: ''
+            link: '',
+
+            showForm: false
         }
 
         this.changeArtistHandler = this.changeArtistHandler.bind(this);
@@ -93,8 +95,8 @@ class Music extends React.Component {
                     </div> */}
                     <h1>Music Suggestions</h1>
                     <div className="table-container">
-                        <table>
-                            <thead>
+                        <table className="music-table">
+                            <thead className="table-head">
                                 <tr>
                                     <td>Artist</td>
                                     <td>Song</td>
@@ -114,19 +116,19 @@ class Music extends React.Component {
                                     <td>Busy</td>
                                     <td>Balance</td>
                                     <td>https://open.spotify.com/track/6Z1U91V88D4Hs6zyttW8sr?si=fcf57759f59248f9</td>
-                                </tr>  
+                                </tr>
                                 <tr className="music-row">
                                     <td>GRiZ</td>
                                     <td>Smash the Funk</td>
                                     <td>Mad Liberation</td>
                                     <td>https://open.spotify.com/track/1kiEueR1jHSW2dD4LSD6X0?si=41af4a9635274c0b</td>
-                                </tr>   
+                                </tr>
                                 <tr className="music-row">
                                     <td>NERO</td>
                                     <td>Me And You</td>
                                     <td>Welcome Reality +</td>
                                     <td>https://open.spotify.com/track/0xIof5gmHjFY0t1eX7angP?si=030f18a1aa234bfb</td>
-                                </tr> 
+                                </tr>
                                 {
                                     this.state.music.map(
                                         music =>
@@ -142,19 +144,25 @@ class Music extends React.Component {
                         </table>
                     </div>
                 </div>
-                <h1>Share Music Suggestions!</h1>
-                <form className="suggestion-form">
-                    <label htmlFor="artist">Artist</label>
-                    <input type="text" placeholder="Who created it?" name="artist" value={this.state.artist} onChange={this.changeArtistHandler} />
-                    <label htmlFor="song">Song</label>
-                    <input type="text" placeholder="What's it called?" name="song" value={this.state.song} onChange={this.changeSongHandler} />
-                    <label htmlFor="album">Album</label>
-                    <input type="text" placeholder="What album is it from?" name="album" value={this.state.album} onChange={this.changeAlbumHandler} />
-                    <label htmlFor="link">Link</label>
-                    <input type="text" placeholder="Share a link if you care to :)" name="link" value={this.state.link} onChange={this.changeLinkHandler} />
-                    <button className="share-button" onClick={this.shareMusicSuggestion}>Share</button>
-                    <button className="cancel-button" onClick={this.cancelMusicSuggestion}>Cancel</button>
-                </form>
+                
+                <div className="form-container">
+                <button onClick={() => { this.setState({ showForm: !this.state.showForm }) }}>Share Music Suggestions!</button>
+                    {
+                        this.state.showForm ?
+                            <form className="suggestion-form">
+                                <label className="music-label" htmlFor="artist">Artist</label>
+                                <input type="text" placeholder="Who created it?" name="artist" value={this.state.artist} onChange={this.changeArtistHandler} />
+                                <label className="music-label" htmlFor="song">Song</label>
+                                <input type="text" placeholder="What's it called?" name="song" value={this.state.song} onChange={this.changeSongHandler} />
+                                <label className="music-label" htmlFor="album">Album</label>
+                                <input type="text" placeholder="What album is it from?" name="album" value={this.state.album} onChange={this.changeAlbumHandler} />
+                                <label className="music-label" htmlFor="link">Link</label>
+                                <input type="text" placeholder="Share a link if you care to :)" name="link" value={this.state.link} onChange={this.changeLinkHandler} />
+                                <button className="share-button" onClick={this.shareMusicSuggestion}>Share</button>
+                                <button className="cancel-button" onClick={this.cancelMusicSuggestion}>Cancel</button>
+                            </form> : null
+                    }
+                </div>
             </div>
         )
     }

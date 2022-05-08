@@ -4,7 +4,7 @@
 }
 
 #table-container::-webkit-scrollbar {
-    width: 10px;
+    width: 0px;
 }
 
 #table-container::-webkit-scrollbar-track {
@@ -16,9 +16,14 @@
     border-radius: 5px 5px;
 }
 
-table {
+.music-table {
     text-align: center;
-    width: 98vw;
+    width: 100vw;
+}
+
+.table-head {
+    color: rgb(196, 133, 255);
+    font-size: 24px;
 }
 
 td {
@@ -49,4 +54,10 @@ tbody {
     display: flex;
     flex-direction: column;
     width: 300px;
+  
+}
+
+.music-label {
+    color: rgb(196, 133, 255);
+    font-size: 24px;
 }
