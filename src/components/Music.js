@@ -1,5 +1,5 @@
 import React from 'react';
-//import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player';
 import MusicSuggestionService from '../services/MusicSuggestionService';
 import '../styles/Music.css';
 
@@ -79,74 +79,73 @@ class Music extends React.Component {
 
     render() {
         return (
-            <div>
-                <div>
-                    <h1>Music Player</h1>
-                    {/* <div className='music-player'>
-                        <ReactPlayer className='react-player'
-                            url='../songs/PartsLabour.mp4'
-                            playing={false}
-                            loop={true}
-                            volume={0.5}
-                            controls={true}
-                            width={300}
-                            height={100}
-                        />
-                    </div> */}
-                    <h1>Music Suggestions</h1>
-                    <div className="table-container">
-                        <table className="music-table">
-                            <thead className="table-head">
-                                <tr>
-                                    <td>Artist</td>
-                                    <td>Song</td>
-                                    <td>Album</td>
-                                    <td>Link</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr className="music-row">
-                                    <td>Lane 8</td>
-                                    <td>Road</td>
-                                    <td>Brightest Lights</td>
-                                    <td>https://open.spotify.com/track/6kckNpuM5oXZrObLExRg6d?si=413ba4a967544c38</td>
-                                </tr>
-                                <tr className="music-row">
-                                    <td>Liquid Stranger</td>
-                                    <td>Busy</td>
-                                    <td>Balance</td>
-                                    <td>https://open.spotify.com/track/6Z1U91V88D4Hs6zyttW8sr?si=fcf57759f59248f9</td>
-                                </tr>
-                                <tr className="music-row">
-                                    <td>GRiZ</td>
-                                    <td>Smash the Funk</td>
-                                    <td>Mad Liberation</td>
-                                    <td>https://open.spotify.com/track/1kiEueR1jHSW2dD4LSD6X0?si=41af4a9635274c0b</td>
-                                </tr>
-                                <tr className="music-row">
-                                    <td>NERO</td>
-                                    <td>Me And You</td>
-                                    <td>Welcome Reality +</td>
-                                    <td>https://open.spotify.com/track/0xIof5gmHjFY0t1eX7angP?si=030f18a1aa234bfb</td>
-                                </tr>
-                                {
-                                    this.state.music.map(
-                                        music =>
-                                            <tr className="music-row" key={music.musicId} onClick={() => this.editMusicSuggestion(music.musicId)}>
-                                                <td>{music.artist}</td>
-                                                <td>{music.song}</td>
-                                                <td>{music.album}</td>
-                                                <td>{music.link}</td>
-                                            </tr>
-                                    )
-                                }
-                            </tbody>
-                        </table>
-                    </div>
+            <div className="music">
+                <h1>Music Player</h1>
+                <div className='music-player'>
+                    <ReactPlayer className='react-player'
+                        url='../songs/Road.mp4'
+                        playing={false}
+                        loop={true}
+                        volume={0.5}
+                        controls={true}
+                        width={300}
+                        height={100}
+                    />
                 </div>
-                
+                <h1>Music Suggestions</h1>
+                <div className="table-container">
+                    <table className="music-table">
+                        <thead className="table-head">
+                            <tr>
+                                <td>Artist</td>
+                                <td>Song</td>
+                                <td>Album</td>
+                                <td>Link</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr className="music-row">
+                                <td>Lane 8</td>
+                                <td>Road</td>
+                                <td>Brightest Lights</td>
+                                <td><a href="https://open.spotify.com/track/6kckNpuM5oXZrObLExRg6d?si=413ba4a967544c38" target="_blank" rel="noreferrer" className="music-link">Listen!</a></td>
+                            </tr>
+                            <tr className="music-row">
+                                <td>Liquid Stranger</td>
+                                <td>Busy</td>
+                                <td>Balance</td>
+                                <td><a href="https://open.spotify.com/track/6Z1U91V88D4Hs6zyttW8sr?si=fcf57759f59248f9" target="_blank" rel="noreferrer" className="music-link">Listen!</a></td>
+                            </tr>
+                            <tr className="music-row">
+                                <td>GRiZ</td>
+                                <td>Smash the Funk</td>
+                                <td>Mad Liberation</td>
+                                <td><a href="https://open.spotify.com/track/1kiEueR1jHSW2dD4LSD6X0?si=41af4a9635274c0b" target="_blank" rel="noreferrer" className="music-link">Listen!</a></td>
+                            </tr>
+                            <tr className="music-row">
+                                <td>NERO</td>
+                                <td>Me And You</td>
+                                <td>Welcome Reality +</td>
+                                <td><a href="https://open.spotify.com/track/0xIof5gmHjFY0t1eX7angP?si=030f18a1aa234bfb" target="_blank" rel="noreferrer" className="music-link">Listen!</a></td>
+                            </tr>
+                            {
+                                this.state.music.map(
+                                    music =>
+                                        <tr className="music-row" key={music.musicId} onClick={() => this.editMusicSuggestion(music.musicId)}>
+                                            <td>{music.artist}</td>
+                                            <td>{music.song}</td>
+                                            <td>{music.album}</td>
+                                            <td><a href={music.link} target="_blank" rel="noreferrer" className="music-link">Listen!</a></td>
+                                        </tr>
+                                )
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+
                 <div className="form-container">
-                <button onClick={() => { this.setState({ showForm: !this.state.showForm }) }}>Share Music Suggestions!</button>
+                    <button onClick={() => { this.setState({ showForm: !this.state.showForm }) }}>Share Music Suggestions!</button>
                     {
                         this.state.showForm ?
                             <form className="suggestion-form">

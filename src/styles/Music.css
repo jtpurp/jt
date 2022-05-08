@@ -27,16 +27,15 @@
 }
 
 td {
-    padding: 4px;
+    padding: 5px;
+}
+
+.music-link {
+    color: white;
 }
 
 tbody tr:nth-child(even) {
     background-color: rgb(111, 0, 255);
-}
-
-.ListRows tr:hover {
-    background-color: #59cdffcc;
-    cursor: pointer;
 }
 
 tbody {
@@ -44,10 +43,18 @@ tbody {
 }
 
 .music-row:hover {
-    background-color: rgb(209, 165, 250);
+    background-color: rgb(0, 170, 255);
     cursor: pointer;
-    color: rgb(111, 0, 255);
-    font-weight: bold;
+    
+}
+
+.form-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 20px;
 }
 
 .suggestion-form {
