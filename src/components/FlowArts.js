@@ -1,6 +1,6 @@
 import React from 'react';
 //import ReactPlayer from 'react-player';
-
+import '../styles/FlowArts.css';
 
 function FlowArts() {
   return (
