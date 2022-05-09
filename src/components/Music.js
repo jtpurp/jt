@@ -79,19 +79,21 @@ class Music extends React.Component {
 
     render() {
         return (
-            <div className="music">
-                <h1>Music Player</h1>
-                {/* <div className='music-player'>
+            <div>
+                <div className="music">
+                    <h1>Music Player</h1>
+                    <h3 className="in-progress">Coming Soon!</h3>
+                    {/* <div className='music-player'>
                     <ReactPlayer className='react-player'
-                        url='../songs/Road.mp4'
+                        url='../songs/road.mp4'
                         playing={false}
                         loop={true}
                         volume={0.5}
                         controls={true}
                         width={300}
                         height={100}
-                    />
-                </div> */}
+                    /> */}
+                </div>
                 <h1>Music Suggestions</h1>
                 <div className="table-container">
                     <table className="music-table">

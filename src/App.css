@@ -1,10 +1,8 @@
 .App {
-  /*text-align: center;*/
   width: 100vw;
   height: 100vh;
   padding: 0;
   margin: 0;
-  
 }
 
 .cont {
@@ -16,18 +14,10 @@
   flex-wrap: nowrap;
 }
 
-.head {
-  margin-bottom: 0px;
-}
-
 .bod {
   flex-grow: 1;
   overflow: auto;
   margin-bottom: 110px;
-}
-
-.foot {
-  margin-top: 0px;
 }
 
 /*

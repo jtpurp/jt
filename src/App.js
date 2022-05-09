@@ -27,9 +27,9 @@ function App() {
               <Route path='/experience' component={Experience}></Route>
               <Route path='/portfolio' component={Portfolio}></Route>
               <Route path='/flow-arts' component={FlowArts}></Route>
-              <Route path='/photos' component={Photos}></Route>
               <Route path='/music/:musicId' component={MusicDetail}></Route>
               <Route path='/music' component={Music}></Route>
+              <Route path='/photos' component={Photos}></Route>
               <Route path='/' component={Home}></Route>
             </Switch>
           </div>

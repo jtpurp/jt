@@ -1,17 +1,21 @@
-#table-container {
-    height: 29vh;
+.in-progress {
+    text-align: center;
+}
+
+.table_container {
+    height: 10vh;
     overflow-y: scroll;
 }
 
-#table-container::-webkit-scrollbar {
+.table-container::-webkit-scrollbar {
     width: 0px;
 }
 
-#table-container::-webkit-scrollbar-track {
+.table-container::-webkit-scrollbar-track {
     background-color: rgb(212, 212, 212);
 }
 
-#table-container::-webkit-scrollbar-thumb {
+.table-container::-webkit-scrollbar-thumb {
     background-color: #00b2ff;
     border-radius: 5px 5px;
 }
@@ -24,6 +28,10 @@
 .table-head {
     color: rgb(196, 133, 255);
     font-size: 24px;
+}
+
+.table-head {
+    border-bottom: 3px solid white;
 }
 
 td {
