@@ -29,7 +29,7 @@
 #hello {
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 30%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 95%);
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 95%);
     color: transparent;
     background-size: 1200% 1200%;
     animation: movingGradient 7.5s linear infinite;
