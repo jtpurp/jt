@@ -23,8 +23,8 @@ function App() {
             <Navbar />
           </div>
           <div className="bod">
+          <ReloadAtTop />
             <Switch>
-              <ReloadAtTop />
               <Route path='/education' component={Education}></Route>
               <Route path='/experience' component={Experience}></Route>
               <Route path='/portfolio' component={Portfolio}></Route>
