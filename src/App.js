@@ -10,6 +10,7 @@ import Photos from './components/Photos.js';
 import Music from './components/Music.js';
 import MusicDetail from './components/MusicDetail.js'
 import Home from './components/Home.js';
+import ReloadAtTop from './ReloadAtTop';
 
 import './App.css';
 
@@ -17,12 +18,13 @@ function App() {
   return (
     <div className="App">
       <div className="cont">
-        <BrowserRouter>
+        <BrowserRouter basename="/jt">
           <div className="head">
             <Navbar />
           </div>
           <div className="bod">
             <Switch>
+              <ReloadAtTop />
               <Route path='/education' component={Education}></Route>
               <Route path='/experience' component={Experience}></Route>
               <Route path='/portfolio' component={Portfolio}></Route>
