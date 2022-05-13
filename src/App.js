@@ -12,6 +12,7 @@ import MusicDetail from './components/MusicDetail.js'
 import Home from './components/Home.js';
 import ReloadAtTop from './ReloadAtTop';
 import './App.css';
+//fix please
 
 function App() {
   return (
