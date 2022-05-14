@@ -15,7 +15,7 @@
     width: 100vw;
     top: 0;
     left: 0;
-    background: linear-gradient(black 25%, transparent 100%);
+    background: linear-gradient(black 0%, transparent 100%);
 }
 
 .footer-container {

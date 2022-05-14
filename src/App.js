@@ -12,7 +12,6 @@ import MusicDetail from './components/MusicDetail.js'
 import Home from './components/Home.js';
 import ReloadAtTop from './ReloadAtTop';
 import './App.css';
-//fix please
 
 function App() {
   return (
@@ -24,7 +23,7 @@ function App() {
           </div>
           <div className="bod">
           <ReloadAtTop />
-            <Switch>npm 
+            <Switch>
               <Route path='/education' component={Education}></Route>
               <Route path='/experience' component={Experience}></Route>
               <Route path='/portfolio' component={Portfolio}></Route>

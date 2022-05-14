@@ -79,8 +79,8 @@ class Music extends React.Component {
 
     render() {
         return (
-            <div>
-                <div className="music">
+            <div className="music-page">
+                <div className="music-player">
                     <h1>Music Player</h1>
                     <h3 className="in-progress">Coming Soon!</h3>
                     {/* <div className='music-player'>
@@ -99,10 +99,10 @@ class Music extends React.Component {
                     <table className="music-table">
                         <thead className="table-head">
                             <tr>
-                                <td>Artist</td>
-                                <td>Song</td>
-                                <td>Album</td>
-                                <td>Link</td>
+                                <th>Artist</th>
+                                <th>Song</th>
+                                <th>Album</th>
+                                <th>Link</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -119,10 +119,34 @@ class Music extends React.Component {
                                 <td><a href="https://open.spotify.com/track/6Z1U91V88D4Hs6zyttW8sr?si=fcf57759f59248f9" target="_blank" rel="noreferrer" className="music-link">Listen!</a></td>
                             </tr>
                             <tr className="music-row">
+                                <td>Tash Sultana</td>
+                                <td>Can't Buy Happiness</td>
+                                <td></td>
+                                <td><a href="https://open.spotify.com/track/5IwkralT3gnN9hL900X0Fr?si=3a91741d5c1240d6" target="_blank" rel="noreferrer" className="music-link">Listen!</a></td>
+                            </tr>
+                            <tr className="music-row">
                                 <td>GRiZ</td>
                                 <td>Smash the Funk</td>
                                 <td>Mad Liberation</td>
                                 <td><a href="https://open.spotify.com/track/1kiEueR1jHSW2dD4LSD6X0?si=41af4a9635274c0b" target="_blank" rel="noreferrer" className="music-link">Listen!</a></td>
+                            </tr>
+                            <tr className="music-row">
+                                <td>ODESZA, MARO</td>
+                                <td>Better Now</td>
+                                <td></td>
+                                <td><a href="https://open.spotify.com/track/1iSuktdIdWrdfq0slQ4auO?si=9b10d1a989fa4c06" target="_blank" rel="noreferrer" className="music-link">Listen!</a></td>
+                            </tr>
+                            <tr className="music-row">
+                                <td>Seven Lions, Crystal Skies</td>
+                                <td>Sojourn</td>
+                                <td></td>
+                                <td><a href="https://open.spotify.com/track/1CxvAJLpvVXPt9lABVCwDC?si=7cc2311172bf4b86" target="_blank" rel="noreferrer" className="music-link">Listen!</a></td>
+                            </tr>
+                            <tr className="music-row">
+                                <td>Nora En Pure</td>
+                                <td>Life on Hold</td>
+                                <td></td>
+                                <td><a href="https://open.spotify.com/track/0uTkVCAf8PxMo8NJ3tFYzH?si=d34a374041e34668" target="_blank" rel="noreferrer" className="music-link">Listen!</a></td>
                             </tr>
                             <tr className="music-row">
                                 <td>NERO</td>
@@ -130,6 +154,7 @@ class Music extends React.Component {
                                 <td>Welcome Reality +</td>
                                 <td><a href="https://open.spotify.com/track/0xIof5gmHjFY0t1eX7angP?si=030f18a1aa234bfb" target="_blank" rel="noreferrer" className="music-link">Listen!</a></td>
                             </tr>
+
                             {
                                 this.state.music.map(
                                     music =>

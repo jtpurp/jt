@@ -1,22 +1,27 @@
+.music-page {
+    padding-bottom: 75px;
+}
+
 .in-progress {
     text-align: center;
 }
 
-.table_container {
-    height: 10vh;
+.table-container {
+    height: 170px;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .table-container::-webkit-scrollbar {
-    width: 0px;
+    width: 5px;
 }
 
-.table-container::-webkit-scrollbar-track {
+/* .table-container::-webkit-scrollbar-track {
     background-color: rgb(212, 212, 212);
-}
+} */
 
 .table-container::-webkit-scrollbar-thumb {
-    background-color: #00b2ff;
+    background-color: rgb(0, 170, 255);
     border-radius: 5px 5px;
 }
 
@@ -25,13 +30,14 @@
     width: 100vw;
 }
 
-.table-head {
+thead {
     color: rgb(196, 133, 255);
     font-size: 24px;
-}
-
-.table-head {
-    border-bottom: 3px solid white;
+    background-color: black;
+    position: -webkit-sticky; 
+    position: sticky; 
+    top: 0px; 
+    z-index: 100;
 }
 
 td {
@@ -42,18 +48,21 @@ td {
     color: white;
 }
 
-tbody tr:nth-child(even) {
-    background-color: rgb(111, 0, 255);
+.music-link:hover {
+    color: rgb(196, 133, 255);
 }
+
+/* tbody tr:nth-child(even) {
+    background-color: rgb(111, 0, 255);
+} */
 
 tbody {
     text-align: center;
 }
 
 .music-row:hover {
-    background-color: rgb(0, 170, 255);
-    cursor: pointer;
-    
+    background-color: rgb(111, 0, 255);
+    cursor: pointer;   
 }
 
 .form-container {

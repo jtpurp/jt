@@ -3,8 +3,27 @@
 }
 
 .player-wrapper {
-    width: 100vw;
+    padding: 30px;
+}
+
+.videos-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    width: 100vw;
     padding: 20px;
 }
+
+/* .videos-container::-webkit-scrollbar {
+    width: 5px;
+} */
+
+/* .videos-container::-webkit-scrollbar-track {
+    background-color: rgb(212, 212, 212);
+} */
+
+/* .videos-container::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 170, 255);
+    border-radius: 5px 5px;
+} */
