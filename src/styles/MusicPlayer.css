@@ -1,0 +1,46 @@
+.music-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding-bottom: 30px;
+}
+
+.controls {
+    display: flex;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.forward-backward {
+    background: none;
+    color: rgb(111, 0, 255);
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+}
+
+.forward-backward:hover {
+    color: rgb(234, 0, 255);
+}
+
+.play-pause {
+    background: none;
+    color: rgb(111, 0, 255);
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+}
+
+.play-pause:hover {
+    color: rgb(234, 0, 255);
+}
+
+.song-info {
+    color: rgb(196, 133, 255);
+    font-size: 22px;
+}

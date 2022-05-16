@@ -2,14 +2,14 @@ import React from 'react';
 import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Education from './components/Education.js';
-import Experience from './components/Experience.js';
-import Portfolio from './components/Portfolio.js';
-import FlowArts from './components/FlowArts.js';
-import Photos from './components/Photos.js';
-import Music from './components/Music.js';
-import MusicDetail from './components/MusicDetail.js'
-import Home from './components/Home.js';
+import Education from './pages/Education.js';
+import Experience from './pages/Experience.js';
+import Portfolio from './pages/Portfolio.js';
+import FlowArts from './pages/FlowArts.js';
+import Photos from './pages/Photos.js';
+import Music from './pages/Music.js';
+import MusicDetail from './pages/MusicDetail.js'
+import Home from './pages/Home.js';
 import ReloadAtTop from './ReloadAtTop';
 import './App.css';
 
