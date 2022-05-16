@@ -1,9 +1,19 @@
 {
   "files": {
-    "main.css": "/jt/static/css/main.04134498.css",
-    "main.js": "/jt/static/js/main.8e08887d.js",
+    "main.css": "/jt/static/css/main.d4e4fe63.css",
+    "main.js": "/jt/static/js/main.3cd06c30.js",
     "static/media/Weathering.png": "/jt/static/media/Weathering.7581702bfe4b5b9bedaa.png",
+    "static/media/ithaca-2.jpg": "/jt/static/media/ithaca-2.c70559544891676c1a2a.jpg",
+    "static/media/ithaca-1.jpg": "/jt/static/media/ithaca-1.22cabf32ff833bad1018.jpg",
+    "static/media/Sojourn.mp3": "/jt/static/media/Sojourn.926d5ec9d4e2862e147c.mp3",
+    "static/media/Busy.mp3": "/jt/static/media/Busy.e5fdab2fb048bdfc2474.mp3",
+    "static/media/Road.mp3": "/jt/static/media/Road.471887bdc722cea36b43.mp3",
+    "static/media/LifeOnHold.mp3": "/jt/static/media/LifeOnHold.0fa1133f12fe9be731f2.mp3",
+    "static/media/BetterNow.mp3": "/jt/static/media/BetterNow.961566c4869af9cc5edb.mp3",
     "static/media/Logo.png": "/jt/static/media/Logo.64ee25d6038c3fb14c4f.png",
+    "static/media/CantBuyHappiness.mp3": "/jt/static/media/CantBuyHappiness.6cd6b9b86a80b7fc8655.mp3",
+    "static/media/SmashTheFunk.mp3": "/jt/static/media/SmashTheFunk.861fe26ae72a7f07dfeb.mp3",
+    "static/media/MeAndYou.mp3": "/jt/static/media/MeAndYou.610f32a45b4801049d4f.mp3",
     "static/media/FDRRepair.png": "/jt/static/media/FDRRepair.f744114a020b2d4d8e24.png",
     "static/media/RedToad.png": "/jt/static/media/RedToad.0402f3b8913d6f01c5f5.png",
     "static/media/Beam.png": "/jt/static/media/Beam.8f24980bcffd94f92738.png",
@@ -21,11 +31,11 @@
     "static/media/HDRLogo.png": "/jt/static/media/HDRLogo.5d37ccba400239ac7eb8.png",
     "static/media/AECOMLogo.png": "/jt/static/media/AECOMLogo.7ebec415350db61946dd.png",
     "index.html": "/jt/index.html",
-    "main.04134498.css.map": "/jt/static/css/main.04134498.css.map",
-    "main.8e08887d.js.map": "/jt/static/js/main.8e08887d.js.map"
+    "main.d4e4fe63.css.map": "/jt/static/css/main.d4e4fe63.css.map",
+    "main.3cd06c30.js.map": "/jt/static/js/main.3cd06c30.js.map"
   },
   "entrypoints": [
-    "static/css/main.04134498.css",
-    "static/js/main.8e08887d.js"
+    "static/css/main.d4e4fe63.css",
+    "static/js/main.3cd06c30.js"
   ]
 }
