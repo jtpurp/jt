@@ -16,6 +16,8 @@
     flex-wrap: wrap;
     color:rgb(196, 133, 255);
     max-width: 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #skills-p {
@@ -43,4 +45,10 @@
 
 .logo-exp:hover {
     border-color: rgb(234, 0, 255);
+}
+
+@media screen and (max-width: 767px) {
+    .logo-exp {
+        height: 7rem;
+    }
 }

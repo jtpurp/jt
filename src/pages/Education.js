@@ -29,7 +29,7 @@ function Education() {
 
       <div className="main-flex">
         <div className="right-container" id="ud">
-          <a href="https://www.udel.edu/" target="_blank" rel="noreferrer" id="logo-right"><img className="logo-edu" src={UDLogo} alt='University of Delaware Logo' /></a>
+          <a href="https://www.udel.edu/" target="_blank" rel="noreferrer" id="logo-right" className="bigger-screen"><img className="logo-edu" src={UDLogo} alt='University of Delaware Logo' /></a>
           <div className="info">
             <div className="ud-deets">
               <h2>University of Delaware</h2>
@@ -51,6 +51,7 @@ function Education() {
               </ul>
             </div>
           </div>
+          <a href="https://www.udel.edu/" target="_blank" rel="noreferrer" id="logo-right" className="smaller-screen"><img className="logo-edu" src={UDLogo} alt='University of Delaware Logo' /></a>
         </div>
       </div>
 

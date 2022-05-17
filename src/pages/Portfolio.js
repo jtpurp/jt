@@ -26,18 +26,18 @@ function Portfolio() {
             <div className="desc">
               <h2>This Website</h2>
               <p className="proj-desc">A place to organize and express my education, professional experience, projects, hobbies, and interests in a creative way.
-                The Education, Experience, and Portfolio pages each contain descriptions of my accomplishments along with relative images that serve as links to corresponding external references.
+                The Education, Experience, and Portfolio pages detail my accomplishments along with corresponding images that serve as links to relative external references.
                 My hobbies and interests are showcased in the Flow Arts, Photos, and Music pages.
                 The Flow Arts page displays some clips of my favorite flow moments, the Photos page contains some of my favorite pictures I’ve taken, and the Music page serves as a place for visitors to share and explore music suggestions as well as listen to some of my music picks!</p>
               <h5 className="technologies">Technologies – React.js, JSX, JavaScript, HTML, CSS, Spring Boot, Java, PostgreSQL</h5>
             </div>
           </div>
-          <a href="http://localhost:3000/" id="logo-left"><img className="logo-port" src={Logo} alt='Website Logo' /></a>
+          <a href="https://jtpurp.github.io/jt/" id="logo-left"><img className="logo-port" src={Logo} alt='Website Logo' /></a>
         </div>
 
         <div className="main-flex">
           <div className="right-container" id="pothole">
-            <a href="https://github.com/jtpurp/Pothole-Tracker" target="_blank" rel="noreferrer" id="logo-right"><img className="logo-port" src={PTLogo} alt='Pothole Tracker Logo' /></a>
+            <a href="https://github.com/jtpurp/Pothole-Tracker" target="_blank" rel="noreferrer" id="logo-right" className="bigger-screen"><img className="logo-port" src={PTLogo} alt='Pothole Tracker Logo' /></a>
             <div className="info">
               <div className="desc">
                 <h2>Pothole Tracker</h2>
@@ -47,6 +47,7 @@ function Portfolio() {
                 <h5 className="technologies" id="left-align">Technologies – Vue.js, JavaScript, HTML, CSS, Mapbox API, Spring Boot, Java, PostgreSQL</h5>
               </div>
             </div>
+            <a href="https://github.com/jtpurp/Pothole-Tracker" target="_blank" rel="noreferrer" id="logo-right" className="smaller-screen"><img className="logo-port" src={PTLogo} alt='Pothole Tracker Logo' /></a>
           </div>
         </div>
 
@@ -64,7 +65,7 @@ function Portfolio() {
 
         <div className="main-flex">
           <div className="right-container" id="vending">
-            <a href="https://github.com/jtpurp/Vending-Machine-Application" target="_blank" rel="noreferrer" id="logo-right"><img className="logo-port" src={Vending} alt='Vending Machine' /></a>
+            <a href="https://github.com/jtpurp/Vending-Machine-Application" target="_blank" rel="noreferrer" id="logo-right" className="bigger-screen"><img className="logo-port" src={Vending} alt='Vending Machine' /></a>
             <div className="info">
               <div className="desc">
                 <h2>Vending Machine Application</h2>
@@ -74,6 +75,7 @@ function Portfolio() {
                 <h5 className="technologies" id="left-align">Technologies – Java, JUnit</h5>
               </div>
             </div>
+            <a href="https://github.com/jtpurp/Vending-Machine-Application" target="_blank" rel="noreferrer" id="logo-right" className="smaller-screen"><img className="logo-port" src={Vending} alt='Vending Machine' /></a>
           </div>
         </div>
 
@@ -88,7 +90,6 @@ function Portfolio() {
           </div>
           <a href="https://github.com/jtpurp/Wellness-Application" target="_blank" rel="noreferrer" id="logo-left"><img className="logo-port" src={Wellness} alt='Mental Health' /></a>
         </div>
-
       </div>
 
       <div className="engineering-projects">
@@ -96,13 +97,14 @@ function Portfolio() {
 
         <div className="main-flex">
           <div className="right-container" id="road">
-            <a href="https://github.com/jtpurp/Roadway-Grading-Design" target="_blank" rel="noreferrer" id="logo-right"><img className="logo-port" src={Road} alt='Road Grade Sign' /></a>
+            <a href="https://github.com/jtpurp/Roadway-Grading-Design" target="_blank" rel="noreferrer" id="logo-right" className="bigger-screen"><img className="logo-port" src={Road} alt='Road Grade Sign' /></a>
             <div className="info">
               <div className="desc">
                 <h2>Roadway Grading Design Program</h2>
                 <p className="proj-desc" id="left-align">An Excel program developed to expedite the process of designing roadway grades and to report construction cost estimates based on input design parameters.</p>
               </div>
             </div>
+            <a href="https://github.com/jtpurp/Roadway-Grading-Design" target="_blank" rel="noreferrer" id="logo-right" className="smaller-screen"><img className="logo-port" src={Road} alt='Road Grade Sign' /></a>
           </div>
         </div>
 
@@ -118,13 +120,14 @@ function Portfolio() {
 
         <div className="main-flex">
           <div className="right-container" id="beam">
-            <a href="https://github.com/jtpurp/AASHTO-I-Beam-Design" target="_blank" rel="noreferrer" id="logo-right"><img className="logo-port" src={Beam} alt='I-Beam' /></a>
+            <a href="https://github.com/jtpurp/AASHTO-I-Beam-Design" target="_blank" rel="noreferrer" id="logo-right" className="bigger-screen"><img className="logo-port" src={Beam} alt='I-Beam' /></a>
             <div className="info">
               <div className="desc">
                 <h2>AASHTO I-Beam Design Program</h2>
                 <p className="proj-desc" id="left-align">An Excel program that calculates loading limitations of structural steel I-beams based on inputted design parameters and adhering to AASHTO LRFD standards.</p>
               </div>
             </div>
+            <a href="https://github.com/jtpurp/AASHTO-I-Beam-Design" target="_blank" rel="noreferrer" id="logo-right" className="smaller-screen"><img className="logo-port" src={Beam} alt='I-Beam' /></a>
           </div>
         </div>
 
@@ -140,10 +143,10 @@ function Portfolio() {
 
         <div className="main-flex">
           <div className="right-container" id="weathering">
-            <a href="https://udspace.udel.edu/bitstream/handle/19716/28753/Rupp_udel_0060M_14171.pdf?sequence=1&isAllowed=y" target="_blank" rel="noreferrer" id="logo-right"><img className="logo-port" src={Weathering} alt='Weathering Steel Bridge' /></a>
+            <a href="https://udspace.udel.edu/bitstream/handle/19716/28753/Rupp_udel_0060M_14171.pdf?sequence=1&isAllowed=y" target="_blank" rel="noreferrer" id="logo-right" className="bigger-screen"><img className="logo-port" src={Weathering} alt='Weathering Steel Bridge' /></a>
             <div className="info">
               <div className="desc">
-                <h2>Thesis</h2>
+                <h2>Thesis Publication</h2>
                 <h5>Uncoated Weathering Steel Bridge Data Collection and Performance Assessment: Bridge Maintenance Practices, Deicing Agent Use, and Field Sampling</h5>
                 <ul className="proj-desc" id="left-align">
                   <li>Assessed long-term performance of uncoated weathering steel (UWS) bridges in the U.S.</li>
@@ -152,6 +155,7 @@ function Portfolio() {
                 </ul>
               </div>
             </div>
+            <a href="https://udspace.udel.edu/bitstream/handle/19716/28753/Rupp_udel_0060M_14171.pdf?sequence=1&isAllowed=y" target="_blank" rel="noreferrer" id="logo-right" className="smaller-screen"><img className="logo-port" src={Weathering} alt='Weathering Steel Bridge' /></a>
           </div>
         </div>
 
@@ -172,13 +176,14 @@ function Portfolio() {
 
         <div className="main-flex">
           <div className="right-container" id="fdr">
-            <a href="https://www.linkedin.com/in/jtrupp/details/experience/1635490070022/single-media-viewer/" target="_blank" rel="noreferrer" id="logo-right"><img className="logo-port" src={FDRRepair} alt='FDR Repair Detail' /></a>
+            <a href="https://www.linkedin.com/in/jtrupp/details/experience/1635490070022/single-media-viewer/" target="_blank" rel="noreferrer" id="logo-right" className="bigger-screen"><img className="logo-port" src={FDRRepair} alt='FDR Repair Detail' /></a>
             <div className="info">
               <div className="fdr-desc">
                 <h2>Franklin D. Roosevelt (FDR) Drive Repairs</h2>
                 <p className="proj-desc" id="left-align">A collection of steel reinforcement and concrete pedestal repair reports and details made using AutoCAD for the FDR Drive.</p>
               </div>
             </div>
+            <a href="https://www.linkedin.com/in/jtrupp/details/experience/1635490070022/single-media-viewer/" target="_blank" rel="noreferrer" id="logo-right" className="smaller-screen"><img className="logo-port" src={FDRRepair} alt='FDR Repair Detail' /></a>
           </div>
         </div>
 

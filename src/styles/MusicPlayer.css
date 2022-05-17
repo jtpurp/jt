@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     width: 100vw;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -18,10 +19,11 @@
 
 .forward-backward {
     background: none;
+    border: none;
     color: rgb(111, 0, 255);
     display: flex;
     align-items: center;
-    font-size: 45px;
+    font-size: 60px;
 }
 
 .forward-backward:hover {
@@ -30,17 +32,30 @@
 
 .play-pause {
     background: none;
-    color: rgb(111, 0, 255);
+    border: none;
     display: flex;
     align-items: center;
-    font-size: 70px;
+    font-size: 90px;
 }
 
 .play-pause:hover {
     color: rgb(234, 0, 255);
 }
 
+.button-background {
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 95%);
+    background-size: 1400% 1400%;
+    animation: movingGradient 7.5s linear infinite; 
+    border-radius: 100%;
+}
+
+@keyframes movingGradient {
+    from {background-position: 0 0;}
+    to {background-position: 100% 100%;}
+}
+
 .song-info {
-    color: rgb(196, 133, 255);
-    font-size: 22px;
+    color: rgb(111, 0, 255);
+    font-size: 28px;
+    font-weight: bold;
 }

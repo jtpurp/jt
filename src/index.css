@@ -77,3 +77,50 @@ li {
 #logo-right {
   margin-right: 20px;
 }
+
+.smaller-screen {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .left-container {
+    flex-direction: column;
+    width: 100vw;
+    margin: 0;
+    padding-bottom: 35px;
+  }
+
+  .right-container {
+    flex-direction: column;
+    width: 100vw;
+    margin: 0;
+    padding-bottom: 35px;
+  }
+
+  #logo-left {
+    margin: 0;
+  }
+  
+  #logo-right {
+    margin: 0;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+  }
+
+  .bigger-screen {
+    display: none;
+  }
+
+  .smaller-screen {
+    display: contents;
+  }
+
+  #ud, #hdr, #red-toad {
+    margin-bottom: 25px;
+  }
+
+}

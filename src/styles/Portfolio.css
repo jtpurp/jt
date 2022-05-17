@@ -21,3 +21,9 @@
 .logo-port:hover {
     border-color: rgb(234, 0, 255);
 }
+
+@media screen and (max-width: 767px) {
+    .logo-port {
+        height: 7rem;
+    }
+}

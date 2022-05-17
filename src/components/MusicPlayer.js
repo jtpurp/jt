@@ -124,7 +124,7 @@ const MusicPlayer = () => {
             <div className="controls">
                 <button className="forward-backward" onClick={skipBackward}><BsSkipBackward /></button>
                 <button className="play-pause" onClick={togglePlayPause}>
-                    {isPlaying ? <BsPlayCircle /> : <BsPauseCircle />}
+                    {isPlaying ? <BsPlayCircle className="button-background"/> : <BsPauseCircle className="button-background"/>}
                 </button>
                 <button className="forward-backward" onClick={skipForward}><BsSkipForward /></button>
             </div>

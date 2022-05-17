@@ -81,7 +81,7 @@ function Experience() {
 
         <div className="main-flex">
           <div className="right-container" id="aecom">
-            <a href="https://aecom.com/" target="_blank" rel="noreferrer" id="logo-right"><img className="logo-exp" src={AECOMLogo} alt='AECOM Logo' /></a>
+            <a href="https://aecom.com/" target="_blank" rel="noreferrer" id="logo-right" className="bigger-screen"><img className="logo-exp" src={AECOMLogo} alt='AECOM Logo' /></a>
             <div className="info">
               <div className="aecom-deets">
                 <h2>AECOM</h2>
@@ -97,6 +97,7 @@ function Experience() {
                 </ul>
               </div>
             </div>
+            <a href="https://aecom.com/" target="_blank" rel="noreferrer" id="logo-right" className="smaller-screen"><img className="logo-exp" src={AECOMLogo} alt='AECOM Logo' /></a>
           </div>
         </div>
 

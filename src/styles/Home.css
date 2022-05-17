@@ -8,13 +8,17 @@
 }
 
 .home-container {
-    border: solid 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border: solid 10px;
     border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 100%) 1;
     background-size: 200% 200%;
-    animation: movingGradient 7.5s linear infinite;
 
     width: 75vw;
-    height: 25vh;
+    max-height: 50vh;
     position: absolute;
     margin: auto;
     left: 0;
@@ -22,8 +26,10 @@
     bottom: 0;
     top: 0;
 
+    color: rgb(111, 0, 255);
     text-align: center;
     padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 #hello {
@@ -31,7 +37,7 @@
     background-clip: text;
     background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 95%);
     color: transparent;
-    background-size: 1200% 1200%;
+    background-size: 1300% 1300%;
     animation: movingGradient 7.5s linear infinite;
 
     text-decoration: none;
@@ -39,7 +45,63 @@
     -webkit-text-stroke: 0px;
 }
 
+.bio-container {
+    display: flex;
+}
+
+.bio-word {
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 95%);
+    color: transparent;
+    background-size: 1300% 1300%;
+    animation: movingGradient 7.5s linear infinite;
+    -webkit-text-stroke: 0px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 @keyframes movingGradient {
     from {background-position: 0 0;}
     to {background-position: 100% 100%;}
 }
+
+#my-name {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#jt {
+    font-size: 40px;
+    padding: 0;
+}
+
+#small-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#bio {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.no-show {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .bio-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .no-show {
+        display: contents;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
+
+@media screen and (max-width: 767px) {}

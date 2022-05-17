@@ -9,8 +9,13 @@
 }
 
 @keyframes movingGradient {
-    from {background-position: 0 0;}
-    to {background-position: 100% 100%;}
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 100%;
+    }
 }
 
 .navbar::before {
@@ -27,7 +32,9 @@
     width: 100vw;
     color: white;
     font-size: 1.25rem;
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 20px;
 
     display: flex;
@@ -39,28 +46,32 @@
     display: flex;
     justify-content: space-evenly;
     flex-grow: 1;
-    max-width: 45vw;
+    width: 45vw;
 }
 
 .flex-right {
     display: flex;
     justify-content: space-evenly;
     flex-grow: 1;
-    max-width: 45vw;
+    width: 45vw;
 }
 
 #link {
     text-decoration: none;
-    font-size: xx-large;
+    font-size: 32px;
     color: white;
+    font-weight: bold;
 }
 
 #link:hover {
     color: rgb(234, 0, 255);
+    -webkit-text-stroke: 1px white;
+ 
 }
 
 #link:focus {
-    color: rgb(234, 0, 255);
+    color: white;
+    -webkit-text-stroke: 1px rgb(234, 0, 255);
 }
 
 #logo {
@@ -73,4 +84,32 @@
 
 #logo:hover {
     border-color: rgb(234, 0, 255);
+}
+
+@media screen and (max-width: 1024px) {
+    .flex-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    .flex-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-grow: 1;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #link {
+        font-size: 22px;
+    }
+
+    #logo {
+        height: 5rem;
+    }
 }
