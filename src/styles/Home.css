@@ -15,12 +15,11 @@
     left: 0;
     right: 0;
     bottom: 0;
-    top: 20px;
+    top: 15px;
 
     color: rgb(111, 0, 255);
     text-align: center;
-    padding: 5px;
-    padding-bottom: 15px;
+    padding: 0px 5px 20px 5px;
 }
 
 #hello {
@@ -108,8 +107,8 @@
 
 @media screen and (max-width: 1190px) {
     .home-container {
-        top: 50px;
-    } 
+        top: 60px;
+    }
 
     .bio-container {
         display: flex;
@@ -123,10 +122,6 @@
 }
 
 @media screen and (max-width: 767px) {
-    .home-container {
-        top: 75px;
-    }
-    
     #hello {
         font-size: 70px !important;
     }
@@ -152,8 +147,12 @@
 }
 
 @media screen and (max-width: 425px) {
+    .home-container {
+        top: 25px;
+    }
+    
     #hello {
-        font-size: 65px !important;
+        font-size: 75px !important;
     }
 
     #my-name {

@@ -141,7 +141,7 @@
     }
 
     #logo {
-        height: 6rem;
+        height: 6.5rem;
     }
 }
 
@@ -164,11 +164,11 @@
     }
     
     #logo {
-        height: 4.5rem;
+        height: 6rem;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
     #link {
         font-size: 14px;
         width: 90px;

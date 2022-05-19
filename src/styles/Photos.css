@@ -1,17 +1,12 @@
 .photos {
     text-align: center;
-}
-
-.ithaca1 {
-    height: 300px;
-    width: 500px;
-}
-
-.ithaca2 {
-    height: 300px;
-    width: 500px;
+    margin-bottom: 50px;
 }
 
 .photo {
-    padding: 10px;
+    height: 300px;
+    width: 500px;
+    padding: 10px
 }
+
+

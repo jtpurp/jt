@@ -84,12 +84,13 @@ li {
 
 @media screen and (max-width: 767px) {
   h1 {
-    font-size: 32px !important;
+    font-size: 34px !important;
+    color: rgb(111, 0, 255);
     -webkit-text-stroke: 0px;
   }
 
   h2 {
-    font-size: 28px !important;
+    font-size: 24px !important;
   }
   
   .left-container {
