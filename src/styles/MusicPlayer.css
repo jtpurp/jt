@@ -17,6 +17,10 @@
     height: 50px;
 }
 
+#time {
+    padding: 5px;
+}
+
 .forward-backward {
     background: none;
     border: none;
@@ -58,4 +62,5 @@
     color: rgb(111, 0, 255);
     font-size: 28px;
     font-weight: bold;
+    text-align: center;
 }

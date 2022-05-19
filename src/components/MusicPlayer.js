@@ -132,13 +132,11 @@ const MusicPlayer = () => {
             {/* Time Bar */}
             <div className="bar">
                 {/* Current Time */}
-                <div>{calcTime(currentTime)}</div>
+                <div id="time">{calcTime(currentTime)}</div>
                 {/* Progress Bar */}
-                <div>
-                    <input type="range" defaultValue="0" ref={progressBar} onChange={changeRange} onMouseDown={togglePause} onMouseUp={isPlaying ? togglePause : togglePlay} />
-                </div>
+                <input id="slider" type="range" defaultValue="0" ref={progressBar} onChange={changeRange} onMouseDown={togglePause} onMouseUp={isPlaying ? togglePause : togglePlay} />
                 {/* Duration */}
-                <div>{(duration && !isNaN(duration)) && calcTime(duration)}</div>
+                <div id="time">{(duration && !isNaN(duration)) && calcTime(duration)}</div>
             </div>
 
             {/* Song Info */}

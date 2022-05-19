@@ -8,11 +8,11 @@ function Photos() {
     <div className="photos">
       <h1>Photos</h1>
       
-      <div className="left-container">
+      <div className="photo">
       <img src={ithaca1} alt="Ithaca" className="ithaca1"/>
       </div>
      
-      <div className="right-container">
+      <div className="photo">
       <img src={ithaca2} alt="Ithaca" className="ithaca2"/>
       </div>
 
