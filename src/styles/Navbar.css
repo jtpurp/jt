@@ -1,7 +1,7 @@
 .navbar {
     background-image: linear-gradient(to bottom right, rgb(0, 170, 255) 10%, rgb(39, 39, 253) 50%, rgb(111, 0, 255) 75%, rgb(196, 133, 255) 100%);
     background-size: 200% 200%;
-    animation: movingGradient 7.5s linear infinite alternate;
+    animation: movingGradient 10s linear infinite alternate;
 
     position: absolute;
     width: 100vw;
@@ -57,27 +57,43 @@
 }
 
 #link {
-    text-decoration: none;
-    font-size: 32px;
-    color: white;
+    display: inline-block;
+    width: 155px;
+    padding: 0px 5px 5px 5px;
+    margin-bottom: 10px;
+
+    cursor: pointer;
+    font-size: 28px;
     font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;    
+    background-color: rgb(111, 0, 255);
+    border: solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px black;
+}
+
+#link:active {
+    box-shadow: 0px 0px;
+    transform: translateY(3px);
 }
 
 #link:hover {
-    color: rgb(234, 0, 255);
-    -webkit-text-stroke: 1px white;
- 
+    background-color: rgb(234, 0, 255);
 }
 
 #link:focus {
-    color: white;
-    -webkit-text-stroke: 1px rgb(234, 0, 255);
+    background-color: rgb(234, 0, 255);
+    box-shadow: 0px 0px;
+    transform: translateY(3px);
 }
 
 #logo {
     height: 7rem;
     border-style: solid;
-    border-color: white;
+    border-color: black;
     border-radius: 5rem;
     border-width: 0.25rem;
 }
@@ -86,13 +102,14 @@
     border-color: rgb(234, 0, 255);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1190px) {
     .flex-left {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         flex-grow: 1;
+        margin-left: 40px;
     }
 
     .flex-right {
@@ -101,25 +118,63 @@
         justify-content: space-evenly;
         align-items: center;
         flex-grow: 1;
+        margin-right: 40px;
+    }
+
+    #link {
+        font-size: 26px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    #link {
-        font-size: 22px;
+    .flex-left {
+        align-items: flex-start;
     }
 
-    #link:hover {
-        color: rgb(234, 0, 255);
-        -webkit-text-stroke: 0.5px white;
+    .flex-right { 
+        align-items: flex-end;
     }
-    
-    #link:focus {
-        color: white;
-        -webkit-text-stroke: 0.5px rgb(234, 0, 255);
+
+    #link {
+        font-size: 24px;
+        width: 140px;
     }
 
     #logo {
-        height: 5rem;
+        height: 6rem;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .flex-left {
+        margin-left: 0px;
+    }
+
+    .flex-right {
+        margin-right: 0px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    #link {
+        font-size: 18px;
+        padding: 0px 0px 0px 0px;
+        width: 105px;
+    }
+    
+    #logo {
+        height: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #link {
+        font-size: 14px;
+        width: 90px;
+    }
+    
+    #logo {
+        height: 4rem;
     }
 }

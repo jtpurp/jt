@@ -81,3 +81,37 @@ ul.social-icons {
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 380px) {
+    .fab {
+        font-size: 40px;
+    }
+
+    #email {
+        font-size: 14px;
+    }
+
+    #phone {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .fab {
+        font-size: 35px;
+    }
+
+    #email {
+        font-size: 12px;
+    }
+
+    #phone {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    #phone {
+        padding-left: 12.5%;
+    }
+}

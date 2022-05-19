@@ -85,7 +85,7 @@ li {
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 32px !important;
-    -webkit-text-stroke: 0.5px rgb(111, 0, 255);
+    -webkit-text-stroke: 0px;
   }
 
   h2 {

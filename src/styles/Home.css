@@ -1,12 +1,3 @@
-.home-flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    height: 100%;
-    padding-bottom: 40px;
-}
-
 .home-container {
     display: flex;
     flex-direction: column;
@@ -17,30 +8,31 @@
     border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 100%) 1;
     background-size: 200% 200%;
 
-    width: 75vw;
-    max-height: 50vh;
+    width: 90vw;
+    height: 55vh;
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
     bottom: 0;
-    top: 0;
+    top: 20px;
 
     color: rgb(111, 0, 255);
     text-align: center;
     padding: 5px;
+    padding-bottom: 15px;
 }
 
 #hello {
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 95%);
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 30%, rgb(80, 0, 255) 50%, rgb(39, 39, 253) 70%, rgb(0, 170, 255) 95%);
     color: transparent;
     background-size: 1300% 1300%;
-    animation: movingGradient 7.5s linear infinite;
+    animation: movingGradient 10s linear infinite;
 
     text-decoration: none;
-    font-size: 70px !important;
+    font-size: 100px !important;
     margin: 0;
     -webkit-text-stroke: 0px;
 }
@@ -52,10 +44,10 @@
 .bio-word {
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 95%);
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 30%, rgb(80, 0, 255) 50%, rgb(39, 39, 253) 70%, rgb(0, 170, 255) 95%);
     color: transparent;
     background-size: 1300% 1300%;
-    animation: movingGradient 7.5s linear infinite;
+    animation: movingGradient 10s linear infinite;
     -webkit-text-stroke: 0px;
 
     padding-left: 5px;
@@ -72,12 +64,12 @@
 }
 
 #my-name {
-    font-size: 32px;
+    font-size: 38px;
     font-weight: bold;
 }
 
 #jt {
-    font-size: 40px;
+    font-size: 48px;
     padding: 0;
 }
 
@@ -87,34 +79,38 @@
 }
 
 #bio {
-    font-size: 32px;
+    font-size: 48px;
     font-weight: bold;
 }
 
-.show {
+/* .show {
     animation: spin 7.5s infinite linear;
     display: inline-block;
 
     padding-bottom: 5px;
     padding-left: 2px;
-}
+} */
 
 .no-show {
     display: none;
-    padding-bottom: 5px;
-    padding-left: 2px;
+    /* padding-bottom: 5px;
+    padding-left: 2px; */
 }
 
-@keyframes spin {
+/* @keyframes spin {
     from {
         transform: rotate(0deg);
     }
     to {
         transform: rotate(360deg);
     }
-}
+} */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1190px) {
+    .home-container {
+        top: 50px;
+    } 
+
     .bio-container {
         display: flex;
         flex-direction: column;
@@ -128,22 +124,66 @@
 
 @media screen and (max-width: 767px) {
     .home-container {
-        width: 90vw;
+        top: 75px;
     }
-
+    
     #hello {
-        font-size: 45px !important;
+        font-size: 70px !important;
     }
 
     #my-name {
-        font-size: 20px;
+        font-size: 26px;
         display: flex;
         flex-direction: column;
     }
 
     #jt {
-        font-size: 28px;
+        font-size: 40px;
         padding: 0;
+    }
+
+    #small-text {
+        font-size: 18px;
+    }
+
+    #bio {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #hello {
+        font-size: 65px !important;
+    }
+
+    #my-name {
+        font-size: 24px;
+    }
+
+    #jt {
+        font-size: 38px;
+    }
+
+    #small-text {
+        font-size: 18px;
+    }
+
+    #bio {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #hello {
+        font-size: 55px !important;
+    }
+
+    #my-name {
+        font-size: 20px;
+    }
+
+    #jt {
+        font-size: 32px;
     }
 
     #small-text {
@@ -151,7 +191,32 @@
     }
 
     #bio {
-        font-size: 26px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .home-container {
+        top: 50px;
+    }
+    
+    #hello {
+        font-size: 50px !important;
     }
 
+    #my-name {
+        font-size: 16px;
+    }
+
+    #jt {
+        font-size: 28px;
+    }
+
+    #small-text {
+        font-size: 12px;
+    }
+
+    #bio {
+        font-size: 18px;
+    }
 }
