@@ -1,5 +1,39 @@
+.detail-table-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .music-detail-row {
-    background-color: rgb(209, 165, 250);
-    color: rgb(111, 0, 255);
-    font-weight: bold;
+    background-color: black;
+    border: solid 3px rgb(111, 0, 255);
+    color: white;
+}
+
+.music-detail-row>td {
+    padding: 15px;
+    border: solid 3px rgb(111, 0, 255);
+}
+
+.music-detail-table {
+    width: 95vw;
+    text-align: center;
+}
+
+#link-column {
+    text-align: center;
+}
+
+.update-suggestion-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 56px;
+}
+
+.music-label {
+    color: rgb(196, 133, 255);
+    font-size: 24px;
 }

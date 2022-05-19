@@ -83,6 +83,15 @@ li {
 }
 
 @media screen and (max-width: 767px) {
+  h1 {
+    font-size: 32px !important;
+    -webkit-text-stroke: 0.5px rgb(111, 0, 255);
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+  
   .left-container {
     flex-direction: column;
     width: 100vw;

@@ -46,13 +46,13 @@ class MusicDetail extends React.Component {
 
   deleteMusicSuggestion() {
     MusicSuggestionService.deleteMusicSuggestion(this.state.musicId);//.then((response) => {
-      //this.setState({ musicId: '', artist: '', song: '', album: '', link: '' });
-      //this.returnToMusic();
+    //this.setState({ musicId: '', artist: '', song: '', album: '', link: '' });
+    //this.returnToMusic();
     //});
   }
-  
+
   returnToMusic() {
-    this.props.history.push('/music'); 
+    this.props.history.push('/music');
   }
 
   cancelMusicSuggestion() {
@@ -83,13 +83,14 @@ class MusicDetail extends React.Component {
       <div>
         <div>
           <h1>Music Suggestion Details</h1>
-          <table>
+          <div className="detail-table-container">
+          <table className="music-detail-table">
             <thead>
               <tr>
-                <td>Artist</td>
-                <td>Song</td>
-                <td>Album</td>
-                <td>Link</td>
+                <th>Artist</th>
+                <th>Song</th>
+                <th>Album</th>
+                <th>Link</th>
               </tr>
             </thead>
             <tbody>
@@ -97,25 +98,29 @@ class MusicDetail extends React.Component {
                 <td>{this.state.artist}</td>
                 <td>{this.state.song}</td>
                 <td>{this.state.album}</td>
-                <td>{this.state.link}</td>
+                <td id="link-column">{this.state.link}</td>
               </tr>
             </tbody>
           </table>
+          </div>
         </div>
-        <h1>Update Music Suggestion</h1>
-        <form className="update-suggestion-form">
-          <label htmlFor="artist">Artist</label>
-          <input type="text" placeholder={this.state.artist} name="artist" value={this.state.artist} onChange={this.changeArtistHandler} />
-          <label htmlFor="song">Song</label>
-          <input type="text" placeholder={this.state.song} name="song" value={this.state.song} onChange={this.changeSongHandler} />
-          <label htmlFor="album">Album</label>
-          <input type="text" placeholder={this.state.album} name="album" value={this.state.album} onChange={this.changeAlbumHandler} />
-          <label htmlFor="link">Link</label>
-          <input type="text" placeholder={this.state.link} name="link" value={this.state.link} onChange={this.changeLinkHandler} />
-          <button className="btn-update" onClick={this.updateMusicSuggestion}>Update</button>
-          <button className="btn-delete" onClick={this.deleteMusicSuggestion}>Delete</button>
-          <button className="btn-return" onClick={this.returnToMusic}>Return to Music Suggestions</button>
-        </form>
+
+        <div className="form-container">
+          <h1>Update Music Suggestion</h1>
+          <form className="update-suggestion-form">
+            <label className="music-label" htmlFor="artist">Artist</label>
+            <input className="input" type="text" placeholder={this.state.artist} name="artist" value={this.state.artist} onChange={this.changeArtistHandler} />
+            <label className="music-label" htmlFor="song">Song</label>
+            <input className="input" type="text" placeholder={this.state.song} name="song" value={this.state.song} onChange={this.changeSongHandler} />
+            <label className="music-label" htmlFor="album">Album</label>
+            <input className="input" type="text" placeholder={this.state.album} name="album" value={this.state.album} onChange={this.changeAlbumHandler} />
+            <label className="music-label" htmlFor="link">Link</label>
+            <input className="input" type="text" placeholder={this.state.link} name="link" value={this.state.link} onChange={this.changeLinkHandler} />
+            <button className="music-button" id="form-button" onClick={this.updateMusicSuggestion}>Update</button>
+            <button className="music-button" id="form-button" onClick={this.deleteMusicSuggestion}>Delete</button>
+            <button className="music-button" id="form-button" onClick={this.returnToMusic}>Return to Music</button>
+          </form>
+        </div>
       </div>
     )
   }

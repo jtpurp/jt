@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { HiOutlineMail } from "react-icons/hi";
+import { HiOutlinePhone } from "react-icons/hi";
 import '../styles/Footer.css';
 
 function Footer() {
@@ -15,8 +17,8 @@ function Footer() {
           <li><a href="https://www.instagram.com/it.jit/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fab fa-instagram fa-3x" icon={faInstagram}></FontAwesomeIcon></a></li>
         </ul>
         <div className="contact-container">
-          <p id="email">Email - ruppjt@gmail.com</p>
-          <p id="phone">Phone - (609) 649-3198</p>
+          <p id="email"><HiOutlineMail /> ruppjt@gmail.com</p>
+          <p id="phone"><HiOutlinePhone /> (609) 649-3198</p>
         </div>
       </div>
     </div>

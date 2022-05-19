@@ -6,8 +6,6 @@
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom: 20px;
-    padding-top: 20px;
-    
 }
 
 #skills {
@@ -50,5 +48,11 @@
 @media screen and (max-width: 767px) {
     .logo-exp {
         height: 7rem;
+    }
+
+    #skills-p {
+        padding-left: 1px;
+        padding-right: 1px;
+        font-size: 20px;
     }
 }

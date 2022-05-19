@@ -109,6 +109,16 @@
         font-size: 22px;
     }
 
+    #link:hover {
+        color: rgb(234, 0, 255);
+        -webkit-text-stroke: 0.5px white;
+    }
+    
+    #link:focus {
+        color: white;
+        -webkit-text-stroke: 0.5px rgb(234, 0, 255);
+    }
+
     #logo {
         height: 5rem;
     }

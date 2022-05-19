@@ -28,8 +28,7 @@
 
     color: rgb(111, 0, 255);
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 20px;
+    padding: 5px;
 }
 
 #hello {
@@ -42,6 +41,7 @@
 
     text-decoration: none;
     font-size: 70px !important;
+    margin: 0;
     -webkit-text-stroke: 0px;
 }
 
@@ -58,13 +58,17 @@
     animation: movingGradient 7.5s linear infinite;
     -webkit-text-stroke: 0px;
 
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 @keyframes movingGradient {
-    from {background-position: 0 0;}
-    to {background-position: 100% 100%;}
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
 }
 
 #my-name {
@@ -87,8 +91,27 @@
     font-weight: bold;
 }
 
+.show {
+    animation: spin 7.5s infinite linear;
+    display: inline-block;
+
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
 .no-show {
     display: none;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -96,12 +119,39 @@
         display: flex;
         flex-direction: column;
     }
-    
+
     .no-show {
-        display: contents;
+        animation: spin 7.5s infinite linear;
+        display: inline-block;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {}
+@media screen and (max-width: 767px) {
+    .home-container {
+        width: 90vw;
+    }
 
-@media screen and (max-width: 767px) {}
+    #hello {
+        font-size: 45px !important;
+    }
+
+    #my-name {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #jt {
+        font-size: 28px;
+        padding: 0;
+    }
+
+    #small-text {
+        font-size: 14px;
+    }
+
+    #bio {
+        font-size: 26px;
+    }
+
+}
