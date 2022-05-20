@@ -136,6 +136,10 @@
         margin-right: 40px;
     }
 
+    #logo {
+        height: 8rem;
+    }
+
     #link {
         font-size: 26px;
     }
