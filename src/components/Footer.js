@@ -16,9 +16,15 @@ function Footer() {
           <li><a href="https://github.com/jtpurp" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fab fa-github fa-3x" icon={faGithub}></FontAwesomeIcon></a></li>
           <li><a href="https://www.instagram.com/it.jit/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fab fa-instagram fa-3x" icon={faInstagram}></FontAwesomeIcon></a></li>
         </ul>
+
         <div className="contact-container">
-          <p id="email"><HiOutlineMail /> ruppjt@gmail.com</p>
-          <p id="phone"><HiOutlinePhone /> (609) 649-3198</p>
+          <div id="email">
+            <span><HiOutlineMail /> ruppjt@gmail.com</span>
+          </div>
+          <a className="resume" href="https://drive.google.com/file/d/13BgMjBkulS9ZYUjHHaLrZLwLK_GQNEvs/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+          <div id="phone">
+            <span><HiOutlinePhone /> (609) 649-3198</span>
+          </div>
         </div>
       </div>
     </div>

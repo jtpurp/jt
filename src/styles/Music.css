@@ -116,7 +116,7 @@ tbody {
     background-color: black;
     border: solid rgb(111, 0, 255);
     border-radius: 15px;
-    box-shadow: 3px 3px rgb(111, 0, 255);
+    box-shadow: 2px 2px rgb(111, 0, 255);
 }
 
 #form-button {
@@ -126,7 +126,12 @@ tbody {
     margin-bottom: -5px;
 }
 
+.music-button:hover {
+    background-color: rgb(234, 0, 255);
+}
+
 .music-button:active {
-    background-color: rgb(111, 0, 255);
-    transform: translateY(3px);
+    background-color: rgb(234, 0, 255);
+    transform: translateY(2px);
+    box-shadow: 0px 0px;
 }

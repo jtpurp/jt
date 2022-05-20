@@ -72,12 +72,12 @@
     background-color: rgb(111, 0, 255);
     border: solid black;
     border-radius: 10px;
-    box-shadow: 3px 3px black;
+    box-shadow: 2px 2px black;
 }
 
 #link:active {
     box-shadow: 0px 0px;
-    transform: translateY(3px);
+    transform: translateY(2px);
 }
 
 #link:hover {
@@ -87,7 +87,7 @@
 #link:focus {
     background-color: rgb(234, 0, 255);
     box-shadow: 0px 0px;
-    transform: translateY(3px);
+    transform: translateY(2px);
 }
 
 #logo {

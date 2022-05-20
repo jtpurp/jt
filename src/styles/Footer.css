@@ -28,19 +28,40 @@
 
 .contact-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     color: white;
-    padding: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.resume {
+   color: white;
+   text-decoration: none;
+}
+
+.resume:hover {
+    color: rgb(234, 0, 255);
 }
 
 #email {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 45vw;
     margin: 0;
+    padding: 0;
 }
 
 #phone {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 45vw;
     margin: 0;
-    padding-left: 20%;
+    padding: 0;
 }
 
 .fab {
@@ -66,11 +87,8 @@ ul.social-icons {
         font-size: 45px;
     }
 
-    .contact-container {
-        padding: 0;
-        margin-top: 5px;
-        margin-left: 10px;
-        margin-right: 10px;
+    .resume {
+        font-size: 16px;
     }
 
     #email {
@@ -82,9 +100,23 @@ ul.social-icons {
     }
 }
 
+@media screen and (max-width: 450px) {
+    #email {
+        justify-content: flex-start;
+    }
+
+    #phone {
+        justify-content: flex-end;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .fab {
         font-size: 40px;
+    }
+
+    .resume {
+        font-size: 14px;
     }
 
     #email {
@@ -101,6 +133,10 @@ ul.social-icons {
         font-size: 35px;
     }
 
+    .resume {
+        font-size: 12px;
+    }
+
     #email {
         font-size: 12px;
     }
@@ -110,8 +146,16 @@ ul.social-icons {
     }
 }
 
-@media screen and (max-width: 285px) {
+@media screen and (max-width: 290px) {
+    .resume {
+        font-size: 11px;
+    }
+
+    #email {
+        font-size: 11px;
+    }
+
     #phone {
-        padding-left: 12.5%;
+        font-size: 11px;
     }
 }
