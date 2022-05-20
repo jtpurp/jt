@@ -127,11 +127,18 @@ tbody {
 }
 
 .music-button:hover {
-    background-color: rgb(234, 0, 255);
+    border-color: rgb(234, 0, 255);
+    box-shadow: 2px 2px rgb(234, 0, 255);
 }
 
 .music-button:active {
-    background-color: rgb(234, 0, 255);
+    border-color: rgb(234, 0, 255);
+    transform: translateY(2px);
+    box-shadow: 0px 0px;
+}
+
+.music-button:focus {
+    border-color: rgb(234, 0, 255);
     transform: translateY(2px);
     box-shadow: 0px 0px;
 }

@@ -1,7 +1,7 @@
 .navbar {
-    background-image: linear-gradient(to bottom right, rgb(0, 170, 255) 10%, rgb(39, 39, 253) 50%, rgb(111, 0, 255) 75%, rgb(196, 133, 255) 100%);
+    /* background-image: linear-gradient(to bottom right, rgb(0, 170, 255) 10%, rgb(39, 39, 253) 50%, rgb(111, 0, 255) 75%, rgb(196, 133, 255) 100%);
     background-size: 200% 200%;
-    animation: movingGradient 10s linear infinite alternate;
+    animation: movingGradient 10s linear infinite alternate; */
 
     position: absolute;
     width: 100vw;
@@ -18,7 +18,7 @@
     }
 }
 
-.navbar::before {
+/* .navbar::before {
     position: absolute;
     content: "";
     padding-top: 30px;
@@ -26,16 +26,18 @@
     bottom: 0;
     left: 0;
     background: linear-gradient(transparent 25%, black 100%);
-}
+} */
 
 .navbar-container {
     width: 100vw;
     color: white;
     font-size: 1.25rem;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 15px;
+
+    border-bottom: solid 10px;
+    border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 100%) 1;
+    background-size: 200% 200%;
 
     display: flex;
     justify-content: space-evenly;
@@ -62,30 +64,39 @@
     padding: 0px 5px 5px 5px;
     margin-bottom: 10px;
 
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 30%, rgb(80, 0, 255) 50%, rgb(39, 39, 253) 70%, rgb(0, 170, 255) 95%);
+    color: transparent;
+    background-size: 1300% 1300%;
+    animation: movingGradient 10s linear infinite;
+    -webkit-text-stroke: 0px;
+
     cursor: pointer;
     font-size: 28px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    outline: none;
-    color: white;    
-    background-color: rgb(111, 0, 255);
-    border: solid black;
+    outline: none;    
+    background-color: black;
+    border: solid rgb(111, 0, 255);
     border-radius: 10px;
-    box-shadow: 2px 2px black;
+    box-shadow: 2px 2px rgb(111, 0, 255);
 }
 
 #link:active {
+    border-color: rgb(234, 0, 255);
     box-shadow: 0px 0px;
     transform: translateY(2px);
 }
 
 #link:hover {
-    background-color: rgb(234, 0, 255);
+    border-color: rgb(234, 0, 255);
+    box-shadow: 2px 2px rgb(234, 0, 255);
 }
 
 #link:focus {
-    background-color: rgb(234, 0, 255);
+    border-color: rgb(234, 0, 255);
     box-shadow: 0px 0px;
     transform: translateY(2px);
 }
@@ -93,8 +104,8 @@
 #logo {
     height: 7rem;
     border-style: solid;
-    border-color: black;
-    border-radius: 5rem;
+    border-color: rgb(111, 0, 255);
+    border-radius: 100%;
     border-width: 0.25rem;
 }
 
@@ -103,6 +114,10 @@
 }
 
 @media screen and (max-width: 1190px) {
+    .navbar-container {
+        padding-bottom: 10px;
+    }
+    
     .flex-left {
         display: flex;
         flex-direction: column;
