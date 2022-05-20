@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/jt/static/css/main.cb550344.css",
-    "main.js": "/jt/static/js/main.26df5114.js",
+    "main.css": "/jt/static/css/main.208ab8b5.css",
+    "main.js": "/jt/static/js/main.7660f874.js",
     "static/media/ricketts-glenn-1.jpg": "/jt/static/media/ricketts-glenn-1.99cf29a2cf8b111d655b.jpg",
     "static/media/ricketts-glenn-2.jpg": "/jt/static/media/ricketts-glenn-2.cabccc5c46c0c78ba050.jpg",
     "static/media/ben-frank-1.jpg": "/jt/static/media/ben-frank-1.432b664f9db05415026e.jpg",
     "static/media/ben-frank-2.jpg": "/jt/static/media/ben-frank-2.526392e55f1188ca87f1.jpg",
     "static/media/Weathering.png": "/jt/static/media/Weathering.7581702bfe4b5b9bedaa.png",
     "static/media/ben-frank-3.jpg": "/jt/static/media/ben-frank-3.1749c205a823c1b62604.jpg",
+    "static/media/montreal-3.jpg": "/jt/static/media/montreal-3.3cb1c11636fabf1a46dd.jpg",
     "static/media/ithaca-2.jpg": "/jt/static/media/ithaca-2.c70559544891676c1a2a.jpg",
     "static/media/ithaca-1.jpg": "/jt/static/media/ithaca-1.22cabf32ff833bad1018.jpg",
     "static/media/montreal-2.jpg": "/jt/static/media/montreal-2.f4b35b0796ec4866ac98.jpg",
@@ -27,8 +28,8 @@
     "static/media/ithaca-4.jpg": "/jt/static/media/ithaca-4.2386e9bbe92ebf5c034b.jpg",
     "static/media/australia-4.jpg": "/jt/static/media/australia-4.7086622bb3b2482420cd.jpg",
     "static/media/round-valley-2.jpg": "/jt/static/media/round-valley-2.7ec86012e9a2b48bee4a.jpg",
+    "static/media/LogoPurple.png": "/jt/static/media/LogoPurple.72a57d2348a791d810cc.png",
     "static/media/round-valley-1.jpg": "/jt/static/media/round-valley-1.ae0359254ae3d604d6dc.jpg",
-    "static/media/Logo.png": "/jt/static/media/Logo.64ee25d6038c3fb14c4f.png",
     "static/media/australia-3.jpg": "/jt/static/media/australia-3.44dcd32aa401bdd4beaa.jpg",
     "static/media/CantBuyHappiness.mp3": "/jt/static/media/CantBuyHappiness.6cd6b9b86a80b7fc8655.mp3",
     "static/media/SmashTheFunk.mp3": "/jt/static/media/SmashTheFunk.861fe26ae72a7f07dfeb.mp3",
@@ -53,11 +54,11 @@
     "static/media/HDRLogo.png": "/jt/static/media/HDRLogo.5d37ccba400239ac7eb8.png",
     "static/media/AECOMLogo.png": "/jt/static/media/AECOMLogo.7ebec415350db61946dd.png",
     "index.html": "/jt/index.html",
-    "main.cb550344.css.map": "/jt/static/css/main.cb550344.css.map",
-    "main.26df5114.js.map": "/jt/static/js/main.26df5114.js.map"
+    "main.208ab8b5.css.map": "/jt/static/css/main.208ab8b5.css.map",
+    "main.7660f874.js.map": "/jt/static/js/main.7660f874.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb550344.css",
-    "static/js/main.26df5114.js"
+    "static/css/main.208ab8b5.css",
+    "static/js/main.7660f874.js"
   ]
 }
