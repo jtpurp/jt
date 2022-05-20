@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../images/Logo.png';
+import LogoPurple from '../images/LogoPurple.png';
 import PTLogo from '../images/PTLogo.png';
 import Payment from '../images/Payment.png';
 import Vending from '../images/Vending.png';
@@ -32,7 +32,7 @@ function Portfolio() {
               <h5 className="technologies">Technologies – React.js, JSX, JavaScript, HTML, CSS, Spring Boot, Java, PostgreSQL</h5>
             </div>
           </div>
-          <a href="https://jtpurp.github.io/jt/" id="logo-left"><img className="logo-port" src={Logo} alt='Website Logo' /></a>
+          <a href="https://jtpurp.github.io/jt/" id="logo-left"><img className="logo-port" src={LogoPurple} alt='Website Logo' /></a>
         </div>
 
         <div className="main-flex">

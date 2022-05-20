@@ -11,7 +11,7 @@ function FlowArts() {
           <ReactPlayer
             className='react-player'
             url='https://youtu.be/2cf5o_altbM'
-            width={300}
+            width={280}
             height={500}
             controls={true}
           />
@@ -21,7 +21,7 @@ function FlowArts() {
           <ReactPlayer
             className='react-player'
             url='https://youtu.be/vCcTW70JiQ4'
-            width={300}
+            width={280}
             height={500}
             controls={true}
           />
@@ -31,7 +31,7 @@ function FlowArts() {
           <ReactPlayer
             className='react-player'
             url='https://youtu.be/T62mCefKoc8'
-            width={300}
+            width={280}
             height={500}
             controls={true}
           />

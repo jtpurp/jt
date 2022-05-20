@@ -17,7 +17,7 @@ function Home() {
                     <span id="bio" className="no-show">🌀</span><span className="bio-word" id="bio">Flow Artist</span><span className="show" id="bio">🌀</span>
                 </div>
                 <div>
-                    <span id="bio" className="no-show">🎶</span><span className="bio-word" id="bio">Music Enthusiast</span><san className="show" id="bio">🎶</san>
+                    <span id="bio" className="no-show">🎶</span><span className="bio-word" id="bio">Music Enthusiast</span><span className="show" id="bio">🎶</span>
                 </div>
             </div>
         </div>

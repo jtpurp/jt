@@ -85,8 +85,7 @@ li {
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 34px !important;
-    color: rgb(111, 0, 255);
-    -webkit-text-stroke: 0px;
+    -webkit-text-stroke: 0.25px rgb(111, 0, 255);
   }
 
   h2 {
@@ -132,5 +131,15 @@ li {
   #ud, #hdr, #red-toad {
     margin-bottom: 25px;
   }
+}
 
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 24px !important;
+    -webkit-text-stroke: 0.25px rgb(111, 0, 255);
+  }
+
+  .photo-desc {
+    font-size: 16px !important;
+  }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../images/Logo.png';
+import LogoPurple from '../images/LogoPurple.png';
 import '../styles/Navbar.css';
 
 function Navbar() {
@@ -13,7 +13,7 @@ function Navbar() {
                     <Link to="/portfolio" className="portfolio" id="link">Portfolio</Link>
                 </div>
                 <div className="flex-center">
-                    <Link to="/" className="home" id="logo-link"><img id="logo" src={Logo} alt='Home' /></Link>
+                    <Link to="/" className="home" id="logo-link"><img id="logo" src={LogoPurple} alt='Home' /></Link>
                 </div>
                 <div className="flex-right">
                     <Link to="/flow-arts" className="flow-arts" id="link">Flow Arts</Link>
