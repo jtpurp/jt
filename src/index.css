@@ -25,6 +25,7 @@ h1 {
   -webkit-text-stroke: 1px rgb(111, 0, 255);
   font-size: 40px !important;
   text-decoration: underline;
+  padding-top: 5px;
 }
 
 h2 {
@@ -38,6 +39,7 @@ h4 {
 
 h6 {
   font-size: 20px !important;
+  margin: 0px 0px 10px 0px !important;
 }
 
 li {
@@ -47,6 +49,7 @@ li {
 
 p {
   font-size: 18px;
+  margin: 0px 0px 10px 0px !important;
 }
 
 .info {
@@ -156,7 +159,7 @@ p {
 @media screen and (max-width: 425px) {
   h1 {
     font-size: 28px !important;
-    -webkit-text-stroke: 0.1px rgb(111, 0, 255);
+    -webkit-text-stroke: 0.01px rgb(111, 0, 255);
   }
 
   h2 {

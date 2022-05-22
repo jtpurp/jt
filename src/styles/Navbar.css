@@ -33,8 +33,7 @@
     width: 100vw;
     color: white;
     font-size: 1.25rem;
-    padding: 10px;
-    padding-bottom: 15px;
+    padding: 10px 10px 15px 10px;
 
     border-bottom: solid 10px;
     border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 100%) 1;
@@ -63,7 +62,7 @@
     display: inline-block;
     width: 155px;
     padding: 0px 5px 5px 5px;
-    margin-bottom: 10px;
+    margin: 5px 0px 5px 0px;
 
     -webkit-background-clip: text;
     background-clip: text;
@@ -85,15 +84,15 @@
     box-shadow: 2px 2px rgb(111, 0, 255);
 }
 
+#link:hover {
+    border-color: rgb(234, 0, 255);
+    box-shadow: 2px 2px rgb(234, 0, 255);
+}
+
 #link:active {
     border-color: rgb(234, 0, 255);
     box-shadow: 0px 0px;
     transform: translateY(2px);
-}
-
-#link:hover {
-    border-color: rgb(234, 0, 255);
-    box-shadow: 2px 2px rgb(234, 0, 255);
 }
 
 #link:focus {
@@ -115,10 +114,6 @@
 }
 
 @media screen and (max-width: 1190px) {
-    .navbar-container {
-        padding-bottom: 10px;
-    }
-    
     .flex-left {
         display: flex;
         flex-direction: column;
