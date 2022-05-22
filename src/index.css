@@ -32,8 +32,20 @@ h2 {
   font-size: 30px !important;
 }
 
+h4 {
+  font-size: 25px !important;
+}
+
+h6 {
+  font-size: 20px !important;
+}
+
 li {
   width: fit-content;
+  font-size: 18px;
+}
+
+p {
   font-size: 18px;
 }
 
@@ -85,11 +97,19 @@ li {
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 34px !important;
-    -webkit-text-stroke: 0.25px rgb(111, 0, 255);
+    -webkit-text-stroke: 0.1px rgb(111, 0, 255);
   }
 
   h2 {
+    font-size: 28px !important;
+  }
+  
+  h4 {
     font-size: 24px !important;
+  }
+  
+  h6 {
+    font-size: 20px !important;
   }
   
   .left-container {
@@ -135,8 +155,29 @@ li {
 
 @media screen and (max-width: 425px) {
   h1 {
+    font-size: 28px !important;
+    -webkit-text-stroke: 0.1px rgb(111, 0, 255);
+  }
+
+  h2 {
     font-size: 24px !important;
-    -webkit-text-stroke: 0.25px rgb(111, 0, 255);
+  }
+  
+  h4 {
+    font-size: 20px !important;
+  }
+  
+  h6 {
+    font-size: 18px !important;
+  }
+  
+  li {
+    width: fit-content;
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
   }
 
   .photo-desc {

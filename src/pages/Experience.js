@@ -65,7 +65,7 @@ function Experience() {
             <div className="vnh-deets">
               <h2>Van Note-Harvey Associates, Inc.</h2>
               <h4>Civil Design Engineer</h4>
-              <h5>Cape May Court House, NJ</h5>
+              <h6>Cape May Court House, NJ</h6>
               <h6>April 2021 - November 2021</h6>
             </div>
             <div className="vnh-desc">
@@ -86,7 +86,7 @@ function Experience() {
               <div className="aecom-deets">
                 <h2>AECOM</h2>
                 <h4>Structural Engineer</h4>
-                <h5>Philadelphia, PA</h5>
+                <h6>Philadelphia, PA</h6>
                 <h6>June 2020 - March 2021</h6>
               </div>
               <div className="aecom-desc">
@@ -106,7 +106,7 @@ function Experience() {
             <div className="hdr-deets">
               <h2>HDR, Inc.</h2>
               <h4>Construction Inspector</h4>
-              <h5>New York City, NY</h5>
+              <h6>New York City, NY</h6>
               <h6>June 2018 - November 2018</h6>
             </div>
             <div className="hdr-desc">
