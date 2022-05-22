@@ -101,6 +101,10 @@ ul.social-icons {
 }
 
 @media screen and (max-width: 450px) {
+    ul.social-icons {
+        margin-top: 15px;
+    }
+    
     #email {
         justify-content: flex-start;
     }

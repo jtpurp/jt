@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Spinner from '../components/Spinner.js';
 import MusicSuggestionService from '../services/MusicSuggestionService';
 import '../styles/MusicDetail.css';
 
@@ -12,7 +13,9 @@ class MusicDetail extends React.Component {
       artist: '',
       song: '',
       album: '',
-      link: ''
+      link: '',
+
+      isLoading: true
     }
 
     this.changeArtistHandler = this.changeArtistHandler.bind(this);
@@ -78,51 +81,64 @@ class MusicDetail extends React.Component {
     this.setState({ link: event.target.value });
   }
 
+  load = (milliseconds) => {
+    return new Promise((resolve) => setTimeout(resolve, milliseconds));
+  };
+
+  wait = async (milliseconds = 1250) => {
+    await this.load(milliseconds);
+    this.setState({ isLoading: false });
+  };
+
   render() {
-    return (
-      <div>
+    if (this.state.isLoading) {
+      return <Spinner />
+    } else {
+      return (
         <div>
-          <h1>Music Suggestion Details</h1>
-          <div className="detail-table-container">
-          <table className="music-detail-table">
-            <thead>
-              <tr>
-                <th>Artist</th>
-                <th>Song</th>
-                <th>Album</th>
-                <th>Link</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="music-detail-row" key={this.state.musicId}>
-                <td>{this.state.artist}</td>
-                <td>{this.state.song}</td>
-                <td>{this.state.album}</td>
-                <td id="link-column">{this.state.link}</td>
-              </tr>
-            </tbody>
-          </table>
+          <div>
+            <h1>Music Suggestion Details</h1>
+            <div className="detail-table-container">
+              <table className="music-detail-table">
+                <thead>
+                  <tr>
+                    <th>Artist</th>
+                    <th>Song</th>
+                    <th>Album</th>
+                    <th>Link</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="music-detail-row" key={this.state.musicId}>
+                    <td>{this.state.artist}</td>
+                    <td>{this.state.song}</td>
+                    <td>{this.state.album}</td>
+                    <td id="link-column">{this.state.link}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="form-container">
+            <h1>Update Music Suggestion</h1>
+            <form className="update-suggestion-form">
+              <label className="music-label" htmlFor="artist">Artist</label>
+              <input className="input" type="text" placeholder={this.state.artist} name="artist" value={this.state.artist} onChange={this.changeArtistHandler} />
+              <label className="music-label" htmlFor="song">Song</label>
+              <input className="input" type="text" placeholder={this.state.song} name="song" value={this.state.song} onChange={this.changeSongHandler} />
+              <label className="music-label" htmlFor="album">Album</label>
+              <input className="input" type="text" placeholder={this.state.album} name="album" value={this.state.album} onChange={this.changeAlbumHandler} />
+              <label className="music-label" htmlFor="link">Link</label>
+              <input className="input" type="text" placeholder={this.state.link} name="link" value={this.state.link} onChange={this.changeLinkHandler} />
+              <button className="music-button" id="form-button" onClick={this.updateMusicSuggestion}>Update</button>
+              <button className="music-button" id="form-button" onClick={this.deleteMusicSuggestion}>Delete</button>
+              <button className="music-button" id="form-button" onClick={this.returnToMusic}>Return to Music</button>
+            </form>
           </div>
         </div>
-
-        <div className="form-container">
-          <h1>Update Music Suggestion</h1>
-          <form className="update-suggestion-form">
-            <label className="music-label" htmlFor="artist">Artist</label>
-            <input className="input" type="text" placeholder={this.state.artist} name="artist" value={this.state.artist} onChange={this.changeArtistHandler} />
-            <label className="music-label" htmlFor="song">Song</label>
-            <input className="input" type="text" placeholder={this.state.song} name="song" value={this.state.song} onChange={this.changeSongHandler} />
-            <label className="music-label" htmlFor="album">Album</label>
-            <input className="input" type="text" placeholder={this.state.album} name="album" value={this.state.album} onChange={this.changeAlbumHandler} />
-            <label className="music-label" htmlFor="link">Link</label>
-            <input className="input" type="text" placeholder={this.state.link} name="link" value={this.state.link} onChange={this.changeLinkHandler} />
-            <button className="music-button" id="form-button" onClick={this.updateMusicSuggestion}>Update</button>
-            <button className="music-button" id="form-button" onClick={this.deleteMusicSuggestion}>Delete</button>
-            <button className="music-button" id="form-button" onClick={this.returnToMusic}>Return to Music</button>
-          </form>
-        </div>
-      </div>
-    )
+      )
+    }
   }
 }
 
