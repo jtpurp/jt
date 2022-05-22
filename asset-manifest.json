@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jt/static/css/main.39b2ceab.css",
-    "main.js": "/jt/static/js/main.38298f4b.js",
+    "main.css": "/jt/static/css/main.b00d9b9d.css",
+    "main.js": "/jt/static/js/main.52cbae0e.js",
     "static/media/ricketts-glenn-1.jpg": "/jt/static/media/ricketts-glenn-1.99cf29a2cf8b111d655b.jpg",
     "static/media/ricketts-glenn-2.jpg": "/jt/static/media/ricketts-glenn-2.cabccc5c46c0c78ba050.jpg",
     "static/media/ben-frank-1.jpg": "/jt/static/media/ben-frank-1.432b664f9db05415026e.jpg",
@@ -12,6 +12,7 @@
     "static/media/ithaca-2.jpg": "/jt/static/media/ithaca-2.c70559544891676c1a2a.jpg",
     "static/media/ithaca-1.jpg": "/jt/static/media/ithaca-1.22cabf32ff833bad1018.jpg",
     "static/media/montreal-2.jpg": "/jt/static/media/montreal-2.f4b35b0796ec4866ac98.jpg",
+    "static/media/LogoPlain.png": "/jt/static/media/LogoPlain.2ef7d7aa641d11b5e1b5.png",
     "static/media/montreal-1.jpg": "/jt/static/media/montreal-1.75f8bb01662a3cca9110.jpg",
     "static/media/Sojourn.mp3": "/jt/static/media/Sojourn.926d5ec9d4e2862e147c.mp3",
     "static/media/ithaca-3.jpg": "/jt/static/media/ithaca-3.90e3f0ffeeb23faa9368.jpg",
@@ -54,11 +55,11 @@
     "static/media/HDRLogo.png": "/jt/static/media/HDRLogo.5d37ccba400239ac7eb8.png",
     "static/media/AECOMLogo.png": "/jt/static/media/AECOMLogo.7ebec415350db61946dd.png",
     "index.html": "/jt/index.html",
-    "main.39b2ceab.css.map": "/jt/static/css/main.39b2ceab.css.map",
-    "main.38298f4b.js.map": "/jt/static/js/main.38298f4b.js.map"
+    "main.b00d9b9d.css.map": "/jt/static/css/main.b00d9b9d.css.map",
+    "main.52cbae0e.js.map": "/jt/static/js/main.52cbae0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.39b2ceab.css",
-    "static/js/main.38298f4b.js"
+    "static/css/main.b00d9b9d.css",
+    "static/js/main.52cbae0e.js"
   ]
 }
