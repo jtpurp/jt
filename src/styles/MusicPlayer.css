@@ -63,4 +63,8 @@
     font-size: 28px;
     font-weight: bold;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.80);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }

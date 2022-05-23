@@ -18,10 +18,6 @@
     border-color: rgb(234, 0, 255);
 }
 
-.logo-edu:hover {
-    border-color: rgb(234, 0, 255);
-}
-
 #edu {
     line-height: 20px;
     margin-bottom: 2.5px;
@@ -32,8 +28,12 @@
     color: rgb(196, 133, 255);
 }
 
+#edu-link:hover {
+    color: rgb(234, 0, 255);
+}
+
 @media screen and (max-width: 767px) {
     .logo-edu {
-        height: 7rem;
+        height: 7.5rem;
     }
 }

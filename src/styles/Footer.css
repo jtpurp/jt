@@ -1,36 +1,39 @@
 .footer {
-    background-image: linear-gradient(to bottom right, rgb(0, 170, 255) 10%, rgb(39, 39, 253) 50%, rgb(111, 0, 255) 75%, rgb(196, 133, 255) 100%);
+    /* background-image: linear-gradient(to bottom right, rgb(0, 170, 255) 10%, rgb(39, 39, 253) 50%, rgb(111, 0, 255) 75%, rgb(196, 133, 255) 100%);
     background-size: 200% 200%;
-    animation: movingGradient 7.5s linear infinite alternate;
+    animation: movingGradient 7.5s linear infinite alternate; */
 
     position: absolute;
     width: 100vw;
     bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
-.footer::after {
+/* .footer::after {
     position: absolute;
     content: "";
     padding-bottom: 30px;
     width: 100vw;
     top: 0;
     left: 0;
-    background: linear-gradient(black 0%, transparent 100%);
-}
+    background: linear-gradient(rgba(255, 255, 255, 0.50) 0%, transparent 100%);
+} */
 
 .footer-container {
     width: 100vw;
     color: white;
     font-size: 1.15rem;
     padding-bottom: 10px;
-    padding-top: 10px;
+    border-top: solid 10px;
+    border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 25%, rgb(111, 0, 255) 50%, rgb(40, 40, 255) 75%, rgb(0, 170, 255) 100%) 1;
+    background-size: 200% 200%;
 }
 
 .contact-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: white;
+    color: rgb(0, 170, 255);
     margin-top: 15px;
     margin-left: 5px;
     margin-right: 5px;
@@ -38,7 +41,7 @@
 }
 
 .resume {
-   color: white;
+   color: rgb(0, 170, 255);
    text-decoration: none;
 }
 
@@ -65,7 +68,7 @@
 }
 
 .fab {
-    color: white;
+    color: rgb(0, 170, 255) ;
 }
 
 .social-icons li a:hover .fab {
@@ -77,7 +80,7 @@ ul.social-icons {
     justify-content: space-evenly;
 
     list-style-type: none;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 0;
     padding: 0;
 }

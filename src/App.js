@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -11,11 +11,21 @@ import Music from './pages/Music.js';
 import MusicDetail from './pages/MusicDetail.js'
 import Home from './pages/Home.js';
 import ReloadAtTop from './ReloadAtTop';
+import Background from './images/Background.jpg'
 import './App.css';
 
-function App() {
+class App extends Component {
+
+  render() {
+    const myStyle={
+      backgroundImage: `url(${Background})`,
+      height:'100vh',
+      marginTop:'0px',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'repeat',
+  };
   return (
-    <div className="App">
+    <div className="App" style={myStyle}>
       <div className="cont">
         <BrowserRouter basename="/jt">
           <div className="head">
@@ -41,6 +51,7 @@ function App() {
       </div>
     </div>
   );
+}
 }
 
 export default App;

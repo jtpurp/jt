@@ -7,16 +7,7 @@
     width: 100vw;
     top: 0;
     padding: 0 !important;
-}
-
-@keyframes movingGradient {
-    from {
-        background-position: 0 0;
-    }
-
-    to {
-        background-position: 100% 100%;
-    }
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* .navbar::before {
@@ -36,7 +27,7 @@
     padding: 10px 10px 15px 10px;
 
     border-bottom: solid 10px;
-    border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 100%) 1;
+    border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 25%, rgb(111, 0, 255) 50%, rgb(40, 40, 255) 75%, rgb(0, 170, 255) 100%) 1;
     background-size: 200% 200%;
 
     display: flex;
@@ -56,17 +47,18 @@
     justify-content: space-evenly;
     flex-grow: 1;
     width: 45vw;
+
 }
 
 #link {
     display: inline-block;
     width: 155px;
-    padding: 3px 0px 0px 0px;
+    /* padding: 3px 0px 0px 0px; */
     margin: 5px 0px 5px 0px; 
-
+    
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 30%, rgb(80, 0, 255) 50%, rgb(39, 39, 253) 70%, rgb(0, 170, 255) 95%);
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 30%, rgb(80, 0, 255) 50%, rgb(40, 40, 255) 70%, rgb(0, 170, 255) 95%);
     color: transparent;
     background-size: 1300% 1300%;
     animation: movingGradient 10s linear infinite;
@@ -84,9 +76,19 @@
     box-shadow: 2px 2px rgb(111, 0, 255);
 }
 
+@keyframes movingGradient {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
 #link:hover {
     border-color: rgb(234, 0, 255);
     box-shadow: 2px 2px rgb(234, 0, 255);
+    color: rgb(234, 0, 255);
 }
 
 #link:active {

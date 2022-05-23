@@ -5,7 +5,7 @@
     align-items: center;
 
     border: solid 10px;
-    border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 100%) 1;
+    border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 25%, rgb(111, 0, 255) 50%, rgb(40, 40, 255) 75%, rgb(0, 170, 255) 100%) 1;
     background-size: 200% 200%;
 
     width: 90vw;
@@ -20,12 +20,14 @@
     color: rgb(111, 0, 255);
     text-align: center;
     padding: 0px 5px 20px 5px;
+
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #hello {
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 30%, rgb(80, 0, 255) 50%, rgb(39, 39, 253) 70%, rgb(0, 170, 255) 95%);
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 30%, rgb(80, 0, 255) 50%, rgb(40, 40, 255) 70%, rgb(0, 170, 255) 95%);
     color: transparent;
     background-size: 1300% 1300%;
     animation: movingGradient 10s linear infinite;
@@ -43,7 +45,7 @@
 .bio-word {
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 30%, rgb(80, 0, 255) 50%, rgb(39, 39, 253) 70%, rgb(0, 170, 255) 95%);
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 30%, rgb(80, 0, 255) 50%, rgb(40, 40, 255) 70%, rgb(0, 170, 255) 95%);
     color: transparent;
     background-size: 1300% 1300%;
     animation: movingGradient 10s linear infinite;

@@ -40,12 +40,13 @@
 .music-table {
     text-align: center;
     width: 75vw;
+    background-color: black;
 }
 
 thead {
     color: rgb(196, 133, 255);
-    font-size: 24px;
     background-color: black;
+    font-size: 24px;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
@@ -84,12 +85,17 @@ tbody {
     flex-direction: column;
     align-items: center;
     margin-top: 25px;
+   
 }
 
 .suggestion-form {
     display: flex;
     flex-direction: column;
     width: 300px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .music-label {

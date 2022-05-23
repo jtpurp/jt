@@ -1,6 +1,20 @@
+.spinner-container {
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+    background-color: black;
+}
+
 .spinner {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -8,7 +22,8 @@
     right: 0;
     margin: auto;
     animation: spinner 5s linear infinite;
-    opacity: 25%;
+    opacity: 50%;
+
 }
 
 @keyframes spinner {
@@ -21,8 +36,8 @@
 }
 
 .anti-spinner {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -30,7 +45,7 @@
     right: 0;
     margin: auto;
     animation: anti-spinner 2.5s linear infinite;
-    opacity: 50%;
+    opacity: 70%;
 }
 
 @keyframes anti-spinner {
@@ -43,8 +58,8 @@
 }
 
 .same-spinner {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -52,7 +67,7 @@
     right: 0;
     margin: auto;
     animation: same-spinner 3.5s linear infinite;
-    opacity: 75%;
+    opacity: 90%;
 }
 
 @keyframes same-spinner {
