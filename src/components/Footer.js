@@ -21,7 +21,7 @@ function Footer() {
           <div id="email">
             <span><HiOutlineMail /> ruppjt@gmail.com</span>
           </div>
-          <a className="resume" href="https://drive.google.com/file/d/13BgMjBkulS9ZYUjHHaLrZLwLK_GQNEvs/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+          <a className="resume" href="https://drive.google.com/file/d/1IGHXOb_KS06BL0U0nPUDddPwdMLmDiWj/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
           <div id="phone">
             <span><HiOutlinePhone /> (609) 649-3198</span>
           </div>

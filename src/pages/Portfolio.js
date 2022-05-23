@@ -140,7 +140,7 @@ function Portfolio() {
               <div className="info">
                 <div className="desc">
                   <h2>AASHTO I-Beam Design Program</h2>
-                  <p className="proj-desc" id="left-align">An Excel program that calculates loading limitations of structural steel I-beams based on inputted design parameters and adhering to AASHTO LRFD standards.</p>
+                  <p className="proj-desc" id="left-align">An Excel program that calculates loading limitations and facilitates design of structural steel I-beams based on input design parameters while adhering to AASHTO LRFD standards.</p>
                 </div>
               </div>
               <a href="https://github.com/jtpurp/AASHTO-I-Beam-Design" target="_blank" rel="noreferrer" id="logo-right" className="smaller-screen"><img className="logo-port" src={Beam} alt='I-Beam' /></a>

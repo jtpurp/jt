@@ -63,7 +63,7 @@ function Education() {
                 <p id="edu">Bachelor in Civil Engineering - GPA: 3.384/4.000</p>
                 <p id="edu">Minor in Business Administration</p>
                 <ul>
-                  <li>Research – <a href="https://www.linkedin.com/in/jtrupp/details/experience/1635490250690/single-media-viewer/" target="_blank" rel="noreferrer" id="edu-link">Utilizing Carbon Nanotube-Based Sensing Skin to Mitigate Issues of Fatigue in Steel Members</a></li>
+                  <li>Research Report – <a href="https://www.linkedin.com/in/jtrupp/details/experience/1635490250690/single-media-viewer/" target="_blank" rel="noreferrer" id="edu-link">Utilizing Carbon Nanotube-Based Sensing Skin to Mitigate Issues of Fatigue in Steel Members</a></li>
                   <li>Study Abroad - Swinburne University, Melbourne, Australia</li>
                 </ul>
               </div>

@@ -86,9 +86,9 @@ function Experience() {
               </div>
               <div className="vnh-desc">
                 <ul>
-                  <li>Utilized AutoCAD to design roadway gradings, drainage systems, and parking lot striping</li>
-                  <li>Designed a reinforced concrete support beam following ACI building code requirements</li>
-                  <li>Inspected and documented roadway and utility construction projects using PlanGrid</li>
+                  <li>Developed an Excel program to expedite the process of designing roadway grades by 50%</li>
+                  <li>Managed construction projects to ensure compliance, quality, and efficiency upon completion</li>
+                  <li>Designed a reinforced concrete support beam, roadway grades, drainage systems, and parking lot striping</li>
                 </ul>
               </div>
             </div>
@@ -108,8 +108,8 @@ function Experience() {
                 <div className="aecom-desc">
                   <ul>
                     <li>Inspected and documented the Benjamin Franklin Bridge (BFB) cable rehabilitation project</li>
-                    <li>Reviewed and revised BFB cable rehabilitation project submittals using Bluebeam Revu</li>
-                    <li>Managed BFB cable rehabilitation project documents, meeting minutes, and field office tasks</li>
+                    <li>Increased efficiency of project planning by managing field recordings and project documents</li>
+                    <li>Reviewed and revised BFB cable rehabilitation project submittals</li>
                   </ul>
                 </div>
               </div>
@@ -128,7 +128,7 @@ function Experience() {
               <div className="hdr-desc">
                 <ul>
                   <li>Inspected and documented the Franklin D. Roosevelt (FDR) Drive painting project</li>
-                  <li>Developed steel reinforcement and concrete pedestal repair reports and details along with construction cost estimates for the FDR Drive using AutoCAD</li>
+                  <li>Designed steel reinforcement and concrete pedestal repairs for the FDR Drive along with inspection reports and construction cost estimates</li>
                 </ul>
               </div>
             </div>
