@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jt/static/css/main.14fb5325.css",
-    "main.js": "/jt/static/js/main.52cbae0e.js",
+    "main.css": "/jt/static/css/main.63395cb1.css",
+    "main.js": "/jt/static/js/main.73c80fba.js",
     "static/media/ricketts-glenn-1.jpg": "/jt/static/media/ricketts-glenn-1.99cf29a2cf8b111d655b.jpg",
     "static/media/ricketts-glenn-2.jpg": "/jt/static/media/ricketts-glenn-2.cabccc5c46c0c78ba050.jpg",
     "static/media/ben-frank-1.jpg": "/jt/static/media/ben-frank-1.432b664f9db05415026e.jpg",
@@ -27,6 +27,7 @@
     "static/media/belleplain.jpg": "/jt/static/media/belleplain.a611ef732777e207b218.jpg",
     "static/media/nyc-1.jpg": "/jt/static/media/nyc-1.5a5aedc05cec47d97dc9.jpg",
     "static/media/ithaca-4.jpg": "/jt/static/media/ithaca-4.2386e9bbe92ebf5c034b.jpg",
+    "static/media/Background.jpg": "/jt/static/media/Background.8516c362ce069985685a.jpg",
     "static/media/australia-4.jpg": "/jt/static/media/australia-4.7086622bb3b2482420cd.jpg",
     "static/media/round-valley-2.jpg": "/jt/static/media/round-valley-2.7ec86012e9a2b48bee4a.jpg",
     "static/media/LogoPurple.png": "/jt/static/media/LogoPurple.72a57d2348a791d810cc.png",
@@ -55,11 +56,11 @@
     "static/media/HDRLogo.png": "/jt/static/media/HDRLogo.5d37ccba400239ac7eb8.png",
     "static/media/AECOMLogo.png": "/jt/static/media/AECOMLogo.7ebec415350db61946dd.png",
     "index.html": "/jt/index.html",
-    "main.14fb5325.css.map": "/jt/static/css/main.14fb5325.css.map",
-    "main.52cbae0e.js.map": "/jt/static/js/main.52cbae0e.js.map"
+    "main.63395cb1.css.map": "/jt/static/css/main.63395cb1.css.map",
+    "main.73c80fba.js.map": "/jt/static/js/main.73c80fba.js.map"
   },
   "entrypoints": [
-    "static/css/main.14fb5325.css",
-    "static/js/main.52cbae0e.js"
+    "static/css/main.63395cb1.css",
+    "static/js/main.73c80fba.js"
   ]
 }
