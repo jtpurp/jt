@@ -1,7 +1,7 @@
 .spinner-container {
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -10,11 +10,11 @@
     margin: auto;
     border-radius: 100%;
     background-color: black;
-}
+} 
 
 .spinner {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -36,8 +36,8 @@
 }
 
 .anti-spinner {
-    width: 125px;
-    height: 125px;
+    width:80px;
+    height: 80px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -58,8 +58,8 @@
 }
 
 .same-spinner {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -78,3 +78,4 @@
       transform: rotate(360deg);
     }
 }
+

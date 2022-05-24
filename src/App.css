@@ -22,19 +22,19 @@
 
 @media screen and (max-width: 767px) {
   .bod {
-    margin-bottom: 125px;
+    margin-bottom: 120px;
   }
 }
 
 @media screen and (max-width: 380px) {
   .bod {
-    margin-bottom: 115px;
+    margin-bottom: 110px;
   }
 }
 
 @media screen and (max-width: 330px) {
   .bod {
-    margin-bottom: 110px;
+    margin-bottom: 105px;
   }
 }
 

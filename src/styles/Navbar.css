@@ -26,7 +26,7 @@
     font-size: 1.25rem;
     padding: 10px 10px 15px 10px;
 
-    border-bottom: solid 10px;
+    border-bottom: solid 7.5px;
     border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 25%, rgb(111, 0, 255) 50%, rgb(40, 40, 255) 75%, rgb(0, 170, 255) 100%) 1;
     background-size: 200% 200%;
 

@@ -3,21 +3,60 @@
     margin-bottom: 50px;
 }
 
-.photo {   
-    width: 70vw;
+.photo {
+    width: 52.5vw;
     padding: 10px
 }
 
 .photo-desc {
+    font-size: 28px !important;
     left: 0;
     right: 0;
     margin: auto;
     margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.90);
-    border: solid rgba(255, 255, 255, 0.75);
+    border: solid rgba(196, 133, 255, 0.75);
     border-radius: 20px;
     padding: 7.5px;
     width: fit-content;
 }
 
+@media screen and (max-width: 1190px) {
+    .photo-desc {
+        font-size: 26px !important;
+    }
+}
 
+@media screen and (max-width: 900px) {
+    .photo {
+        width: 70vw;
+    }
+
+    .photo-desc {
+        font-size: 24px !important;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .photo-desc {
+        font-size: 22px !important;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .photo-desc {
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .photo-desc {
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .photo-desc {
+        font-size: 12px !important;
+    }
+}

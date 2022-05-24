@@ -11,7 +11,7 @@ import Music from './pages/Music.js';
 import MusicDetail from './pages/MusicDetail.js'
 import Home from './pages/Home.js';
 import ReloadAtTop from './ReloadAtTop';
-import Background from './images/Background.jpg'
+import Background from './images/background8.jpg'
 import './App.css';
 
 class App extends Component {

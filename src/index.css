@@ -57,7 +57,7 @@ p {
   flex-direction: column;
   width: 750px;
   background-color: rgba(0, 0, 0, 0.75);
-  border: solid rgba(255, 255, 255, 0.75);
+  border: solid rgba(196, 133, 255, 0.75);
   border-radius: 20px;
   padding: 7.5px;
   margin-bottom: 10px;
@@ -188,7 +188,4 @@ p {
     font-size: 16px;
   }
 
-  .photo-desc {
-    font-size: 16px !important;
-  }
 }

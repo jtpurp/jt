@@ -5,6 +5,7 @@
     width: 100vw;
     padding-top: 5px;
     padding-bottom: 25px;
+    
 }
 
 .controls {
@@ -24,10 +25,10 @@
 .forward-backward {
     background: none;
     border: none;
-    color: rgb(111, 0, 255);
+    color: black;
     display: flex;
     align-items: center;
-    font-size: 60px;
+    font-size: 70px;
 }
 
 .forward-backward:hover {
@@ -64,6 +65,7 @@
     font-weight: bold;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.80);
+    border: solid rgba(196, 133, 255, 0.75);
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;

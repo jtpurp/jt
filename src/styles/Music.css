@@ -28,9 +28,9 @@
     width: 7.5px;
 }
 
-/* .table-container::-webkit-scrollbar-track {
-    background-color: rgb(212, 212, 212);
-} */
+ .table-container::-webkit-scrollbar-track {
+    background-color: black;
+}
 
 .table-container::-webkit-scrollbar-thumb {
     background-color: rgb(196, 133, 255);
@@ -96,6 +96,7 @@ tbody {
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 .music-label {
@@ -118,7 +119,7 @@ tbody {
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: #fff;    
+    color: rgb(196, 133, 255);    
     background-color: black;
     border: solid rgb(111, 0, 255);
     border-radius: 15px;
@@ -133,11 +134,13 @@ tbody {
 }
 
 .music-button:hover {
+    color: rgb(234, 0, 255);
     border-color: rgb(234, 0, 255);
     box-shadow: 2px 2px rgb(234, 0, 255);
 }
 
 .music-button:active {
+    color: rgb(234, 0, 255);
     border-color: rgb(234, 0, 255);
     transform: translateY(2px);
     box-shadow: 0px 0px;

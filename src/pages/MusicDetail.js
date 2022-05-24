@@ -85,8 +85,8 @@ class MusicDetail extends React.Component {
     return new Promise((resolve) => setTimeout(resolve, milliseconds));
   };
 
-  wait = async (milliseconds = 1250) => {
-    await this.load(milliseconds);
+  wait = async () => {
+    await this.load(2500);
     this.setState({ isLoading: false });
   };
 
