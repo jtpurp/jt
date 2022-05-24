@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jt/static/css/main.db2a277a.css",
-    "main.js": "/jt/static/js/main.9a22c1e6.js",
+    "main.css": "/jt/static/css/main.49cb63a1.css",
+    "main.js": "/jt/static/js/main.b0d5d73f.js",
     "static/media/ricketts-glenn-1.jpg": "/jt/static/media/ricketts-glenn-1.99cf29a2cf8b111d655b.jpg",
     "static/media/ricketts-glenn-2.jpg": "/jt/static/media/ricketts-glenn-2.cabccc5c46c0c78ba050.jpg",
     "static/media/ben-frank-1.jpg": "/jt/static/media/ben-frank-1.432b664f9db05415026e.jpg",
@@ -27,7 +27,6 @@
     "static/media/belleplain.jpg": "/jt/static/media/belleplain.a611ef732777e207b218.jpg",
     "static/media/nyc-1.jpg": "/jt/static/media/nyc-1.5a5aedc05cec47d97dc9.jpg",
     "static/media/ithaca-4.jpg": "/jt/static/media/ithaca-4.2386e9bbe92ebf5c034b.jpg",
-    "static/media/Background.jpg": "/jt/static/media/Background.8516c362ce069985685a.jpg",
     "static/media/australia-4.jpg": "/jt/static/media/australia-4.7086622bb3b2482420cd.jpg",
     "static/media/round-valley-2.jpg": "/jt/static/media/round-valley-2.7ec86012e9a2b48bee4a.jpg",
     "static/media/LogoPurple.png": "/jt/static/media/LogoPurple.72a57d2348a791d810cc.png",
@@ -42,6 +41,7 @@
     "static/media/australia-2.jpg": "/jt/static/media/australia-2.f1d4c58759d44840c795.jpg",
     "static/media/RedToad.png": "/jt/static/media/RedToad.0402f3b8913d6f01c5f5.png",
     "static/media/Beam.png": "/jt/static/media/Beam.8f24980bcffd94f92738.png",
+    "static/media/background8.jpg": "/jt/static/media/background8.6cb1bea52ed415727c09.jpg",
     "static/media/Wellness.png": "/jt/static/media/Wellness.c2ec13451f29d44a4df8.png",
     "static/media/Unsymmetric.png": "/jt/static/media/Unsymmetric.da1500603acaf1e62023.png",
     "static/media/Road.png": "/jt/static/media/Road.1ee9dbece1746c25ede7.png",
@@ -56,11 +56,11 @@
     "static/media/HDRLogo.png": "/jt/static/media/HDRLogo.5d37ccba400239ac7eb8.png",
     "static/media/AECOMLogo.png": "/jt/static/media/AECOMLogo.7ebec415350db61946dd.png",
     "index.html": "/jt/index.html",
-    "main.db2a277a.css.map": "/jt/static/css/main.db2a277a.css.map",
-    "main.9a22c1e6.js.map": "/jt/static/js/main.9a22c1e6.js.map"
+    "main.49cb63a1.css.map": "/jt/static/css/main.49cb63a1.css.map",
+    "main.b0d5d73f.js.map": "/jt/static/js/main.b0d5d73f.js.map"
   },
   "entrypoints": [
-    "static/css/main.db2a277a.css",
-    "static/js/main.9a22c1e6.js"
+    "static/css/main.49cb63a1.css",
+    "static/js/main.b0d5d73f.js"
   ]
 }
