@@ -42,7 +42,7 @@ function Portfolio() {
               <div className="desc">
                 <h2>This Website</h2>
                 <p className="proj-desc">A place to organize and express my education, professional experience, projects, hobbies, and interests in a creative way.
-                  The Education, Experience, and Portfolio pages detail my accomplishments along with corresponding images that serve as links to relative external references.
+                  The Education, Experience, and Portfolio pages detail my accomplishments along with corresponding images that are links to external references.
                   My hobbies and interests are showcased in the Flow Arts, Photos, and Music pages.
                   The Flow Arts page displays some clips of my favorite flow moments, the Photos page contains some of my favorite pictures I’ve taken, and the Music page serves as a place for visitors to share and explore music suggestions as well as listen to some of my music picks!</p>
                 <h6 className="technologies">Technologies – React.js, JSX, JavaScript, HTML, CSS, Spring Boot, Java, PostgreSQL</h6>

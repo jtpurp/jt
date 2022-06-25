@@ -34,7 +34,7 @@ $animation-time: 5s;
 		border-radius: 50%;
 
 		//background: $dot-color;
-		background-image: linear-gradient(to bottom, rgb(0, 170, 255) 0%, rgb(40, 40, 255) 35%, rgb(111, 0, 255) 65%, rgb(196, 133, 255) 100%);
+		background-image: linear-gradient(to bottom, rgb(0, 170, 255) 0%, rgb(40, 40, 255) 40%, rgb(111, 0, 255) 65%, rgb(196, 133, 255) 100%);
 		color: transparent;
 		background-size: 300% 300%;
 		animation: movingGradient 2.6s linear infinite;
