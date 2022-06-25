@@ -17,41 +17,41 @@ import './App.css';
 class App extends Component {
 
   render() {
-    const myStyle={
+    const myStyle = {
       backgroundImage: `url(${Background})`,
-      height:'100vh',
-      marginTop:'0px',
+      height: '100vh',
+      marginTop: '0px',
       backgroundSize: 'cover',
       backgroundRepeat: 'repeat',
-  };
-  return (
-    <div className="App" style={myStyle}>
-      <div className="cont">
-        <BrowserRouter basename="/jt">
-          <div className="head">
-            <Navbar />
-          </div>
-          <div className="bod">
-          <ReloadAtTop />
-            <Switch>
-              <Route path='/education' component={Education}></Route>
-              <Route path='/experience' component={Experience}></Route>
-              <Route path='/portfolio' component={Portfolio}></Route>
-              <Route path='/flow-arts' component={FlowArts}></Route>
-              <Route path='/music/:musicId' component={MusicDetail}></Route>
-              <Route path='/music' component={Music}></Route>
-              <Route path='/photos' component={Photos}></Route>
-              <Route path='/' component={Home}></Route>
-            </Switch>
-          </div>
-          <div className="foot">
-            <Footer />
-          </div>
-        </BrowserRouter>
+    };
+    return (
+      <div className="App" style={myStyle}>
+        <div className="cont">
+          <BrowserRouter basename="/jt">
+            <div className="head">
+              <Navbar />
+            </div>
+            <div className="bod">
+              <ReloadAtTop />
+              <Switch>
+                <Route path='/education' component={Education}></Route>
+                <Route path='/experience' component={Experience}></Route>
+                <Route path='/portfolio' component={Portfolio}></Route>
+                <Route path='/flow-arts' component={FlowArts}></Route>
+                <Route path='/music/:musicId' component={MusicDetail}></Route>
+                <Route path='/music' component={Music}></Route>
+                <Route path='/photos' component={Photos}></Route>
+                <Route path='/' component={Home}></Route>
+              </Switch>
+            </div>
+            <div className="foot">
+              <Footer />
+            </div>
+          </BrowserRouter>
+        </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
 }
 
 export default App;

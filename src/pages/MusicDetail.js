@@ -29,6 +29,8 @@ class MusicDetail extends React.Component {
   }
 
   componentDidMount() {
+    this.wait(1250);
+
     MusicSuggestionService.getMusicSuggestionByMusicId(this.state.musicId).then((response) => {
       let musicSuggestion = response.data;
       //console.log('musicSuggestion => ' + JSON.stringify(musicSuggestion));
@@ -52,6 +54,7 @@ class MusicDetail extends React.Component {
     //this.setState({ musicId: '', artist: '', song: '', album: '', link: '' });
     //this.returnToMusic();
     //});
+    this.props.history.push('/music');
   }
 
   returnToMusic() {
@@ -95,12 +98,12 @@ class MusicDetail extends React.Component {
       return <Spinner />
     } else {
       return (
-        <div>
-          <div>
-            <h1>Music Suggestion Details</h1>
+        <div className="music-detail-page">
+          <h1>Music Suggestion Details</h1>
+          <div className="tables-table-container">
             <div className="detail-table-container">
-              <table className="music-detail-table">
-                <thead>
+              <table className="music-table">
+                <thead className="table-head" id="detail-table-head">
                   <tr>
                     <th>Artist</th>
                     <th>Song</th>
@@ -113,7 +116,7 @@ class MusicDetail extends React.Component {
                     <td>{this.state.artist}</td>
                     <td>{this.state.song}</td>
                     <td>{this.state.album}</td>
-                    <td id="link-column">{this.state.link}</td>
+                    <td><a href={this.state.link} target="_blank" rel="noreferrer" className="music-link">Listen!</a></td>
                   </tr>
                 </tbody>
               </table>

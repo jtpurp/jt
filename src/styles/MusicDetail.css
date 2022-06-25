@@ -1,15 +1,15 @@
 .detail-table-container {
     display: flex;
     justify-content: center;
-    width: 100vw;
-    padding-left: 10px;
-    padding-right: 10px;
+    border: solid 10px;
+    border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 100%) 1;
+    background-size: 200% 200%;
+
+    height: 185px;
 }
 
-.music-detail-row {
-    background-color: black;
+#detail-table-head {
     border: solid 3px rgb(111, 0, 255);
-    color: white;
 }
 
 .music-detail-row>td {
@@ -18,19 +18,27 @@
 }
 
 .music-detail-table {
-    width: 95vw;
     text-align: center;
+    width: 75vw;
+    height: 185px;
+    background-color: black;
 }
 
 #link-column {
     text-align: center;
+    font-size: 2px;
 }
 
 .update-suggestion-form {
     display: flex;
     flex-direction: column;
     width: 300px;
-    margin-bottom: 56px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .music-label {

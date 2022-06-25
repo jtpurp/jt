@@ -17,6 +17,7 @@
 .bod {
   flex-grow: 1;
   overflow: auto;
+  padding: 0;
   margin-bottom: 130px;
 }
 

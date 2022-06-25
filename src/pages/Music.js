@@ -54,6 +54,8 @@ class Music extends React.Component {
         } else {
             MusicSuggestionService.createMusicSuggestion(musicSuggestion).then(response => {
                 this.componentDidMount();
+                this.cancelMusicSuggestion();
+                this.setState({ showForm: !this.state.showForm });
             });
         }
     }
@@ -96,7 +98,7 @@ class Music extends React.Component {
         } else {
             return (
                 <div className="music-page">
-                    <div className="music-play">
+                    <div className="music-player">
                         <h1>Music Player</h1>
                         <div>
                             <MusicPlayer />
