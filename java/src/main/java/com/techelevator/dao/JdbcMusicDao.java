@@ -46,6 +46,19 @@ public class JdbcMusicDao implements MusicDao {
     }
 
     @Override
+    public Music getMusicSuggestionByArtistAndSong(String artist, String song) {
+        Music music = null;
+
+        String sql = "SELECT music_id, artist, song, album, link FROM music WHERE artist = ? AND song = ?;";
+        SqlRowSet results = jdbcTemplate.queryForRowSet(sql, artist, song);
+
+        if (results.next()) {
+            music = mapRowToMusic(results);
+        }
+        return music;
+    }
+
+    @Override
     public void createMusicSuggestion(Music musicSuggestion) {
         String sql = "INSERT INTO music (artist, song, album, link) " +
                 "VALUES (?, ?, ?, ?);";

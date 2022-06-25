@@ -21,17 +21,22 @@ public class RestMusicService implements MusicService {
 
     public Music musicSuggestionByMusicId(Integer musicId) { return musicDao.getMusicSuggestionByMusicId(musicId); }
 
+    public Music musicSuggestionByArtistAndSong(String artist, String song) { return musicDao.getMusicSuggestionByArtistAndSong(artist, song); }
     public boolean create(Music musicSuggestion) {
         boolean isCreated = false;
 
         try {
-            musicDao.createMusicSuggestion(musicSuggestion);
-            isCreated = true;
+            if (musicDao.getMusicSuggestionByArtistAndSong(musicSuggestion.getArtist(), musicSuggestion.getSong()).getArtist().equals(musicSuggestion.getArtist()) && musicDao.getMusicSuggestionByArtistAndSong(musicSuggestion.getArtist(), musicSuggestion.getSong()).getSong().equals(musicSuggestion.getSong())) {
+                System.out.println("Already Exists");
+            } else {
+                musicDao.createMusicSuggestion(musicSuggestion);
+                isCreated = true;
+            }
         }
         catch (Exception e){
             System.out.println(e.getMessage());
         }
-
+        
         return isCreated;
     }
 

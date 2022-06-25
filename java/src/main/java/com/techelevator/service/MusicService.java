@@ -10,6 +10,8 @@ public interface MusicService {
 
     Music musicSuggestionByMusicId(Integer musicId);
 
+    Music musicSuggestionByArtistAndSong(String artist, String song);
+
     boolean create(Music musicSuggestion);
 
     boolean update(Music musicSuggestion, Integer musicId);

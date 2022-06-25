@@ -10,6 +10,8 @@ public interface MusicDao {
 
     Music getMusicSuggestionByMusicId(Integer musicId);
 
+    Music getMusicSuggestionByArtistAndSong(String artist, String song);
+
     void createMusicSuggestion(Music musicSuggestion);
 
     void updateMusicSuggestion(Music musicSuggestion, Integer musicId);

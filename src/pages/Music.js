@@ -54,8 +54,7 @@ class Music extends React.Component {
         } else {
             MusicSuggestionService.createMusicSuggestion(musicSuggestion).then(response => {
                 this.componentDidMount();
-                this.cancelMusicSuggestion();
-                this.setState({ showForm: !this.state.showForm });
+                this.setState({ isLoading: !this.state.isLoading });
             });
         }
     }
