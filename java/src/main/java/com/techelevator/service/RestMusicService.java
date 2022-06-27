@@ -40,7 +40,7 @@ public class RestMusicService implements MusicService {
         try {
             Optional<Music> musicData = Optional.ofNullable(musicDao.getMusicSuggestionByArtistAndSong(artist, song));
             if (musicData.isEmpty()) {
-                throw new MusicNotFoundException("Music Suggestion Not Found! Incorrect Artist and/or Song");
+                throw new MusicNotFoundException("Music Suggestion Not Found! Incorrect Artist and/or Song.");
             }
         }
         catch (MusicNotFoundException mnfe){
@@ -54,7 +54,8 @@ public class RestMusicService implements MusicService {
         boolean isCreated = false;
 
         try {
-            if (musicDao.getMusicSuggestionByArtistAndSong(musicSuggestion.getArtist(), musicSuggestion.getSong()).getArtist().equals(musicSuggestion.getArtist()) && musicDao.getMusicSuggestionByArtistAndSong(musicSuggestion.getArtist(), musicSuggestion.getSong()).getSong().equals(musicSuggestion.getSong())) {
+            Optional<Music> musicData = Optional.ofNullable(musicDao.getMusicSuggestionByArtistAndSong(musicSuggestion.getArtist(), musicSuggestion.getSong()));
+            if (musicData.isPresent()) {
                 throw new MusicAlreadyExistsException("Music Suggestion Already Exists");
             } else {
                 musicDao.createMusicSuggestion(musicSuggestion);
