@@ -11,7 +11,7 @@ import Music from './pages/Music.js';
 import MusicDetail from './pages/MusicDetail.js'
 import Home from './pages/Home.js';
 import ReloadAtTop from './ReloadAtTop';
-import Background from './images/background8.jpg'
+import Background from './images/background.jpg'
 import './App.css';
 
 class App extends Component {
@@ -19,7 +19,8 @@ class App extends Component {
   render() {
     const myStyle = {
       backgroundImage: `url(${Background})`,
-      height: '100vh',
+      // height: '100vh',
+      // width: '100vw',
       marginTop: '0px',
       backgroundSize: 'cover',
       backgroundRepeat: 'repeat',

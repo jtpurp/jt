@@ -29,7 +29,6 @@ class Music extends React.Component {
 
         this.editMusicSuggestion = this.editMusicSuggestion.bind(this);
         this.shareMusicSuggestion = this.shareMusicSuggestion.bind(this);
-        this.cancelMusicSuggestion = this.cancelMusicSuggestion.bind(this);
     }
 
     componentDidMount() {
@@ -59,13 +58,6 @@ class Music extends React.Component {
         }
     }
 
-    cancelMusicSuggestion() {
-        this.setState({ artist: '' });
-        this.setState({ song: '' });
-        this.setState({ album: '' });
-        this.setState({ link: '' });
-    }
-
     changeArtistHandler = (event) => {
         this.setState({ artist: event.target.value });
     }
@@ -87,7 +79,7 @@ class Music extends React.Component {
     };
 
     wait = async () => {
-        await this.load(2500);
+        await this.load(2200);
         this.setState({ isLoading: false });
     };
 
@@ -97,13 +89,11 @@ class Music extends React.Component {
         } else {
             return (
                 <div className="music-page">
+                    <h1>Music Player</h1>
                     <div className="music-player">
-                        <h1>Music Player</h1>
-                        <div>
-                            <MusicPlayer />
-                        </div>
-
+                        <MusicPlayer />
                     </div>
+        
                     <h1>Music Suggestions</h1>
                     <div className="tables-table-container">
                         <div className="table-container">
@@ -184,7 +174,7 @@ class Music extends React.Component {
 
 
                     <div className="form-container">
-                        <button className="music-button" onClick={() => { this.setState({ showForm: !this.state.showForm }) }}>Share Music!</button>
+                        <button className="music-button" onClick={() => { this.setState({ showForm: true }) }}>Share Music!</button>
                         {
                             this.state.showForm ?
                                 <form className="suggestion-form">
@@ -197,7 +187,7 @@ class Music extends React.Component {
                                     <label className="music-label" htmlFor="link">Link</label>
                                     <input className="input" type="text" placeholder="Share a link if you care to :)" name="link" value={this.state.link} onChange={this.changeLinkHandler} />
                                     <button className="music-button" id="form-button" onClick={this.shareMusicSuggestion}>Share</button>
-                                    <button className="music-button" id="form-button" onClick={this.cancelMusicSuggestion}>Cancel</button>
+                                    <button className="music-button" id="form-button" onClick={() => { this.setState({ showForm: false, artist: '', song: '', album: '', link: '' }) }}>Cancel</button>
                                 </form> : null
                         }
                     </div>

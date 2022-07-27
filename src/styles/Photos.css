@@ -5,7 +5,8 @@
 
 .photo {
     width: 52.5vw;
-    padding: 10px
+    padding: 10px;
+    border-radius: 25px;
 }
 
 .photo-desc {
@@ -14,9 +15,9 @@
     right: 0;
     margin: auto;
     margin-top: 20px;
-    background-color: rgba(0, 0, 0, 0.90);
-    border: solid rgba(196, 133, 255, 0.75);
-    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border: solid rgb(196, 133, 255);
+    border-radius: 15px;
     padding: 7.5px;
     width: fit-content;
 }

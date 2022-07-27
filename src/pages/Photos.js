@@ -33,7 +33,7 @@ function Photos() {
 
   useEffect(() => {
     const load = async () => {
-      await new Promise((r) => setTimeout(r, 2500));
+      await new Promise((r) => setTimeout(r, 2200));
       setIsLoading(false);
     };
 

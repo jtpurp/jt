@@ -22,10 +22,13 @@ code {
 h1 {
   text-align: center;
   color: white;
+  left: 0;
+  right: 0;
   -webkit-text-stroke: 1px rgb(111, 0, 255);
   font-size: 40px !important;
-  text-decoration: underline;
-  padding-top: 5px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  background-image: linear-gradient(to right, transparent 20%, rgb(111, 0, 255) 50%, transparent 75%);
 }
 
 h2 {
@@ -56,8 +59,8 @@ p {
   display: flex;
   flex-direction: column;
   width: 750px;
-  background-color: rgba(0, 0, 0, 0.75);
-  border: solid rgba(196, 133, 255, 0.75);
+  background-color: rgba(0, 0, 0, 0.85);
+  border: solid rgb(196, 133, 255);
   border-radius: 20px;
   padding: 7.5px;
   margin-bottom: 10px;

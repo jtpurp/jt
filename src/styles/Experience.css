@@ -17,9 +17,9 @@
     max-width: 1000px;
     margin-left: 50px;
     margin-right: 50px;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.85);
     padding: 7.5px;
-    border: solid rgba(196, 133, 255, 0.75);
+    border: solid rgb(196, 133, 255);
     border-radius: 20px;
 }
 

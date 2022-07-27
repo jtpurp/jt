@@ -89,7 +89,7 @@ class MusicDetail extends React.Component {
   };
 
   wait = async () => {
-    await this.load(2500);
+    await this.load(2200);
     this.setState({ isLoading: false });
   };
 
