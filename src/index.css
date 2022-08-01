@@ -21,14 +21,15 @@ code {
 
 h1 {
   text-align: center;
+  width: 75vw;
   color: white;
-  left: 0;
-  right: 0;
+  margin: auto;
   -webkit-text-stroke: 1px rgb(111, 0, 255);
   font-size: 40px !important;
   margin-top: 15px !important;
   margin-bottom: 10px !important;
-  background-image: linear-gradient(to right, transparent 20%, rgb(111, 0, 255) 50%, transparent 75%);
+  /*background-image: linear-gradient(to right, transparent 20%, rgb(111, 0, 255) 50%, transparent 80%);*/
+  background-image: radial-gradient(rgb(111, 0, 255) 30%, transparent 70%);
 }
 
 h2 {
