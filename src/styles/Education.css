@@ -32,6 +32,11 @@
     color: rgb(234, 0, 255);
 }
 
+#tech {
+    margin-top: 15px;
+}
+
+
 @media screen and (max-width: 767px) {
     .logo-edu {
         height: 7.5rem;

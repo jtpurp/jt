@@ -6,6 +6,7 @@ import '../styles/Education.css';
 
 function Education() {
 
+  //Loader
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -22,8 +23,7 @@ function Education() {
   } else {
     return (
       <div className="education">
-        <h1>Education</h1>
-
+        <div className="current-container"><p className="current-page" id="page">Education</p></div>
         <div className="left-container" id="tech">
           <div className="info">
             <div className="tech-deets">

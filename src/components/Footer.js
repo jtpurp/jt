@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { HiOutlineMail } from "react-icons/hi";
-import { HiOutlinePhone } from "react-icons/hi";
+// import { HiOutlineMail } from "react-icons/hi";
+// import { HiOutlinePhone } from "react-icons/hi";
 import '../styles/Footer.css';
 
 function Footer() {
@@ -19,11 +19,11 @@ function Footer() {
 
         <div className="contact-container">
           <div id="email">
-            <span><HiOutlineMail /> ruppjt@gmail.com</span>
+            <span>{/*<HiOutlineMail />*/}ruppjt@gmail.com</span>
           </div>
           <a className="resume" href="https://drive.google.com/file/d/1IGHXOb_KS06BL0U0nPUDddPwdMLmDiWj/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
           <div id="phone">
-            <span><HiOutlinePhone /> (609) 649-3198</span>
+            <span>{/*<HiOutlinePhone />*/}(609) 649-3198</span>
           </div>
         </div>
       </div>

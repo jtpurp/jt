@@ -88,7 +88,7 @@ tbody {
     display: flex;
     flex-direction: column;
     width: 300px;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.85);
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;

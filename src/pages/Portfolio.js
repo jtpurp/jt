@@ -33,10 +33,10 @@ function Portfolio() {
   } else {
     return (
       <div className="portfolio">
-
+        <div className="current-container"><p className="current-page" id="page">Portfolio</p></div>
+        
         <div className="technical-projects">
           <h1>Technical Projects</h1>
-
           <div className="left-container" id="website">
             <div className="info">
               <div className="desc">

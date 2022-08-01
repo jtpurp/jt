@@ -22,8 +22,9 @@ class App extends Component {
       // height: '100vh',
       // width: '100vw',
       marginTop: '0px',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'repeat',
+      backgroundSize: 'contain',
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center'
     };
     return (
       <div className="App" style={myStyle}>
