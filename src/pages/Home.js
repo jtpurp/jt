@@ -20,7 +20,7 @@ function Home() {
     } else {
         return (
             <div className="home-container">
-                <div className="current-container"><p className="current-page" id="page">WELCOMnE</p></div>   
+                <div className="current-container"><p className="current-page" id="page">WELCOME</p></div>   
                 <h1 id="hello">H E L L O</h1>
                 <div id="my-name">
                     <span>My name is</span><span className="bio-word" id="jt"> JT Rupp </span><span>(he/they)</span>
