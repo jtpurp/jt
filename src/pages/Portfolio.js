@@ -41,11 +41,11 @@ function Portfolio() {
             <div className="info">
               <div className="desc">
                 <h2>This Website</h2>
-                <p className="proj-desc">A place to organize and express my education, professional experience, projects, hobbies, and interests in a creative way.
-                  The Education, Experience, and Portfolio pages detail my accomplishments along with corresponding images that are links to external references.
+                <p className="proj-desc">A place to express my education, professional experience, projects, hobbies, and interests in a creative way.
+                  The Education, Experience, and Portfolio pages detail my accomplishments along with corresponding images that serve as links to external references.
                   My hobbies and interests are showcased in the Flow Arts, Photos, and Music pages.
-                  The Flow Arts page displays some clips of my favorite flow moments, the Photos page contains some of my favorite pictures I’ve taken, and the Music page serves as a place for visitors to share and explore music suggestions as well as listen to some of my music picks!</p>
-                <h6 className="technologies">Technologies – React.js, JSX, JavaScript, HTML, CSS, Spring Boot, Java, PostgreSQL</h6>
+                  The Flow Arts page displays some clips of my favorite flow moments, the Photos page contains some of my favorite pictures I’ve taken, and the Music page serves as a place for visitors to explore and share music suggestions!</p>
+                <h6 className="technologies">Technologies – React.js, JSX, JavaScript, HTML, CSS, Java, Spring Boot, PostgreSQL</h6>
               </div>
             </div>
             <a href="https://jtpurp.github.io/jt/" id="logo-left"><img className="logo-port" src={LogoPurple} alt='Website Logo' /></a>
@@ -60,7 +60,7 @@ function Portfolio() {
                   <p className="proj-desc" id="left-align">A mob programmed, full-stack, responsively designed web application intended for reporting and tracking potholes across the City of Philadelphia.
                     A list of the reported potholes is displayed along with their corresponding geolocations marked on a map.
                     Individual pothole details can be accessed as well as updated and deleted from the system.</p>
-                  <h6 className="technologies" id="left-align">Technologies – Vue.js, JavaScript, HTML, CSS, Mapbox API, Spring Boot, Java, PostgreSQL</h6>
+                  <h6 className="technologies" id="left-align">Technologies – Vue.js, JavaScript, HTML, CSS, Mapbox API, Java, Spring Boot, PostgreSQL</h6>
                 </div>
               </div>
               <a href="https://github.com/jtpurp/Pothole-Tracker" target="_blank" rel="noreferrer" id="logo-right" className="smaller-screen"><img className="logo-port" src={PTLogo} alt='Pothole Tracker Logo' /></a>
