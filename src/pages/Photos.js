@@ -45,7 +45,7 @@ function Photos() {
   } else {
     return (
       <div className="photos">
-        <div className="current-container"><p className="current-page" id="page">Photos</p></div>
+        <div className="current-container"><p className="current-page" id="page">PHOTOS</p></div>
         <h2 className="photo-desc">Lucifer Falls, Ithaca, NY, US</h2>
         <img src={ithaca1} alt="Ithaca" className="photo" />
 

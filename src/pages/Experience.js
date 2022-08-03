@@ -23,7 +23,7 @@ function Experience() {
   } else {
     return (
       <div className="experience">
-        <div className="current-container"><p className="current-page" id="page">Experience</p></div>
+        <div className="current-container"><p className="current-page" id="page">EXPERIENCE</p></div>
         <h1>Technical Skills</h1>
         <div className="skills-flex">
           <div id="skills">

@@ -89,7 +89,7 @@ class Music extends React.Component {
         } else {
             return (
                 <div className="music-page">
-                    <div className="current-container"><p className="current-page" id="page">Music</p></div>
+                    <div className="current-container"><p className="current-page" id="page">MUSIC</p></div>
                     <h1>Music Player</h1>
                     <div className="music-player">
                         <MusicPlayer />

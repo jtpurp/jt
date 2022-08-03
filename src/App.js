@@ -23,7 +23,7 @@ class App extends Component {
       // width: '100vw',
       marginTop: '0px',
       backgroundSize: 'contain',
-      backgroundRepeat: 'no-repeat',
+      backgroundRepeat: 'repeat',
       backgroundPosition: 'center'
     };
     return (

@@ -63,7 +63,7 @@
 
 #link {
     display: inline-block;
-    width: 155px;
+    width: 175px;
     /* padding: 3px 0px 0px 0px; */
     margin: 5px 0px 5px 0px;
 
@@ -162,7 +162,7 @@
 /*Media Queries*/
 /************/
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1250px) {
 
     .responsive-menu {
         display: flex;
@@ -271,7 +271,7 @@
     }
 
     #logo {
-        height: 6rem;
+        height: 6.5rem;
         margin-left: 10px;
     }
 
@@ -299,7 +299,7 @@
     } */
 
     #page {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     #logo {
@@ -322,6 +322,10 @@
 
     #logo {
         height: 5rem;
+    }
+
+    #page {
+        font-size: 28px;
     }
 
     .current-page {
@@ -356,7 +360,7 @@
     } */
 
     #page {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #logo {

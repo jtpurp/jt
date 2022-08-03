@@ -23,7 +23,7 @@ function Education() {
   } else {
     return (
       <div className="education">
-        <div className="current-container"><p className="current-page" id="page">Education</p></div>
+        <div className="current-container"><p className="current-page" id="page">EDUCATION</p></div>
         <div className="left-container" id="tech">
           <div className="info">
             <div className="tech-deets">

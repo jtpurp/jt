@@ -21,7 +21,7 @@ function FlowArts() {
   } else {
     return (
       <div className="flow-arts">
-        <div className="current-container"><p className="current-page" id="page">Flow Arts</p></div>
+        <div className="current-container"><p className="current-page" id="page">FLOW ARTS</p></div>
 
         <div className="videos-container">
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Spinner from '../components/Spinner.js';
-import LogoPurple from '../images/LogoPurple.png';
+import JTLogo from '../images/JTLogo.png';
 import PTLogo from '../images/PTLogo.png';
 import Payment from '../images/Payment.png';
 import Vending from '../images/Vending.png';
@@ -33,7 +33,7 @@ function Portfolio() {
   } else {
     return (
       <div className="portfolio">
-        <div className="current-container"><p className="current-page" id="page">Portfolio</p></div>
+        <div className="current-container"><p className="current-page" id="page">PORTFOLIO</p></div>
         
         <div className="technical-projects">
           <h1>Technical Projects</h1>
@@ -48,7 +48,7 @@ function Portfolio() {
                 <h6 className="technologies">Technologies – React.js, JSX, JavaScript, HTML, CSS, Java, Spring Boot, PostgreSQL</h6>
               </div>
             </div>
-            <a href="https://jtpurp.github.io/jt/" id="logo-left"><img className="logo-port" src={LogoPurple} alt='Website Logo' /></a>
+            <a href="https://jtpurp.github.io/jt/" id="logo-left"><img className="logo-port" src={JTLogo} alt='Website Logo' /></a>
           </div>
 
           <div className="main-flex">
