@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/jt/static/css/main.476259fd.css",
-    "main.js": "/jt/static/js/main.88aca662.js",
+    "main.css": "/jt/static/css/main.8beb2da8.css",
+    "main.js": "/jt/static/js/main.263413bc.js",
     "static/media/Weathering.png": "/jt/static/media/Weathering.7581702bfe4b5b9bedaa.png",
     "static/media/ricketts-glenn-2.jpg": "/jt/static/media/ricketts-glenn-2.bc219d205725ecc8ee82.jpg",
-    "static/media/LogoPlain.png": "/jt/static/media/LogoPlain.2ef7d7aa641d11b5e1b5.png",
+    "static/media/LogoPlain.png": "/jt/static/media/LogoPlain.02aa35843f480eb3bf2e.png",
     "static/media/ben-frank-1.jpg": "/jt/static/media/ben-frank-1.dcbf55ffe715df0a4caa.jpg",
     "static/media/ben-frank-2.jpg": "/jt/static/media/ben-frank-2.ed6dceec98fae43164d8.jpg",
     "static/media/Sojourn.mp3": "/jt/static/media/Sojourn.926d5ec9d4e2862e147c.mp3",
@@ -22,11 +22,11 @@
     "static/media/ithaca-2.jpg": "/jt/static/media/ithaca-2.592ec6023a76f2d1e479.jpg",
     "static/media/nyc-1.jpg": "/jt/static/media/nyc-1.b75d18816a6033a4a5c8.jpg",
     "static/media/nyc-2.jpg": "/jt/static/media/nyc-2.5a1bbb3d6f6b8d6601cf.jpg",
+    "static/media/JTLogo.png": "/jt/static/media/JTLogo.c654bdcc7297b27ef2e8.png",
     "static/media/colorado-3.jpg": "/jt/static/media/colorado-3.a51211401a16df3f686a.jpg",
     "static/media/belleplain.jpg": "/jt/static/media/belleplain.7bf6ae8eda1278b22726.jpg",
     "static/media/colorado-2.jpg": "/jt/static/media/colorado-2.735ab5539a0b5029686d.jpg",
     "static/media/colorado-1.jpg": "/jt/static/media/colorado-1.938abccd4a4b64604c31.jpg",
-    "static/media/LogoPurple.png": "/jt/static/media/LogoPurple.72a57d2348a791d810cc.png",
     "static/media/ithaca-4.jpg": "/jt/static/media/ithaca-4.93b508af6a9a73988794.jpg",
     "static/media/round-valley-2.jpg": "/jt/static/media/round-valley-2.2e9c188b2848bf6241f6.jpg",
     "static/media/round-valley-1.jpg": "/jt/static/media/round-valley-1.994d66b12d019c4ab381.jpg",
@@ -56,11 +56,11 @@
     "static/media/HDRLogo.png": "/jt/static/media/HDRLogo.5d37ccba400239ac7eb8.png",
     "static/media/AECOMLogo.png": "/jt/static/media/AECOMLogo.7ebec415350db61946dd.png",
     "index.html": "/jt/index.html",
-    "main.476259fd.css.map": "/jt/static/css/main.476259fd.css.map",
-    "main.88aca662.js.map": "/jt/static/js/main.88aca662.js.map"
+    "main.8beb2da8.css.map": "/jt/static/css/main.8beb2da8.css.map",
+    "main.263413bc.js.map": "/jt/static/js/main.263413bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.476259fd.css",
-    "static/js/main.88aca662.js"
+    "static/css/main.8beb2da8.css",
+    "static/js/main.263413bc.js"
   ]
 }
