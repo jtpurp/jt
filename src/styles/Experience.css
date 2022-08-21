@@ -13,11 +13,11 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    color:rgb(196, 133, 255);
+    color:rgb(0, 185, 255);/* (111, 0, 255); */
     max-width: 1000px;
     margin-left: 50px;
     margin-right: 50px;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.90);
     padding: 7.5px;
     border: solid rgb(196, 133, 255);
     border-radius: 20px;
@@ -28,14 +28,14 @@
     padding-right: 7.5px;
     margin-bottom: 10px;
     font-size: 24px;
-    
+    font-weight: 550;
 }
 
-.aecom-deets {
+.vnh-deets, .hdr-deets {
     text-align: right;
 }
 
-.aecom-desc { 
+.vnh-desc, .hdr-desc { 
     text-align: left;
 }
 
