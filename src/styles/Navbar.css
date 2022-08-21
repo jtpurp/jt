@@ -201,7 +201,7 @@
         margin-top: 5px;
         margin-right: 5px;
         animation: MoveUpDown 2.5s linear infinite, movingGradient 10s linear infinite;
-        animation-delay: 1s;
+        animation-delay: 0s;
         position: relative;
         background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 30%, rgb(80, 0, 255) 50%, rgb(40, 40, 255) 70%, rgb(0, 170, 255) 95%);
         background-size: 1300% 1300%;
@@ -228,6 +228,7 @@
         margin-top: 5px;
         margin-left: 5px;
         animation: MoveUpDown 2.5s linear infinite, movingGradient 10s linear infinite; 
+        animation-delay: 1s;
         position: relative;
         background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 30%, rgb(80, 0, 255) 50%, rgb(40, 40, 255) 70%, rgb(0, 170, 255) 95%);
         background-size: 1300% 1300%;
@@ -244,7 +245,7 @@
         }
 
         50% {
-            bottom: 5px;
+            bottom: 10px;
         }
     }
 

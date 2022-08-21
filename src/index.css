@@ -21,15 +21,17 @@ code {
 
 h1 {
   text-align: center;
-  width: 75vw;
+  width: fit-content;
   color: white;
   margin: auto;
   -webkit-text-stroke: 1px rgb(111, 0, 255);
   font-size: 40px !important;
   margin-top: 15px !important;
   margin-bottom: 10px !important;
-  /*background-image: linear-gradient(to right, transparent 20%, rgb(111, 0, 255) 50%, transparent 80%);*/
-  background-image: radial-gradient(rgb(111, 0, 255) 30%, transparent 70%);
+  background-image: radial-gradient(rgb(111, 0, 255) 35%, transparent 70%);
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 h2 {
@@ -60,7 +62,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 750px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.90);
   border: solid rgb(196, 133, 255);
   border-radius: 20px;
   padding: 7.5px;
