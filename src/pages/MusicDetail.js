@@ -89,7 +89,7 @@ class MusicDetail extends React.Component {
   };
 
   wait = async () => {
-    await this.load(2200);
+    await this.load(2225);
     this.setState({ isLoading: false });
   };
 
@@ -98,7 +98,7 @@ class MusicDetail extends React.Component {
       return <Spinner />
     } else {
       return (
-        <div className="music-detail-page">
+        <div className="music-detail">
           <h1>Music Suggestion Details</h1>
           <div className="tables-table-container">
             <div className="detail-table-container">
@@ -112,7 +112,7 @@ class MusicDetail extends React.Component {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="music-detail-row" key={this.state.musicId}>
+                  <tr className="detail-row" key={this.state.musicId}>
                     <td>{this.state.artist}</td>
                     <td>{this.state.song}</td>
                     <td>{this.state.album}</td>

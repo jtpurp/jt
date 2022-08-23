@@ -1,3 +1,19 @@
+.music-detail {
+    animation: appear 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .detail-table-container {
     display: flex;
     justify-content: center;
@@ -12,12 +28,12 @@
     border: solid 3px rgb(111, 0, 255);
 }
 
-.music-detail-row>td {
+.detail-row>td {
     padding: 15px;
     border: solid 3px rgb(111, 0, 255);
 }
 
-.music-detail-table {
+.music-table {
     text-align: center;
     width: 75vw;
     height: 185px;

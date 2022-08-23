@@ -11,7 +11,7 @@
     width: 100vw;
     top: 0;
     padding: 0 !important;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 1.0);
 }
 
 /* .navbar::before {
@@ -172,6 +172,19 @@
     .current-container {
         display: flex;
         justify-content: center;
+        animation: appear 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+    }
+
+    @keyframes appear {
+        0% {
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
     }
 
     .current-page {
@@ -191,6 +204,7 @@
         width: fit-content;
         height: fit-content;
         margin-right: 20px;
+        margin-top: 5px;
     }
 
     #dot1 {

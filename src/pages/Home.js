@@ -8,7 +8,7 @@ function Home() {
 
     useEffect(() => {
         const load = async () => {
-            await new Promise((r) => setTimeout(r, 2200));
+            await new Promise((r) => setTimeout(r, 2225));
             setIsLoading(false);
         };
 
@@ -19,22 +19,29 @@ function Home() {
         return <Spinner />
     } else {
         return (
-            <div className="home-container">
-                <div className="current-container"><p className="current-page" id="page">WELCOME</p></div>   
-                <h1 id="hello">H E L L O</h1>
-                <div id="my-name">
-                    <span>My name is</span><span className="bio-word" id="jt"> JT Rupp </span><span>(he/they)</span>
+            <div>
+                <div className="current-container"><p className="current-page" id="page">WELCOME</p></div>
+                <div id="hello-container">
+                    <h1 className="hello" id="h">H</h1><h1 className="hello" id="e">E</h1><h1 className="hello" id="l1">L</h1><h1 className="hello" id="l2">L</h1><h1 className="hello" id="o">O</h1>
                 </div>
-                <span id="small-text">and I'm an</span>
-                <div className="bio-container">
-                    <div>
-                        <span id="bio" className="no-show">⚙️</span><span className="bio-word" id="bio">Engineer</span><span className="show" id="bio">⚙️</span>
+                <div id="bio">
+                    <div id="my-name">
+                        <span>My name is</span><span className="skill-word" id="jt"> JT Rupp </span>
                     </div>
-                    <div>
-                        <span id="bio" className="no-show">🌀</span><span className="bio-word" id="bio">Flow Artist</span><span className="show" id="bio">🌀</span>
-                    </div>
-                    <div>
-                        <span id="bio" className="no-show">🎶</span><span className="bio-word" id="bio">Music Enthusiast</span><span className="show" id="bio">🎶</span>
+                    <div id="small-line"></div>
+                    <div id="skill-container">
+                        <div className="skill">
+                            <div id="skill1">⚙️</div><div className="skill-word" id="skill1">Engineer</div><div id="skill1">⚙️</div>
+                        </div>
+                        <div className="skill">
+                            <div id="skill2">🌀</div><div className="skill-word" id="skill2">Flow Artist</div><div id="skill2">🌀</div>
+                        </div>
+                        <div className="skill">
+                            <div id="skill3">🌐</div><div className="skill-word" id="skill3">Traveler</div><div id="skill3">🌐</div>
+                        </div>
+                        <div className="skill">
+                            <div id="skill4">🎶</div><div className="skill-word" id="skill4">Music Enthusiast</div><div id="skill4">🎶</div>
+                        </div>
                     </div>
                 </div>
             </div>

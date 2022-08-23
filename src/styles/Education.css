@@ -1,8 +1,24 @@
+.education {
+    animation: appear 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .ud-deets {
     text-align: right;
 }
 
-.ud-desc { 
+.ud-desc {
     text-align: left;
 }
 

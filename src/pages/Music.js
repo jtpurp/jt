@@ -79,7 +79,7 @@ class Music extends React.Component {
     };
 
     wait = async () => {
-        await this.load(2200);
+        await this.load(2225);
         this.setState({ isLoading: false });
     };
 
@@ -88,7 +88,7 @@ class Music extends React.Component {
             return <Spinner />
         } else {
             return (
-                <div className="music-page">
+                <div className="music">
                     <div className="current-container"><p className="current-page" id="page">MUSIC</p></div>
                     <h1>Music Player</h1>
                     <div className="music-player">

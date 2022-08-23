@@ -10,7 +10,25 @@
     margin: auto;
     border-radius: 100%;
     background-color: black;
+
+    animation: fade-in-out 3.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
 } 
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
 
 .spinner {
     width: 100px;

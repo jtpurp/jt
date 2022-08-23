@@ -1,3 +1,19 @@
+.portfolio {
+    animation: appear 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .proj-desc {
     font-size: 18px;
 }
