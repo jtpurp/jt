@@ -192,6 +192,15 @@
         top: 35px;
     }
 
+    #logo {
+        height: 6rem;
+        margin-left: 10px;
+    }
+
+    #page {
+        font-size: 32px;
+    }
+
     /************/
     /*Drop Down Button*/
     /************/
@@ -285,19 +294,6 @@
         align-items: center;
         flex-grow: 1;
         margin-right: 40px; */
-    }
-
-    #logo {
-        height: 6.5rem;
-        margin-left: 10px;
-    }
-
-    /* #link {
-        font-size: 26px;
-    } */
-
-    #page {
-        font-size: 32px;
     }
 }
 
