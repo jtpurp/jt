@@ -10,7 +10,7 @@
     margin: auto;
     background-color: rgba(0, 0, 0, 0.95);
 
-    animation: fade-in-out 3.65s;
+    animation: fade-in-out 2.75s;
     animation-iteration-count: 1;
     animation-fill-mode: both;
 } 
@@ -20,11 +20,11 @@
     opacity: 0;
   }
 
-  30% {
+  33% {
     opacity: 1;
   }
 
-  45% {
+  60% {
     opacity: 1;
   }
 

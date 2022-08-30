@@ -10,7 +10,6 @@ import '../styles/Footer.css';
 function Footer() {
   return (
     <div className="footer">
-      <div className="footer-container">
         <ul className="social-icons">
           <li><a href="https://www.linkedin.com/in/jtrupp/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fab fa-linkedin fa-3x" icon={faLinkedin}></FontAwesomeIcon></a></li>
           <li><a href="https://github.com/jtpurp" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fab fa-github fa-3x" icon={faGithub}></FontAwesomeIcon></a></li>
@@ -26,7 +25,6 @@ function Footer() {
             <span>{/*<HiOutlinePhone />*/}(609) 649-3198</span>
           </div>
         </div>
-      </div>
     </div>
   )
 }
