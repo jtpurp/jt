@@ -16,7 +16,8 @@
     border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 25%, rgb(111, 0, 255) 50%, rgb(40, 40, 255) 75%, rgb(0, 170, 255) 100%) 1;
     background-size: 200% 200%;
 
-    animation: appear 2s;
+    animation: appear 1.5s;
+    /* animation-delay: 2.25s; */
     animation-iteration-count: 1;
     animation-fill-mode: both;
 }

@@ -26,21 +26,21 @@ function Home() {
                 </div>
                 <div id="bio">
                     <div id="my-name">
-                        <span>My name is</span><span className="skill-word" id="jt"> JT Rupp </span>
+                        <span>My name is</span><span className="gradient-word" id="jt"> JT Rupp </span>
                     </div>
                     <div id="small-line"></div>
                     <div id="skill-container">
                         <div className="skill">
-                            <div id="skill1">⚙️</div><div className="skill-word" id="skill1">Engineer</div><div id="skill1">⚙️</div>
+                            <div id="skill1">⚙️</div><div className="gradient-word" id="skill1">Engineer</div><div id="skill1">⚙️</div>
                         </div>
                         <div className="skill">
-                            <div id="skill2">🌀</div><div className="skill-word" id="skill2">Flow Artist</div><div id="skill2">🌀</div>
+                            <div id="skill2">🌀</div><div className="gradient-word" id="skill2">Flow Artist</div><div id="skill2">🌀</div>
                         </div>
                         <div className="skill">
-                            <div id="skill3">🌐</div><div className="skill-word" id="skill3">Traveler</div><div id="skill3">🌐</div>
+                            <div id="skill3">🌐</div><div className="gradient-word" id="skill3">Traveler</div><div id="skill3">🌐</div>
                         </div>
                         <div className="skill">
-                            <div id="skill4">🎶</div><div className="skill-word" id="skill4">Music Enthusiast</div><div id="skill4">🎶</div>
+                            <div id="skill4">🎶</div><div className="gradient-word" id="skill4">Music Enthusiast</div><div id="skill4">🎶</div>
                         </div>
                     </div>
                 </div>

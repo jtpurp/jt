@@ -109,7 +109,7 @@
 #small-line {
     font-size: 26px;
     font-weight: bold;
-    width: 300px;
+    width: 450px;
     border-bottom: solid 5px;
     border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 25%, rgb(111, 0, 255) 50%, rgb(40, 40, 255) 75%, rgb(0, 170, 255) 100%) 1;
     background-size: 200% 200%;
@@ -139,7 +139,7 @@
     width: fit-content;
 }
 
-.skill-word {
+.gradient-word {
     -webkit-background-clip: text;
     background-clip: text;
     background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 30%, rgb(80, 0, 255) 50%, rgb(40, 40, 255) 70%, rgb(0, 170, 255) 95%);
@@ -255,6 +255,10 @@
         right: 17.5vw;
         margin-top: 10px;
     }
+
+    #small-line {
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -304,7 +308,7 @@
     #hello-container {
         padding-top: 5.5vw;
     }
-    
+
     .hello {
         padding-left: 5vw;
         padding-right: 5vw;
