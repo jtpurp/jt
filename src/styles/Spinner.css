@@ -10,12 +10,36 @@
     margin: auto;
     background-color: rgba(0, 0, 0, 0.95);
 
-    animation: fade-in-out 2.75s;
+    animation: fade-out 2.75s;
     animation-iteration-count: 1;
     animation-fill-mode: both;
 } 
 
-@keyframes fade-in-out {
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.spinner-object {
+  animation: appear 2.75s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes appear {
   0% {
     opacity: 0;
   }

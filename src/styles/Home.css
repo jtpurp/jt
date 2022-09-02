@@ -67,12 +67,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: fixed;
+    position: absolute;
     width: 100vw;
     bottom: 25vh;
     padding-left: 50px;
 
-    animation: 1.25s move-left linear infinite;
+    animation: 1.25s move-bio linear infinite;
     animation-iteration-count: 1;
     animation-delay: 2.25s;
     animation-fill-mode: both;
@@ -81,7 +81,7 @@
     text-align: center;
 }
 
-@keyframes move-left {
+@keyframes move-bio {
     0% {
         transform: translateX(-10vw);
         opacity: 0;
@@ -282,6 +282,21 @@
     #hello-container {
         margin-top: 20px;
     }
+
+    #my-name {
+        font-size: 30px;
+    }
+
+    #jt {
+        font-size: 40px;
+    }
+
+    #skill1,
+    #skill2,
+    #skill3,
+    #skill4 {
+        font-size: 38px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -298,9 +313,28 @@
     }
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 900px) {
     #hello-container {
         padding-top: 2.5vw;
+    }
+
+    #my-name {
+        font-size: 28px;
+    }
+
+    #jt {
+        font-size: 38px;
+    }
+
+    #skill1,
+    #skill2,
+    #skill3,
+    #skill4 {
+        font-size: 32px;
+    }
+
+    #small-line {
+        width: 275px;
     }
 }
 
@@ -315,31 +349,56 @@
     }
 
     #my-name {
-        font-size: 30px;
-        /* display: flex;
-        flex-direction: column; */
+        font-size: 24px;
     }
 
     #jt {
-        font-size: 40px;
-        padding: 0;
-    }
-
-    #small-text {
-        font-size: 22px;
+        font-size: 36px;
     }
 
     #skill1,
     #skill2,
     #skill3,
     #skill4 {
-        font-size: 38px;
+        font-size: 30px;
+    }
+
+    #small-line {
+        width: 250px;
+    }
+
+    #bio {
+        padding-left: 0;
+    }
+
+    @keyframes move-bio {
+        0% {
+            transform: translateY(10vh);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(5vh);
+            opacity: 100;
+        }
     }
 }
 
 @media screen and (max-width: 550px) {
     .hello {
         padding-top: 7.5vw;
+    }
+
+    @keyframes move-bio {
+        0% {
+            transform: translateY(8vh);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(2vh);
+            opacity: 100;
+        }
     }
 }
 
@@ -349,24 +408,7 @@
         padding-top: 10vw;
     }
 
-    #my-name {
-        font-size: 26px;
-    }
-
-    #jt {
-        font-size: 38px;
-    }
-
-    #small-line {
-        font-size: 18px;
-    }
-
-    #skill1,
-    #skill2,
-    #skill3,
-    #skill4 {
-        font-size: 34px;
-    }
+    
 }
 
 @media screen and (max-width: 425px) {

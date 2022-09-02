@@ -6,6 +6,7 @@ import '../styles/Spinner.scss';
 function Spinner() {
     return (
         <div className="spinner-container">
+            <div className="spinner-object">
             <img src={LogoPlain} className="spinner" alt="Logo Spinner" />
             <img src={LogoPlain} className="anti-spinner" alt="Logo Spinner" />
             <img src={LogoPlain} className="same-spinner" alt="Logo Spinner" />
@@ -32,7 +33,7 @@ function Spinner() {
                     </filter>
                 </defs>
             </svg>
-
+</div>
         </div>
     )
 }
