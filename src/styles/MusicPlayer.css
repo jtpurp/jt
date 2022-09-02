@@ -25,7 +25,7 @@
 .forward-backward {
     background: none;
     border: none;
-    color: rgb(196, 133, 255);
+    color: rgb(111, 0, 255);
     display: flex;
     align-items: center;
     font-size: 70px;
@@ -38,10 +38,10 @@
 .play-pause {
     background: none;
     border: none;
-    color: rgb(196, 133, 255);
+    color: black;
     display: flex;
     align-items: center;
-    font-size: 90px;
+    font-size: 100px;
 }
 
 .play-pause:hover {

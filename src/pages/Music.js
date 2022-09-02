@@ -175,7 +175,7 @@ class Music extends React.Component {
 
 
                     <div className="form-container">
-                        <button className="music-button" onClick={() => { this.setState({ showForm: true }) }}>Share Music!</button>
+                        <button className="music-button" onClick={() => { this.setState({ showForm: true }) }}>Share Music</button>
                         {
                             this.state.showForm ?
                                 <form className="suggestion-form">
