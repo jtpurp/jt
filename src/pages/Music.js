@@ -79,7 +79,7 @@ class Music extends React.Component {
     };
 
     wait = async () => {
-        await this.load(2225);
+        await this.load(2250);
         this.setState({ isLoading: false });
     };
 

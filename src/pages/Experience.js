@@ -12,7 +12,7 @@ function Experience() {
 
   useEffect(() => {
     const load = async () => {
-      await new Promise((r) => setTimeout(r, 2225));
+      await new Promise((r) => setTimeout(r, 2250));
       setIsLoading(false);
     };
 
