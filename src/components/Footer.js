@@ -13,7 +13,7 @@ function Footer() {
         <ul className="social-icons">
           <li><a href="https://www.linkedin.com/in/jtrupp/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fab fa-linkedin fa-3x" icon={faLinkedin}></FontAwesomeIcon></a></li>
           <li><a href="https://github.com/jtpurp" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fab fa-github fa-3x" icon={faGithub}></FontAwesomeIcon></a></li>
-          <li><a href="https://www.instagram.com/it.jit/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fab fa-instagram fa-3x" icon={faInstagram}></FontAwesomeIcon></a></li>
+          <li><a href="https://www.instagram.com/jt.purp/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fab fa-instagram fa-3x" icon={faInstagram}></FontAwesomeIcon></a></li>
         </ul>
 
         <div className="contact-container">
