@@ -1,0 +1,64 @@
+.music-detail {
+    animation: appear 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.detail-table-container {
+    display: flex;
+    justify-content: center;
+    border: solid 10px;
+    border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 100%) 1;
+    background-size: 200% 200%;
+
+    height: 185px;
+}
+
+#detail-table-head {
+    border: solid 3px rgb(111, 0, 255);
+}
+
+.detail-row>td {
+    padding: 15px;
+    border: solid 3px rgb(111, 0, 255);
+}
+
+.music-table {
+    text-align: center;
+    width: 75vw;
+    height: 185px;
+    background-color: black;
+}
+
+#link-column {
+    text-align: center;
+    font-size: 2px;
+}
+
+.update-suggestion-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.90);
+    border: solid rgb(196, 133, 255);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.music-label {
+    color: rgb(196, 133, 255);
+    font-size: 24px;
+}

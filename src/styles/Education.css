@@ -1,0 +1,60 @@
+.education {
+    animation: appear 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.ud-deets {
+    text-align: right;
+}
+
+.ud-desc {
+    text-align: left;
+}
+
+.logo-edu {
+    height: 9rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5rem;
+    border-width: 0.25rem;
+}
+
+.logo-edu:hover {
+    border-color: rgb(234, 0, 255);
+}
+
+#edu {
+    line-height: 20px;
+    margin-bottom: 2.5px;
+    font-size: 18px;
+}
+
+#edu-link {
+    color: rgb(196, 133, 255);
+}
+
+#edu-link:hover {
+    color: rgb(234, 0, 255);
+}
+
+#tech {
+    margin-top: 15px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .logo-edu {
+        height: 7.5rem;
+    }
+}

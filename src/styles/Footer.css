@@ -1,0 +1,176 @@
+.footer {
+    /* background-image: linear-gradient(to bottom right, rgb(0, 170, 255) 10%, rgb(39, 39, 253) 50%, rgb(111, 0, 255) 75%, rgb(196, 133, 255) 100%);
+    background-size: 200% 200%;
+    animation: movingGradient 7.5s linear infinite alternate; */
+
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+
+    width: 100vw;
+    color: white;
+    font-size: 1.15rem;
+    padding-bottom: 10px;
+    border-top: solid 5px;
+    border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 25%, rgb(111, 0, 255) 50%, rgb(40, 40, 255) 75%, rgb(0, 170, 255) 100%) 1;
+    background-size: 200% 200%;
+
+    animation: appear 1.5s;
+    /* animation-delay: 2.25s; */
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* .footer::after {
+    position: absolute;
+    content: "";
+    padding-bottom: 30px;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.50) 0%, transparent 100%);
+} */
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(0, 170, 255);
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.resume {
+   color: rgb(0, 170, 255);
+   text-decoration: none;
+}
+
+.resume:hover {
+    color: rgb(234, 0, 255);
+}
+
+#email {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 45vw;
+    margin: 0;
+    padding: 0;
+}
+
+#phone {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 45vw;
+    margin: 0;
+    padding: 0;
+}
+
+.fab {
+    color: rgb(0, 170, 255) ;
+}
+
+.social-icons li a:hover .fab {
+    color: rgb(234, 0, 255);
+}
+
+ul.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+
+    list-style-type: none;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .fab {
+        font-size: 45px;
+    }
+
+    .resume {
+        font-size: 16px;
+    }
+
+    #email {
+        font-size: 16px;
+    }
+
+    #phone {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #email {
+        justify-content: flex-start;
+    }
+
+    #phone {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .fab {
+        font-size: 40px;
+    }
+
+    .resume {
+        font-size: 14px;
+    }
+
+    #email {
+        font-size: 14px;
+    }
+
+    #phone {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .fab {
+        font-size: 35px;
+    }
+
+    .resume {
+        font-size: 12px;
+    }
+
+    #email {
+        font-size: 12px;
+    }
+
+    #phone {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .resume {
+        font-size: 11px;
+    }
+
+    #email {
+        font-size: 11px;
+    }
+
+    #phone {
+        font-size: 11px;
+    }
+}

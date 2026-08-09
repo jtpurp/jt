@@ -1,0 +1,45 @@
+.portfolio {
+    animation: appear 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.proj-desc {
+    font-size: 18px;
+}
+
+.technologies {
+    color:rgb(196, 133, 255);
+}
+
+#left-align { 
+    text-align: left;
+}
+
+.logo-port {
+    height: 9rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5rem;
+    border-width: 0.25rem;
+}
+
+.logo-port:hover {
+    border-color: rgb(234, 0, 255);
+}
+
+@media screen and (max-width: 767px) {
+    .logo-port {
+        height: 7.5rem;
+    }
+}

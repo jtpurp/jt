@@ -1,0 +1,97 @@
+.experience {
+    animation: appear 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.skills-flex {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color:rgb(0, 185, 255);/* (111, 0, 255); */
+    max-width: 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.90);
+    padding: 7.5px;
+    border: solid rgb(196, 133, 255);
+    border-radius: 20px;
+}
+
+#skills-p {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.vnh-deets, .hdr-deets {
+    text-align: right;
+}
+
+.vnh-desc, .hdr-desc { 
+    text-align: left;
+}
+
+.logo-exp {
+    height: 9rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5rem;
+    border-width: 0.25rem;
+}
+
+.logo-exp:hover {
+    border-color: rgb(234, 0, 255);
+}
+
+@media screen and (max-width: 767px) {
+    .logo-exp {
+        height: 7.5rem;
+    }
+
+    .skills-flex {
+        justify-content: center;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #skills-p {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .skills-flex {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #skills-p {
+        font-size: 18px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+}

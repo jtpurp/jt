@@ -1,0 +1,73 @@
+.music-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    
+}
+
+.controls {
+    display: flex;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+#time {
+    padding: 5px;
+}
+
+.forward-backward {
+    background: none;
+    border: none;
+    color: rgb(111, 0, 255);
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+}
+
+.forward-backward:hover {
+    color: rgb(234, 0, 255);
+}
+
+.play-pause {
+    background: none;
+    border: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+}
+
+.play-pause:hover {
+    color: rgb(234, 0, 255);
+}
+
+.button-background {
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(39, 39, 253) 25%, rgb(111, 0, 255) 50%, rgb(39, 39, 253) 75%, rgb(0, 170, 255) 95%);
+    background-size: 1400% 1400%;
+    animation: movingGradient 7.5s linear infinite; 
+    border-radius: 100%;
+}
+
+@keyframes movingGradient {
+    from {background-position: 0 0;}
+    to {background-position: 100% 100%;}
+}
+
+.song-info {
+    color: rgb(111, 0, 255);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.90);
+    border: solid rgb(196, 133, 255);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,519 @@
+#hello-container {
+    display: flex;
+    position: fixed;
+    right: 22.5vw;
+    justify-content: right;
+    width: 100vw;
+    margin-top: 15px;
+}
+
+.hello {
+    display: block;
+    position: relative;
+    animation: 2.5s helloMoveUpDown, 2.5s anim-lineUp, 10s movingGradient;
+    animation-iteration-count: infinite, 1, infinite;
+    animation-fill-mode: both;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 30%, rgb(80, 0, 255) 50%, rgb(40, 40, 255) 70%, rgb(0, 170, 255) 95%);
+    color: transparent;
+    background-size: 1300% 1300%;
+
+    text-decoration: none;
+    font-size: 100px !important;
+    -webkit-text-stroke: 0px;
+    margin: 0 !important;
+}
+
+#h {
+    animation-delay: 0s;
+    /* padding-top: 10px; */
+}
+
+#e {
+    animation-delay: 0.25s;
+    /* padding-top: 75px; */
+}
+
+#l1 {
+    animation-delay: 0.5s;
+    /* padding-top: 110px; */
+}
+
+#l2 {
+    animation-delay: 0.75s;
+    /* padding-top: 85px; */
+}
+
+#o {
+    animation-delay: 1s;
+    /* padding-top: 20px; */
+}
+
+@keyframes helloMoveUpDown {
+
+    0%,
+    100% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 15px;
+    }
+}
+
+#bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    bottom: 25vh;
+    padding-left: 50px;
+
+    animation: 1.25s move-bio linear infinite;
+    animation-iteration-count: 1;
+    animation-delay: 2.25s;
+    animation-fill-mode: both;
+
+    color: rgb(111, 0, 255);
+    text-align: center;
+}
+
+@keyframes move-bio {
+    0% {
+        transform: translateX(-10vw);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(-30vw);
+        opacity: 100;
+    }
+}
+
+#my-name {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+#jt {
+    font-size: 48px;
+    padding: 0;
+}
+
+#small-line {
+    font-size: 26px;
+    font-weight: bold;
+    width: 450px;
+    border-bottom: solid 5px;
+    border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 25%, rgb(111, 0, 255) 50%, rgb(40, 40, 255) 75%, rgb(0, 170, 255) 100%) 1;
+    background-size: 200% 200%;
+
+    animation: appear 2s;
+    animation-iteration-count: 1;
+    animation-delay: 3.2s;
+    animation-fill-mode: both;
+}
+
+#skill-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 5px;
+
+    animation: appear 2.5s;
+    animation-iteration-count: 1;
+    animation-delay: 3.25s;
+    animation-fill-mode: both;
+}
+
+.skill {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: fit-content;
+}
+
+.gradient-word {
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 30%, rgb(80, 0, 255) 50%, rgb(40, 40, 255) 70%, rgb(0, 170, 255) 95%);
+    color: transparent;
+    background-size: 1300% 1300%;
+    animation: movingGradient 10s linear infinite;
+    -webkit-text-stroke: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#skill1 {
+    animation: 12s anim-flipX ease-in-out infinite, movingGradient 10s linear infinite;
+    animation-delay: 3s, 0s;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#skill2 {
+    animation: 12s anim-flipX ease-in-out infinite, movingGradient 10s linear infinite;
+    animation-delay: 6s, 0s;
+    animation-fill-mode: both;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#skill3 {
+    animation: 12s anim-flipX ease-in-out infinite, movingGradient 10s linear infinite;
+    animation-delay: 9s, 0s;
+    animation-fill-mode: both;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#skill4 {
+    animation: 12s anim-flipX ease-in-out infinite, movingGradient 10s linear infinite;
+    animation-delay: 12s, 0s;
+    animation-fill-mode: both;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes anim-flipX {
+    0% {
+        opacity: 0;
+    }
+
+    15% {
+        transform: rotateX(360deg);
+    }
+
+    20% {
+        opacity: 1;
+        transform: rotateX(360deg);
+    }
+
+    35% {
+        opacity: 0;
+    }
+
+    40% {
+        transform: rotateX(-360deg);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes movingGradient {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+@keyframes anim-lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #hello-container {
+        right: 17.5vw;
+        margin-top: 10px;
+    }
+
+    #small-line {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #hello-container {
+        right: 17vw;
+        margin-top: 15px;
+    }
+
+    .hello {
+        font-size: 90px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #hello-container {
+        right: 16vw;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #hello-container {
+        margin-top: 20px;
+    }
+
+    #my-name {
+        font-size: 30px;
+    }
+
+    #jt {
+        font-size: 40px;
+    }
+
+    #skill1,
+    #skill2,
+    #skill3,
+    #skill4 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #hello-container {
+        left: 0;
+        right: 0;
+        margin: auto;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .hello {
+        font-size: 80px !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #hello-container {
+        padding-top: 2.5vw;
+    }
+
+    #my-name {
+        font-size: 28px;
+    }
+
+    #jt {
+        font-size: 38px;
+    }
+
+    #skill1,
+    #skill2,
+    #skill3,
+    #skill4 {
+        font-size: 32px;
+    }
+
+    #small-line {
+        width: 275px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #hello-container {
+        padding-top: 5.5vw;
+    }
+
+    .hello {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #my-name {
+        font-size: 24px;
+    }
+
+    #jt {
+        font-size: 36px;
+    }
+
+    #skill1,
+    #skill2,
+    #skill3,
+    #skill4 {
+        font-size: 30px;
+    }
+
+    #small-line {
+        width: 250px;
+    }
+
+    #bio {
+        padding-left: 0;
+    }
+
+    @keyframes move-bio {
+        0% {
+            transform: translateY(10vh);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(5vh);
+            opacity: 100;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .hello {
+        padding-top: 7.5vw;
+    }
+
+    @keyframes move-bio {
+        0% {
+            transform: translateY(8vh);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(2vh);
+            opacity: 100;
+        }
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .hello {
+        font-size: 75px !important;
+        padding-top: 10vw;
+    }
+
+    
+}
+
+@media screen and (max-width: 425px) {
+    .hello {
+        font-size: 70px !important;
+        padding-top: 15vw;
+    }
+
+    #my-name {
+        font-size: 24px;
+    }
+
+    #jt {
+        font-size: 36px;
+    }
+
+    #small-line {
+        font-size: 18px;
+    }
+
+    #skill1,
+    #skill2,
+    #skill3,
+    #skill4 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hello {
+        font-size: 65px !important;
+    }
+
+    #my-name {
+        font-size: 20px;
+    }
+
+    #jt {
+        font-size: 32px;
+    }
+
+    #small-line {
+        font-size: 16px;
+    }
+
+    #skill1,
+    #skill2,
+    #skill3,
+    #skill4 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .hello {
+        font-size: 60px !important;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-top: 20vw;
+    }
+
+    #my-name {
+        font-size: 16px;
+    }
+
+    #jt {
+        font-size: 28px;
+    }
+
+    #small-line {
+        font-size: 14px;
+    }
+
+    #skill1,
+    #skill2,
+    #skill3,
+    #skill4 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .hello {
+        padding-top: 25vw;
+        font-size: 55px !important;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    #my-name {
+        font-size: 16px;
+    }
+
+    #jt {
+        font-size: 24px;
+    }
+
+    #small-line {
+        font-size: 12px;
+    }
+
+    #skill1,
+    #skill2,
+    #skill3,
+    #skill4 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,419 @@
+/************/
+/*Contents*/
+/************/
+
+.navbar {
+    /* background-image: linear-gradient(to bottom right, rgb(0, 170, 255) 10%, rgb(39, 39, 253) 50%, rgb(111, 0, 255) 75%, rgb(196, 133, 255) 100%);
+    background-size: 200% 200%;
+    animation: movingGradient 10s linear infinite alternate; */
+
+    position: relative;
+    width: 100vw;
+    top: 0;
+    padding: 0 !important;
+    background-color: rgba(0, 0, 0, 1.0);
+}
+
+/* .navbar::before {
+    position: absolute;
+    content: "";
+    padding-top: 30px;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(transparent 25%, black 100%);
+} */
+
+.navbar-container {
+    width: 100vw;
+    color: white;
+    font-size: 1.25rem;
+    padding: 10px;
+
+    border-bottom: solid 5px;
+    border-image: linear-gradient(to bottom right, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 25%, rgb(111, 0, 255) 50%, rgb(40, 40, 255) 75%, rgb(0, 170, 255) 100%) 1;
+    background-size: 200% 200%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    animation: appear 1.5s;
+    /* animation-delay: 2.25s; */
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.flex-left {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    width: 45vw;
+}
+
+.flex-right {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    width: 45vw;
+}
+
+.responsive-menu {
+    display: none;
+}
+
+/************/
+/*Links*/
+/************/
+
+#link {
+    display: inline-block;
+    width: 175px;
+    margin: 5px 0px 5px 0px;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 30%, rgb(80, 0, 255) 50%, rgb(40, 40, 255) 70%, rgb(0, 170, 255) 95%);
+    color: transparent;
+    background-size: 1300% 1300%;
+    animation: movingGradient 10s linear infinite;
+    -webkit-text-stroke: 0px;
+
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: black;
+    border: solid rgb(111, 0, 255);
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(111, 0, 255);
+}
+
+#page {
+    display: inline-block;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px 0px 5px 0px;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 30%, rgb(80, 0, 255) 50%, rgb(40, 40, 255) 70%, rgb(0, 170, 255) 95%);
+    color: transparent;
+    background-size: 1300% 1300%;
+    animation: movingGradient 10s linear infinite;
+    -webkit-text-stroke: 0px;
+
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: black;
+    border: solid rgb(111, 0, 255);
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(111, 0, 255);
+}
+
+@keyframes movingGradient {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+#link:hover {
+    border-color: rgb(234, 0, 255);
+    box-shadow: 2px 2px rgb(234, 0, 255);
+    color: rgb(234, 0, 255);
+}
+
+#link:active {
+    border-color: rgb(234, 0, 255);
+    box-shadow: 0px 0px;
+    transform: translateY(2px);
+}
+
+#link:focus {
+    border-color: rgb(234, 0, 255);
+    box-shadow: 0px 0px;
+    transform: translateY(2px);
+}
+
+#logo {
+    height: 6.5rem;
+    border-style: solid;
+    border-color: rgb(111, 0, 255);
+    border-radius: 100%;
+    border-width: 0.25rem;
+}
+
+#logo:hover {
+    border-color: rgb(234, 0, 255);
+}
+
+.current-container {
+    display: none;
+}
+
+/************/
+/*Media Queries*/
+/************/
+
+@media screen and (max-width: 1250px) {
+
+    .responsive-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    .current-container {
+        display: flex;
+        justify-content: center;
+        animation: appear 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+    }
+
+    @keyframes appear {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .current-page {
+        position: fixed;
+        top: 35px;
+    }
+
+    #logo {
+        height: 6rem;
+        margin-left: 10px;
+    }
+
+    #page {
+        font-size: 32px;
+    }
+
+    /************/
+    /*Drop Down Button*/
+    /************/
+
+    .drop {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+
+    #dot1 {
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        margin-top: 5px;
+        margin-right: 5px;
+        animation: MoveUpDown 2.5s linear infinite, movingGradient 10s linear infinite;
+        animation-delay: 0s;
+        position: relative;
+        background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 30%, rgb(80, 0, 255) 50%, rgb(40, 40, 255) 70%, rgb(0, 170, 255) 95%);
+        background-size: 1300% 1300%;
+    }
+
+    #dot2 {
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        margin-top: 5px;
+        animation: MoveUpDown 2.5s linear infinite, movingGradient 10s linear infinite;
+        animation-delay: 0.5s;
+        position: relative;
+        background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 30%, rgb(80, 0, 255) 50%, rgb(40, 40, 255) 70%, rgb(0, 170, 255) 95%);
+        background-size: 1300% 1300%;
+    }
+
+    #dot3 {
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        margin-top: 5px;
+        margin-left: 5px;
+        animation: MoveUpDown 2.5s linear infinite, movingGradient 10s linear infinite;
+        animation-delay: 1s;
+        position: relative;
+        background-image: linear-gradient(to bottom, rgb(0, 170, 255) 5%, rgb(40, 40, 255) 30%, rgb(80, 0, 255) 50%, rgb(40, 40, 255) 70%, rgb(0, 170, 255) 95%);
+        background-size: 1300% 1300%;
+    }
+
+    .drop:hover #dot1,
+    .drop:hover #dot2,
+    .drop:hover #dot3 {
+        background-image: linear-gradient(to bottom, rgb(234, 0, 255) 0% 100%);
+    }
+
+    @keyframes MoveUpDown {
+
+        0%,
+        100% {
+            bottom: 0;
+        }
+
+        50% {
+            bottom: 10px;
+        }
+    }
+
+    .flex-left {
+        display: none;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-grow: 1;
+        margin-left: 40px; */
+    }
+
+    .flex-center {
+        display: none;
+    }
+
+    .flex-right {
+        display: none;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-grow: 1;
+        margin-right: 40px; */
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .flex-left {
+        align-items: flex-start;
+    }
+
+    .flex-right {
+        align-items: flex-end;
+    }
+
+    #page {
+        font-size: 30px;
+    }
+
+    #logo {
+        height: 5.5rem;
+    }
+
+    .current-page {
+        top: 32.5px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .flex-left {
+        margin-left: 0px;
+    }
+
+    .flex-right {
+        margin-right: 0px;
+    }
+
+    #logo {
+        height: 5rem;
+    }
+
+    #page {
+        font-size: 28px;
+    }
+
+    .current-page {
+        top: 27.5px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    /* #link {
+        font-size: 18px;
+        width: 105px;
+    } */
+
+    #page {
+        font-size: 24px;
+    }
+
+    #logo {
+        height: 4rem;
+    }
+
+    .current-page {
+        top: 22.5px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    /* #link {
+        font-size: 14px;
+        width: 90px;
+    } */
+
+    #page {
+        font-size: 18px;
+    }
+
+    #logo {
+        height: 3rem;
+    }
+
+    .current-page {
+        top: 17.5px;
+    }
+
+    .drop {
+        margin-right: 5px;
+    }
+
+    #dot1 {
+        width: 10px;
+        height: 10px;
+
+    }
+
+    #dot2 {
+        width: 10px;
+        height: 10px;
+    }
+
+    #dot3 {
+        width: 10px;
+        height: 10px;
+    }
+}

@@ -1,0 +1,49 @@
+.flow-arts {
+    text-align: center;
+    margin-bottom: 50px;
+    
+    animation: appear 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.player-wrapper {
+    padding: 30px;
+}
+
+.videos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+/* .videos-container::-webkit-scrollbar {
+    width: 5px;
+} */
+
+/* .videos-container::-webkit-scrollbar-track {
+    background-color: rgb(212, 212, 212);
+} */
+
+/* .videos-container::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 170, 255);
+    border-radius: 5px 5px;
+} */
+
+@media screen and (max-width: 500px) {
+    .player-wrapper {
+        padding: 15px 0px 20px 0px;
+    }
+}
