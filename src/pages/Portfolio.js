@@ -48,7 +48,7 @@ function Portfolio() {
                 <h6 className="technologies">Technologies – React.js, JSX, JavaScript, HTML, CSS, Java, Spring Boot, PostgreSQL</h6>
               </div>
             </div>
-            <a href="https://jtpurp.github.io/jt/" id="logo-left"><img className="logo-port" src={JTLogo} alt='Website Logo' /></a>
+            <a href="https://jtpurp.github.io/jtpurp/" id="logo-left"><img className="logo-port" src={JTLogo} alt='Website Logo' /></a>
           </div>
 
           <div className="main-flex">

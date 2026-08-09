@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div className="App" style={myStyle}>
         <div className="cont">
-          <BrowserRouter basename="/jt">
+          <BrowserRouter basename="/jtpurp">
             <div className="head">
               <Navbar />
             </div>
