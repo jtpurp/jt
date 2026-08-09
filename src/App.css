@@ -18,29 +18,5 @@
   flex-grow: 1;
   overflow: auto;
   padding: 0;
-  margin-bottom: 130px;
-}
-
-@media screen and (max-width: 767px) {
-  .bod {
-    margin-bottom: 120px;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .bod {
-    margin-bottom: 110px;
-  }
-}
-
-@media screen and (max-width: 330px) {
-  .bod {
-    margin-bottom: 105px;
-  }
-}
-
-@media screen and (max-width: 290px) {
-  .bod {
-    margin-bottom: 105px;
-  }
+  margin-bottom: 100px;
 }

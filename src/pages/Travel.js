@@ -1,33 +1,33 @@
 import React, { useEffect, useState } from 'react';
 import Spinner from '../components/Spinner.js';
-import ithaca1 from '../photos/ithaca-1.jpg';
-import ithaca2 from '../photos/ithaca-2.jpg';
-import ithaca3 from '../photos/ithaca-3.jpg';
-import ithaca4 from '../photos/ithaca-4.jpg';
-import colorado1 from '../photos/colorado-1.jpg';
-import colorado2 from '../photos/colorado-2.jpg';
-import colorado3 from '../photos/colorado-3.jpg';
-import australia1 from '../photos/australia-1.jpg';
-import australia2 from '../photos/australia-2.jpg';
-import australia3 from '../photos/australia-3.jpg';
-import australia4 from '../photos/australia-4.jpg';
-import australia5 from '../photos/australia-5.jpg';
-import round1 from '../photos/round-valley-1.jpg';
-import round2 from '../photos/round-valley-2.jpg';
-import belleplain from '../photos/belleplain.jpg';
-import ricketts1 from '../photos/ricketts-glenn-1.jpg';
-import ricketts2 from '../photos/ricketts-glenn-2.jpg';
-import ben1 from '../photos/ben-frank-1.jpg';
-import ben2 from '../photos/ben-frank-2.jpg';
-import ben3 from '../photos/ben-frank-3.jpg';
-import montreal1 from '../photos/montreal-1.jpg';
-import montreal2 from '../photos/montreal-2.jpg';
-import montreal3 from '../photos/montreal-3.jpg';
-import nyc1 from '../photos/nyc-1.jpg';
-import nyc2 from '../photos/nyc-2.jpg';
-import '../styles/Photos.css';
+import ithaca1 from '../travel/ithaca-1.jpg';
+import ithaca2 from '../travel/ithaca-2.jpg';
+import ithaca3 from '../travel/ithaca-3.jpg';
+import ithaca4 from '../travel/ithaca-4.jpg';
+import colorado1 from '../travel/colorado-1.jpg';
+import colorado2 from '../travel/colorado-2.jpg';
+import colorado3 from '../travel/colorado-3.jpg';
+import australia1 from '../travel/australia-1.jpg';
+import australia2 from '../travel/australia-2.jpg';
+import australia3 from '../travel/australia-3.jpg';
+import australia4 from '../travel/australia-4.jpg';
+import australia5 from '../travel/australia-5.jpg';
+import round1 from '../travel/round-valley-1.jpg';
+import round2 from '../travel/round-valley-2.jpg';
+import belleplain from '../travel/belleplain.jpg';
+import ricketts1 from '../travel/ricketts-glenn-1.jpg';
+import ricketts2 from '../travel/ricketts-glenn-2.jpg';
+import ben1 from '../travel/ben-frank-1.jpg';
+import ben2 from '../travel/ben-frank-2.jpg';
+import ben3 from '../travel/ben-frank-3.jpg';
+import montreal1 from '../travel/montreal-1.jpg';
+import montreal2 from '../travel/montreal-2.jpg';
+import montreal3 from '../travel/montreal-3.jpg';
+import nyc1 from '../travel/nyc-1.jpg';
+import nyc2 from '../travel/nyc-2.jpg';
+import '../styles/Travel.css';
 
-function Photos() {
+function Travel() {
 
   const [isLoading, setIsLoading] = useState(true);
 
@@ -44,8 +44,8 @@ function Photos() {
     return <Spinner />
   } else {
     return (
-      <div className="photos">
-        <div className="current-container"><p className="current-page" id="page">PHOTOS</p></div>
+      <div className="travel">
+        <div className="current-container"><p className="current-page" id="page">TRAVEL</p></div>
         <h2 className="photo-desc">Lucifer Falls, Ithaca, NY, US</h2>
         <img src={ithaca1} alt="Ithaca" className="photo" />
 
@@ -113,4 +113,4 @@ function Photos() {
   }
 }
 
-export default Photos
+export default Travel

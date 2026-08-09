@@ -8,7 +8,6 @@
     left: 0;
     right: 0;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.95);
 
     animation: fade-out 3s;
     animation-iteration-count: 1;
