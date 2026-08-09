@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jtpurp/static/css/main.b8012869.css",
-    "main.js": "/jtpurp/static/js/main.8faba6fc.js",
+    "main.css": "/jtpurp/static/css/main.4a8b2c58.css",
+    "main.js": "/jtpurp/static/js/main.e903a545.js",
     "static/media/Weathering.png": "/jtpurp/static/media/Weathering.7581702bfe4b5b9bedaa.png",
     "static/media/ricketts-glenn-2.jpg": "/jtpurp/static/media/ricketts-glenn-2.bc219d205725ecc8ee82.jpg",
     "static/media/LogoPlain.png": "/jtpurp/static/media/LogoPlain.02aa35843f480eb3bf2e.png",
@@ -17,6 +17,7 @@
     "static/media/montreal-3.jpg": "/jtpurp/static/media/montreal-3.a70bbc05e8df585d7b67.jpg",
     "static/media/montreal-2.jpg": "/jtpurp/static/media/montreal-2.e4fb2ede7525fcaf563a.jpg",
     "static/media/montreal-1.jpg": "/jtpurp/static/media/montreal-1.c38aa86884e44d458ba8.jpg",
+    "static/media/BackgroundVert.jpg": "/jtpurp/static/media/BackgroundVert.000f9400ffc80a99ac19.jpg",
     "static/media/ithaca-3.jpg": "/jtpurp/static/media/ithaca-3.14a2122c09551192c645.jpg",
     "static/media/ben-frank-3.jpg": "/jtpurp/static/media/ben-frank-3.4f4016cc7252774140c0.jpg",
     "static/media/ithaca-1.jpg": "/jtpurp/static/media/ithaca-1.a605a0c522110bc55c91.jpg",
@@ -57,11 +58,11 @@
     "static/media/HDRLogo.png": "/jtpurp/static/media/HDRLogo.5d37ccba400239ac7eb8.png",
     "static/media/AECOMLogo.png": "/jtpurp/static/media/AECOMLogo.7ebec415350db61946dd.png",
     "index.html": "/jtpurp/index.html",
-    "main.b8012869.css.map": "/jtpurp/static/css/main.b8012869.css.map",
-    "main.8faba6fc.js.map": "/jtpurp/static/js/main.8faba6fc.js.map"
+    "main.4a8b2c58.css.map": "/jtpurp/static/css/main.4a8b2c58.css.map",
+    "main.e903a545.js.map": "/jtpurp/static/js/main.e903a545.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8012869.css",
-    "static/js/main.8faba6fc.js"
+    "static/css/main.4a8b2c58.css",
+    "static/js/main.e903a545.js"
   ]
 }
