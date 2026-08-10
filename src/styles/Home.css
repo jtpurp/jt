@@ -25,7 +25,7 @@
 
     text-decoration: none;
     font-size: 120px !important;
-    -webkit-text-stroke: 0px;
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
     margin: 0 !important;
 }
 
@@ -99,16 +99,18 @@
 }
 
 #my-name {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
     padding-bottom: 10px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 #jt {
     font-size: 60px;
     padding: 0;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 #small-line {
@@ -151,7 +153,7 @@
     color: transparent;
     background-size: 1300% 1300%;
     animation: movingGradient 10s linear infinite;
-    -webkit-text-stroke: 0px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
     padding-left: 5px;
     padding-right: 5px;
 }
