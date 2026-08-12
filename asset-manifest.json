@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jtpurp/static/css/main.19fe520f.css",
-    "main.js": "/jtpurp/static/js/main.34dc7d3c.js",
+    "main.css": "/jtpurp/static/css/main.5177a226.css",
+    "main.js": "/jtpurp/static/js/main.52a073f7.js",
     "static/media/Weathering.png": "/jtpurp/static/media/Weathering.7581702bfe4b5b9bedaa.png",
     "static/media/ricketts-glenn-2.jpg": "/jtpurp/static/media/ricketts-glenn-2.bc219d205725ecc8ee82.jpg",
     "static/media/LogoPlain.png": "/jtpurp/static/media/LogoPlain.02aa35843f480eb3bf2e.png",
@@ -58,11 +58,11 @@
     "static/media/HDRLogo.png": "/jtpurp/static/media/HDRLogo.5d37ccba400239ac7eb8.png",
     "static/media/AECOMLogo.png": "/jtpurp/static/media/AECOMLogo.7ebec415350db61946dd.png",
     "index.html": "/jtpurp/index.html",
-    "main.19fe520f.css.map": "/jtpurp/static/css/main.19fe520f.css.map",
-    "main.34dc7d3c.js.map": "/jtpurp/static/js/main.34dc7d3c.js.map"
+    "main.5177a226.css.map": "/jtpurp/static/css/main.5177a226.css.map",
+    "main.52a073f7.js.map": "/jtpurp/static/js/main.52a073f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.19fe520f.css",
-    "static/js/main.34dc7d3c.js"
+    "static/css/main.5177a226.css",
+    "static/js/main.52a073f7.js"
   ]
 }
