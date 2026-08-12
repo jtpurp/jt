@@ -41,10 +41,10 @@ function Portfolio() {
             <div className="info">
               <div className="desc">
                 <h2>This Website</h2>
-                <p className="proj-desc">A place to express my education, professional experience, projects, hobbies, and interests in a creative way.
-                  The Education, Experience, and Portfolio pages detail my accomplishments along with corresponding images that serve as links to external references.
-                  My hobbies and interests are showcased in the Flow Arts, Travel, and Music pages.
-                  The Flow Arts page displays some clips of my favorite flow moments, the Travel page contains some of my favorite pictures I’ve taken, and the Music page serves as a place for visitors to explore and share music suggestions!</p>
+                <p className="proj-desc">A place to showcase my professional experience, education, projects, hobbies, and interests in a creative way.
+                  The Experience, Education, and Portfolio pages detail my accomplishments with corresponding images that serve as links to external references.
+                  My hobbies and interests are showcased in the Travel, Flow Arts, and Music pages.
+                  The Travel page contains some of my favorite pictures I’ve taken while out and about, the Flow Arts page has some clips of my performances, and the Music page serves as a place for visitors to explore and share music suggestions!</p>
                 <h6 className="technologies">Technologies – React.js, JSX, JavaScript, HTML, CSS, Java, Spring Boot, PostgreSQL</h6>
               </div>
             </div>

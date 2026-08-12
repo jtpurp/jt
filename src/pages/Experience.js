@@ -28,15 +28,21 @@ function Experience() {
         <h1>Technical Skills</h1>
         <div className="skills-flex">
           <div id="skills">
-            <p id="skills-p">Java</p>
+            <p id="skills-p">Agentic AI</p>
             <p id="skills-p">•</p>
-            <p id="skills-p">IntelliJ</p>
+            <p id="skills-p">RAG AI</p>
+            <p id="skills-p">•</p>
+            <p id="skills-p">AWS</p>
+            <p id="skills-p">•</p>
+            <p id="skills-p">Terraform</p>
+            <p id="skills-p">•</p>
+            <p id="skills-p">Python</p>
+            <p id="skills-p">•</p>
+            <p id="skills-p">Java</p>
             <p id="skills-p">•</p>
             <p id="skills-p">Spring Boot</p>
             <p id="skills-p">•</p>
-            <p id="skills-p">PostgreSQL</p>
-            <p id="skills-p">•</p>
-            <p id="skills-p">pgAdmin 4</p>
+            <p id="skills-p">SQL</p>
             <p id="skills-p">•</p>
             <p id="skills-p">React.js</p>
             <p id="skills-p">•</p>
@@ -46,21 +52,23 @@ function Experience() {
             <p id="skills-p">•</p>
             <p id="skills-p">JavaScript</p>
             <p id="skills-p">•</p>
+            <p id="skills-p">TypeScript</p>
+            <p id="skills-p">•</p>
             <p id="skills-p">HTML</p>
             <p id="skills-p">•</p>
             <p id="skills-p">CSS</p>
             <p id="skills-p">•</p>
-            <p id="skills-p">Responsive Design</p>
+            <p id="skills-p">Responsive Web Design</p>
             <p id="skills-p">•</p>
-            <p id="skills-p">VS Code</p>
+            <p id="skills-p">SDLC</p>
             <p id="skills-p">•</p>
-            <p id="skills-p">Git</p>
+            <p id="skills-p">CI/CD</p>
             <p id="skills-p">•</p>
-            <p id="skills-p">JUnit</p>
+            <p id="skills-p">Jenkins</p>
             <p id="skills-p">•</p>
-            <p id="skills-p">Postman</p>
+            <p id="skills-p">Spinnaker</p>
             <p id="skills-p">•</p>
-            <p id="skills-p">JSON</p>
+            <p id="skills-p">Agile</p>
             <p id="skills-p">•</p>
             <p id="skills-p">Mathcad</p>
             <p id="skills-p">•</p>
@@ -70,7 +78,7 @@ function Experience() {
             <p id="skills-p">•</p>
             <p id="skills-p">STAAD</p>
             <p id="skills-p">•</p>
-            <p id="skills-p">Python</p>
+            <p id="skills-p">Microsoft Office</p>
             <p id="skills-p">•</p>
             <p id="skills-p">Data Analytics</p>
           </div>
@@ -87,11 +95,11 @@ function Experience() {
                 <h6>Wilmington, DE</h6>
                 <h6>August 2022 - Present</h6>
               </div>
-              <div className="jpmc-desc">
+              {/* <div className="jpmc-desc">
                 <ul>
                   <li>Excited to be working with the Artifacts Engineering team!</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
             <a href="https://www.jpmorganchase.com/" target="_blank" rel="noreferrer" id="logo-left"><img className="logo-exp" src={JPMCLogo} alt='JPMC Logo' /></a>
           </div>
